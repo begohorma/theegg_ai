@@ -36,6 +36,7 @@ Ejecutar `>pyhon3 fraccionIrreducible.py`
 Introducir un número decimal entre 0.0001 y 0.9999 y pulsar enter. Usar como sepador de decimales el '.'
 
 Ejemplos:
+
 ![Ejemplo 1](tarea21_ejemplo1.png)
 ![Ejemplo 2](tarea21_ejemplo2.png)
 ![Ejemplo 3](tarea21_ejemplo3.png)
