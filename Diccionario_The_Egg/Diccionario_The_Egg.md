@@ -70,13 +70,13 @@ El diagrama de flujo, flujograma o diagrama de actividades es una manera de repr
 
 ### Símbolos del diagrama de flujo
 
-![Símbolos Diagrama Flujo](/Users/begohorma/Dropbox/THE_EGG/REPO/theegg_ai/Diccionario_The_Egg/Diccionario_The_Egg/Untitled 16.png)
+![Símbolos Diagrama Flujo](Diccionario_The_Egg/Untitled 16.png)
 
 
 
 ### Ejemplo diagrama de flujo
 
-![Diagrama de Flujo](/Users/begohorma/Dropbox/THE_EGG/REPO/theegg_ai/Diccionario_The_Egg/Diccionario_The_Egg/Untitled 17.png)
+![Diagrama de Flujo](Diccionario_The_Egg/Untitled 17.png)
 
 
 
