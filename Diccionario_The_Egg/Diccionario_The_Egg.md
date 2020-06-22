@@ -2,7 +2,11 @@
 
 ---
 
+
+
 # Algoritmo
+
+Un algoritmo es un conjunto de instrucciones o reglas definidas y no ambiguas, ordenada y finitas que permite solucionar un problema, realizar un cómputo, procesar datos y llevar a cabo otras tareas o actividades.
 
 ---
 
@@ -59,6 +63,26 @@ Es la mejor forma de separar los contenidos de su presentación y es imprescindi
 Una vez creados los elementos de la web con HTML, se utiliza CSS para definir el aspecto de cada elemento: color, tamaño y tipo de letra del texto, separación horizontal y vertical entre elementos, posición de cada elemento dentro de la página, etc.
 
 ---
+
+# Diagrama de Flujo
+
+El diagrama de flujo, flujograma o diagrama de actividades es una manera de representar gráficamente un algoritmo  o un proceso a través de una serie de pasos estructurados y vinculados que permiten su revisión como un todo.
+
+### Símbolos del diagrama de flujo
+
+![Símbolos Diagrama Flujo](/Users/begohorma/Dropbox/THE_EGG/REPO/theegg_ai/Diccionario_The_Egg/Diccionario_The_Egg/Untitled 16.png)
+
+
+
+### Ejemplo diagrama de flujo
+
+![Diagrama de Flujo](/Users/begohorma/Dropbox/THE_EGG/REPO/theegg_ai/Diccionario_The_Egg/Diccionario_The_Egg/Untitled 17.png)
+
+
+
+------
+
+
 
 # Editor-de-código
 
