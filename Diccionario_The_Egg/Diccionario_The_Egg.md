@@ -29,6 +29,14 @@ Servidor: Programa o proceso que ofrece un conjunto de servicios y espera petici
 ---
 
 # Arquitectura-harvard
+Es una arquitectura de computadores con pistas de almacenamiento y de señal físicamente separadas para las  instrucciones y para los datos.
+
+El término proviene de la computadora Harvard Mark I basada en relés, que almacenaba las instrucciones sobre cintas perforadas y los datos en interruptores electromecánicos. 
+
+En la actualidad la mayoría de los procesadores implementan una arquitectura Harvard modificada para que se puedan cargar programas desde unidades externas de datos para su posterior ejecución.
+
+Al contrario que en la arquitectura von Neumann, una computadora con la arquitectura Harvard la CPU puede tanto leer una instrucción como realizar un acceso a la memoria de datos al mismo tiempo, incluso sin una memoria caché. Por ello está arquitectura puede ser más rápida para un circuito complejo.
+![Diagrama Arquitectura Harvard](Diccionario_The_Egg/arquitecturaHarvard.png)
 
 ---
 
@@ -101,6 +109,7 @@ Actualmente propiedad de Microsoft.
 ---
 
 # Hardware
+Es la parte física de un ordenador o sistema informático. Está formado por los componentes eléctricos, electrónicos, electromecánicos y mecánicos, tales como circuitos de cables y luz, placas, memorias, discos duros, dispositivos periféricos y cualquier otro material en estado físico que sea necesario para que el equipo funcione.
 
 ---
 
@@ -187,6 +196,7 @@ Los datos almacenados no requieren estructuras fijas como tablas, normalmente no
 ---
 
 # Periférico
+En informática periférico es la denominación genérica de cualquier aparato o dispositivo  auxiliar e independiente que se conecta a la CPU de una computadora y se comunica con ella. Ejemplos: teclado, ratón, monitor, altavoces, auriculares, hubs, impresoras, ... 
 
 ---
 
@@ -319,6 +329,19 @@ Se trata de uno de los lenguajes de programación más utilizados en investigaci
 
 # Raspberry pi
 
+Es un ordenador del tamaño de una tarjeta de crédito que se conecta a la TV o un monitor, un teclado y un ratón. Se puede utilizar para aprender a programar o para construir proyectos electrónicos, y para muchas de las cosas que hacen los PCs de escritorio como hojas de cálculo, procesamiento de textos, navegar internet y jugar videojuegos. Además reproduce video de alta definición. 
+
+Es un ordenador completo con la excepción de que no incluye el cable de alimentación, la caja ni el disco duro, para el que se utiliza una tarjeta de memoria SD. Los periféricos pueden conectarse vía USB
+La Raspeberry Pi Foundation mantiene el control de la plataforma de hardware, pero su sistema operativo es de código abierto. El SO oficial es una versión adaptada de la distribución Debian llamada Raspbian, pero también se pueden instalar otros sistemas operativos
+
+### Raspberry Pi vs Arduino
+
+El control del hardware es la principal diferencia con Arduino. La Raspberry Pi fue diseñada como un ordenador en sí, por lo que tiene más potencia que las placas Arduino. Además tiene conectividad WiFI y ethernet integradas en la placa. En Arduino se puede añadir conectividad ethernet añadiendo una placa de expansión, gastando parte de sus puertos e incrementando el precio total
+
+En relación al software, una Arduino ejecuta inmediatamente la tarea para la que se le ha programado, mientras que la raspberry pi requiere un SO completo, por lo que su inicio es más lento
+
+Existen placas como Arduberry  que permiten conectar shields Arduino a una Raspberry Pi
+
 ---
 
 # Repositorio-de-control-de-versiones
@@ -330,10 +353,51 @@ El repositorio es el lugar en el que se almacenan los datos actualizados e hist�
 ---
 
 # Sistema-operativo
+Es el software principal o conjunto de programas de un sistema informático que gestiona los recursos de hardware y provee servicios a los programas de aplicación, ejecutándose en modo privilegiado respecto al resto del software, sin permitir que un programa cualquiera realice cambios de importancia sobre él que puedan comprometer su funcionamiento.
+
+### Componentes
+
+El SO tiene 3 componentes esenciales que permiten la interacción con el hardware:
+
+- Sistema de archivos
+- Interpretación de comandos:  permite que usuario de ordenes
+- Núcleo: funciones básicas como la comunicación, entrasa y salida de datos, gestión de procesos y la memoria,...
+
+### Funciones
+
+- Gestionar la memoria de acceso aleatoria y ejecutr las aplicaciones, designando los recursos necesarios
+- Administrar la CPU
+- Direccionar las entradas y salidas de datos, a través de drivers, a los periféricos de entrada o salida
+- Administrar la información para el buen funcionamiento del PC
+- Dirigir las autorizaciones de uso de los usuarios
+- Administrar los archivos
+
+### Ejemplos
+
+- Microsoft Windows
+- MS-DOS
+- UNIX
+- Linux
+- MacOS
+- Ubuntu
+- Android
+- iOS
 
 ---
 
 # Software
+Es un término informático que hace referencia a un programa o conjunto de programas, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.
+
+Comúnmente se utiliza este término para referirse de una forma genérica a los programas de un dispositivo informático, sin embargo, software abarca todo aquello que es intangible en un sistema computacional.
+
+### Tipos
+
+De forma genérica en función del uso o utilidad:
+
+- Software del sistema: Programa responsable de la ejecución de todas las aplicaciones necesarias para que un sistema opere correctamente. Además del sistema operativo incluye entre otros herramientas de optimización, controladores de dispositivos y servidores
+- Software de programación: herramientas para desarrollar nuevo software.
+- Software de aplicación: programas diseñados para facilitar tareas específicas
+- Software malicioso o malintencionado
 
 ---
 
@@ -368,5 +432,14 @@ En la segunda guerra mundial trabajo en **descifrar los códigos de Enigma** con
 **Test de Turing:** método para determinar si una máquina puede pensar. Humano chatea con una máquina haciendo preguntas y tiene que concluir si se trataba de una persona o un máquina.
 
 # Von-neumann
+**John von Neuman** fue un matemático húngaro-estadounidense, que realizó contribuciones fundamentales en física cuántica, análisis funcional,  teoría de conjuntos, teoría de juegos, ciencias de la computación, economía, análisis numérico, cibernética, hidrodinámica, estadística y muchos otros campos. Se le considera uno de los matemáticos más importantes del siglo XX.
+
+**Arquitectura Von Neuman**, también conocida como modelo de von Neuman o arquitectura Princeton, es una arquitectura de computadoras basada en la descrita en 1945 por John von Neuman y otros. Describe una arquitectura de diseño para un computador digital electrónico con partes que constan de una unidad de procesamiento que contiene una unidad aritmético lógica y registros de procesador, una unidad de control que contiene un registro de instrucciones y un contador de  programa, una memoria para almacenar tanto datos como instrucciones, almacenamiento masivo externo y mecanismos de entrada y salida. En esta arquitectura no pueden darse simultáneamente una búsqueda de instrucciones y una operación de datos, ya que comparten un bus en común. Esto se conoce como el **cuello de botella Von Neuman** y muchas veces limita el rendimiento del sistema.
+
+![Diagrama de la arquitectura von Neuman](Diccionario_The_Egg/arquitecturaVonNeuman.png)
+
+El diseño de la arquitectura von Neuman es más simple que la *arquitectura Harvard* más moderna, que también es un sistema de programa almacenado, pero tiene un conjunto dedicado de direcciones y buses de datos para leer datos desde memoria y escribir datos en la misma, y otro conjunto de direcciones y buses de datos para ir a buscar instrucciones.
+
+En la gran mayoría de computadoras modernas, se utiliza la misma memoria tanto para los datos como para las instrucciones de programa, y la distinción entre von Neuman vs Harvard se aplica a la arquitectura de memoria caché, pero no  a la memoria principal.
 
 ---
