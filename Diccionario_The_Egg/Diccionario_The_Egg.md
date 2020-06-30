@@ -11,6 +11,11 @@ Un algoritmo es un conjunto de instrucciones o reglas definidas y no ambiguas, o
 ---
 
 # Arduino
+Es una plataforma de creación de electrónica de código abierto basada en hardware y software libre, lo que permite que cualquier pueda utilizarlos y adaptarlos. Se pueden encontrar varios tipos de placas, accesorios y aplicaciones compatibles creadas por diferentes empresas o desarrolladores. Todas son diferentes, pero utilizando la misma base común.
+
+Ofrece la plataforma Arduino IDE, que es un entorno de programación con el que cualquiera puede crear aplicaciones para las placas Arduino y darles diferentes utilidades.
+
+El proyecto nació en 2003 con el fin de facilitar el acceso y uso de la electrónica y la programación. El resultado es una placa con todos los elementos necesarios para conectar periféricos a las entradas y salidas de un microcontrolador, y que se puede programar tanto en Windows como macOs, y GNU/Linux. Un proyecto que promueve la filosofía "learning by doing"
 
 ---
 
