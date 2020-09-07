@@ -1,7 +1,15 @@
 # Diccionario_The_Egg
 
 ---
+# Ada-lovelace
 
+Ada Lovelace (1815 - 1852) es conocida como la primera programadora de la historia. Fue una matemática, informática y escritora británica hija del poeta Lord Byron y la matemática Lady Byron. Colaboró con Charles Babage en su máquina analítica. En las notas sobre la máquina escribió el primer algoritmo destinado a ser interpretado por una máquina. Creo el primer programa de ordenador antes de que existieran los ordenadores. Además teorizó que se podría usar la computación para mucho más que los cálculos numéricos.
+
+Como reconocimiento a sus aportaciones a la informática el departamento de defensa de estados unidos llamó ADA a un nuevo lenguaje de programación.
+
+El segundo martes de octubre se celebra el día de Ada Lovelace para reivindicar la presencia de las mujeres en ciencia, tecnología, ingeniería y matemáticas.
+
+---
 
 
 # Algoritmo
@@ -56,6 +64,57 @@ Hay diferentes modelos de bases de datos: jerárquicas, de red, transaccionales,
 Un modelo es un "descripción" de un contenedor de datos,así como de los métodos para almacenar y recuperar datos de esos contenedores.
 
 En el mundo empresarial las bases de datos más usadas desde los años 70 fueron las relacionales y los lenguajes de consulta SQL
+
+---
+
+# Bucles
+
+Un bucle en programación es una secuencia que repite varias veces un mismo trozo de código, hasta que la condición asignada al bucle deja de cumplirse. Los bucles más usados son 
+
+- **While**
+
+    Se encuentra en la mayoría de lenguajes de programación. Se encarga de ejecutar un trozo de  código mientras las condición del while sea verdadera. 
+
+    ```python
+    while condición hacer
+    	instrucciones
+    fin while
+    ```
+
+    La condición del bucle debe devolver un valor booleano, true o false, si se cumple o no la condición.
+
+- **For**
+
+    Permite indicar de antemano el número máximo de iteraciones, o veces que se repite el código. Está en casi todos los lenguajes de programación y es uno de los que más se usa
+
+    ```python
+    for i <- x hasta n a incrementos de s hacer
+    	instrucciones
+    fin for
+    ```
+
+    Elementos del bucle
+
+    **variable de control:** suele usarse la letra i (iterador)
+
+    **incialización de la variable de control:** asigna el valor incial a la variable de control
+
+    **condición de control:** es el valor final que puede tomar la variable de control. Una vez se cumpla el bucle se rompe y deja de repetirse
+
+    **incremento:** el valore en el que se va incrementando la variable de control en cada iteración del bucle
+
+    **cuerpo:** código que se ejecuta en cada iteración
+
+- **Do-while**
+
+    Es igual que el while a diferencia de que la comprobación de la condición se hace al final, después de ejecutar el código. Si se cumple se vuelve a ejecutar el código y sino no.
+
+    ```python
+    do
+    	instrucciones
+    while condición
+    ```
+
 
 ---
 
