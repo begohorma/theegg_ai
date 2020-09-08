@@ -17,6 +17,46 @@ El segundo martes de octubre se celebra el día de Ada Lovelace para reivindicar
 Un algoritmo es un conjunto de instrucciones o reglas definidas y no ambiguas, ordenada y finitas que permite solucionar un problema, realizar un cómputo, procesar datos y llevar a cabo otras tareas o actividades.
 
 ---
+# Algoritmo-de-cifrado-simétrico
+
+Utiliza una sola clave para cifrar y descifrar el mensaje y tiene que ser conocida por el emisor y el recpetor. Con la clave el emisor cifra la información, la manda a través del canal inseguro y el receptor descifrará la información con la misma clave que usó el emisor.
+
+Su punto débil está en la comunicación entre ambos.
+
+Para que un algoritmo de clave simétrica sea fiable de cumplir que:
+
+- Una vez que el mensaje es cifrado, no se puede obtener la clave de cifrado/ descifrado ni tampoco el texto en claro.
+- Si se conoce el texto en claro y el cifrado, se debe tardar más y gastar más dinero en obtener la clave que el posible valor derivado de la información sustraída del texto en claro.
+
+Los algoritmos criptográficos son públicos, por lo que su fortaleza debe depender de su complejidad interna, y  de la longitud de la clave para evitar los ataques de fuerza bruta.
+
+La principal ventaja de los algoritmos simétricos es la velocidad de los algoritmos, y son muy usados para el cifrado de grandes cantidades de datos. 
+
+---
+# Algoritmo-de-cifrado-asimétrico
+
+Se basa en el uso de dos claves:
+
+- La clave pública: se puede difundir sin problemas a todos los emisores del mensaje cifrado
+- La clave privada: no se debe revelar nunca.
+
+Las claves públicas y privadas se generan simultáneamente y están ligadas la una a la otra. Esta relación debe ser muy compleja para que resulte difícil obtener una a partir de la otra.
+
+Si una persona con una pareja de claves cifra un mensaje con la llave privada, ese mensaje sólo podrá ser descifrado con la llave pública asociada. Y si se cifra con la  pública, se descifra con la privada.
+
+La funciones principales de las parejas de claves son:
+
+- Cifrar la información
+- Asegurar la integridad de los datos transmitidos
+- Garantizar la autenticidad del emisor
+
+Para que un algoritmo asimétrico sea considerado seguro debe cumplir que:
+
+- Si se conoce el texto cifrado, debe resultar muy dificil o imposible extraer el texto en claro y la clave privada
+- Si se conoce el texto en claro y el cifrado, debe resultar más costoso obtener la clave privada que el texto en claro
+- Si los datos han sido cifrados con la clave pública, sólo debe existir una clave privada capaz de descifrarlo y viceversa.
+
+---
 
 # Arduino
 Es una plataforma de creación de electrónica de código abierto basada en hardware y software libre, lo que permite que cualquier pueda utilizarlos y adaptarlos. Se pueden encontrar varios tipos de placas, accesorios y aplicaciones compatibles creadas por diferentes empresas o desarrolladores. Todas son diferentes, pero utilizando la misma base común.
@@ -161,6 +201,17 @@ El diagrama de flujo, flujograma o diagrama de actividades es una manera de repr
 Un editor de código fuente es un editor de texto diseñado específicamente para editar el código fuente de programas informáticos. Puede ser una aplicación individual o estar incluido en un entorno de desarrollo integrado.
 
 Los editores de código fuente tienen características diseñadas exclusivamente para simplificar y acelerar la escritura de código fuente, como resaltado de sintaxis, autocompletar y pareo de llaves. Estos editores también proveen un modo conveniente de ejecutar un compilador, un intérprete, un depurador, o cualquier otro programa que sea relevante en el proceso de desarrollo de software
+
+---
+# Funciones-en-programación
+
+En programación, una función es una sección de un programa que calcula un valor de manera independiente al resto del programa.
+
+Una función tiene tres componentes importantes:
+
+- los parámetros, que son los valores que recibe la función  como entrada
+- el código de la función, que son las operaciones que hace la función
+- el resultado (o valor de retorno), que es le valor final que entrega la función
 
 ---
 
@@ -507,3 +558,4 @@ El diseño de la arquitectura von Neuman es más simple que la *arquitectura Har
 En la gran mayoría de computadoras modernas, se utiliza la misma memoria tanto para los datos como para las instrucciones de programa, y la distinción entre von Neuman vs Harvard se aplica a la arquitectura de memoria caché, pero no  a la memoria principal.
 
 ---
+* 1. * 
