@@ -1,5 +1,6 @@
 import re
 
+
 # funciones validadoras
 def get_correct_operation(prompt):
     while True:
@@ -10,6 +11,7 @@ def get_correct_operation(prompt):
             print("La acción a realizar deber indicarse con el caracter E para ENCRIPTAR y D para DESENCRIPTAR.")
             continue
     return value
+
 
 def get_correct_input_text(prompt):
     # el texto de entrada sólo puede contener cararteres de texto del alfabeto inglés y espacios
