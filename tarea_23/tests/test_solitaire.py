@@ -1,5 +1,5 @@
 import pytest
-from src.solitaire import Solitaire
+from solitaire import Solitaire
 
 
 @pytest.fixture()

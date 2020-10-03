@@ -1,5 +1,5 @@
 import pytest
-from src.card import Card
+from card import Card
 
 
 @pytest.fixture()

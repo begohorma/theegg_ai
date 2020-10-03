@@ -1,11 +1,14 @@
-from src import auxFunctions as aux
-from src.solitaire import Solitaire
+from auxFunctions import get_correct_input_text, get_correct_operation
+from solitaire import Solitaire
+import sys
 
-if __name__ == '__main__':
+
+def main():
     # obtener datos de entrada
-    action = aux.get_correct_operation("Indicar operación a realizar. E para encriptar, D para desencriptar: ")
-    input_text = aux.get_correct_input_text("Introducir texto a encriptar o desencriptar. Usar letras del alfabeto ingles: ")
-    key = aux.get_correct_input_text("Introducir clave :")
+    action = get_correct_operation("Indicar operación a realizar. E para encriptar, D para desencriptar: ")
+    input_text = get_correct_input_text(
+        "Introducir texto a encriptar o desencriptar. Usar letras del alfabeto ingles: ")
+    key = get_correct_input_text("Introducir clave :")
 
     # Según la opción seleccionada,llamar al método correspondiente de la clase Solitaire
     s = Solitaire()
@@ -15,3 +18,8 @@ if __name__ == '__main__':
         output = s.decrypt(input_text, key)
     # Mostrar resultado
     print(output)
+
+
+if __name__ == '__main__':
+    print(sys.path)
+    main()
