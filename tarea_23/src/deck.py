@@ -26,8 +26,9 @@ class Deck:
 
     def apply_key(self, key_numbers):
         self._key_numbers = key_numbers
-        for n in range(0, len(self._key_numbers)):
-            self.apply_key_number(self._key_numbers[n])
+        if not(len(key_numbers)==1 and key_numbers[0] ==0):
+            for n in range(0, len(self._key_numbers)):
+                self.apply_key_number(self._key_numbers[n])
 
     def apply_key_number(self, key_num):
         # mover JokerA

@@ -6,8 +6,7 @@ import sys
 def main():
     # obtener datos de entrada
     action = get_correct_operation("Indicar operación a realizar. E para encriptar, D para desencriptar: ")
-    input_text = get_correct_input_text(
-        "Introducir texto a encriptar o desencriptar. Usar letras del alfabeto ingles: ")
+    input_text = get_correct_input_text("Introducir texto a encriptar o desencriptar. Usar letras del alfabeto ingles: ")
     key = get_correct_input_text("Introducir clave :")
 
     # Según la opción seleccionada,llamar al método correspondiente de la clase Solitaire

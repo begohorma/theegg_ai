@@ -9,10 +9,10 @@ def solitaire():
 
 
 def test_encrypt_with_blank_key(solitaire):
-    output = solitaire.encrypt("DO NOT USE PC", "")
-    assert output == "HLXMB TKKTJ"
-    # output = solitaire.encrypt("AAAAA AAAAA", "")
-    # assert output == "EXKYI ZSGEH"
+    # output = solitaire.encrypt("DO NOT USE PC", "")
+    # assert output == "HLXMB TKKTJ"
+    output = solitaire.encrypt("AAAAA AAAAA", "")
+    assert output == "EXKYI ZSGEH"
 
 
 def test_encrypt(solitaire):
