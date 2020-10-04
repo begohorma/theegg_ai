@@ -105,12 +105,14 @@ Encriptar mensaje AAAAA AAAA con clave vacía
 ![Ejemplo 1 Encriptar](img/pontifex_ejemplo1_E.png)
 
 Desencriptar
+
 ![Ejemplo 1 Desencriptar](img/pontifex_ejemplo1_D.png)
 
 Encriptar mensaje AAAAA AAAAA AAAAA con clave FOO
 ![Ejemplo 2 Encriptar](img/pontifex_ejemplo2_E.png)
 
 Desencriptar
+
 ![Ejemplo 2 Desencriptar](img/pontifex_ejemplo2_D.png)
 
 Encriptar mensaje SOLITAIRE con clave CRYPTONOMICON
@@ -118,6 +120,7 @@ Encriptar mensaje SOLITAIRE con clave CRYPTONOMICON
 ![Ejemplo 3 Encriptar](img/pontifex_ejemplo3_E.png)
 
 Desencriptar
+
 ![Ejemplo 3 Desencriptar](img/pontifex_ejemplo3_D.png)
 
 
