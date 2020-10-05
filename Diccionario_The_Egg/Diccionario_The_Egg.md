@@ -10,6 +10,43 @@ Como reconocimiento a sus aportaciones a la informática el departamento de defe
 El segundo martes de octubre se celebra el día de Ada Lovelace para reivindicar la presencia de las mujeres en ciencia, tecnología, ingeniería y matemáticas.
 
 ---
+# Algebra-booleana
+
+El álgebra booleana fue inventada en 1854 por el matemático ingles George Boole. Es un método para simplificar los circuitos lógicos en electrónica digital.
+
+La lógica booleana solo permite dos estados del circuito: True (1) y False (0). 
+
+En informática y matemática, es una estructura algebraica que esquematiza las operaciones lógicas AND, OR, NOT, IF, así como el conjunto de operaciones  unión, intersección y complemento.
+
+### Postulados
+
+- P1 El álgebra booleana es cerrada bajo las operaciones AND, OR y NOT
+- P2 El elemento de identidad con respecto a · es uno y con respecto a + es cero. No existe elemento de identidad para el operador NOT
+- P3 Los operadores · y + son conmutativos.
+- P4 · y + son distributivos uno con respecto al otro, esto es, A· (B+C) = (A·B)+(A·C) y A+ (B·C) = (A+B) ·(A+C).
+- P5 Para cada valor A existe un valor A' tal que A·A' = 0 y A+A' = 1. Éste valor es el complemento lógico de A.
+- P6 · y + son ambos asociativos, esto es, (AB) C = A (BC) y (A+B)+C = A+ (B+C).
+
+### Teoremas
+
+- Teorema 1: A + A = A
+- Teorema 2: A · A = A
+- Teorema 3: A + 0 = A
+- Teorema 4: A · 1 = A
+- Teorema 5: A · 0 = 0
+- Teorema 6: A + 1 = 1
+- Teorema 7: (A + B)' = A' · B'
+- Teorema 8: (A · B)' = A' + B'
+- Teorema 9: A + A · B = A
+- Teorema 10: A · (A + B) = A
+- Teorema 11: A + A'B = A + B
+- Teorema 12: A' · (A + B') = A'B'
+- Teorema 13: AB + AB' = A
+- Teorema 14: (A' + B') · (A' + B) = A'
+- Teorema 15: A + A' = 1
+- Teorema 16: A · A' = 0
+
+---
 
 
 # Algoritmo
@@ -166,6 +203,30 @@ Permite traducir todo un programa de una sola vez, haciendo una ejecución más 
 
 ---
 
+# Convertidor-analógico-digital
+
+![Convertidor Analógico Digital ](Diccionario_The_Egg/convertidor_analogico_digital.png)
+
+Un convertidor de señal analógica a digital ADC Analog to digital converter - Conversor analógico  digital) es un dispositivo electrónico capaz de convertir una señal analógica, ya sea de tensión o corriente, en una señal digital mediante un cuantificador y codificandose en muchos casos en un código binario en particular.
+
+El conversor ADC(tiene que efectuar los siguientes procesos:
+
+1 - Muestreo de la señal analógica
+
+Tomar diferentes muestras de tensiones o voltajes en diferentes puntos de la onda senoidal. La frecuencia a la que se realiza el muestreo se denomina razón, tasa o frecuencia de muestreo y se mide en kilohertz(kHz).
+
+Durante el proceso de muestreo se asignan valores numéricos equivalentes a la tensión o voltaje existente en diferentes puntos de la sinusoide, con la finalidad de realizar a continuación el proceso de cuantificación.
+
+2 - Cuantificación de la propia señal
+
+La cuantificación representa el componente de muestreo de las variaciones de valores de tensiones o voltajes tomado en diferentes puntos de la onda sinusoidal, que permite medirlos y asignarles sus correspondientes valores en el sistema numérico decimal, antes de convertir esos valores en sistema numérico binario. 
+
+3 - Codificación del resultado de la cuantificación, en código binario
+
+Después de la cuantificación, los valores de las tomas de voltajes se representan numéricamnte por medio de códigos y estándares previamente establecidos. Lo más común es codificar la señal digital en código binario.
+
+---
+
 # CSS
 
 CSS (Cascading Style Sheets :  Hojas de estilo en cascada) es un lenguaje de  hojas de estilos utilizado para controlar el aspecto o presentación de los documentos HTML o  basados en XML. 
@@ -212,6 +273,11 @@ Una función tiene tres componentes importantes:
 - los parámetros, que son los valores que recibe la función  como entrada
 - el código de la función, que son las operaciones que hace la función
 - el resultado (o valor de retorno), que es le valor final que entrega la función
+
+---
+# Frecuencia-de-muestreo
+
+La tasa o frecuencia de muestreo es el número de muestras por unidad de tiempo que se toman de una señal continua para producir una señal discreta, durante el proceso necesario para convertirla de analógica a digital. Generalmente se expresa en hercios(Hz) o kilohercios (kHz)
 
 ---
 
@@ -466,6 +532,11 @@ Los sistemas de control de versiones son una categoría de herramientas de softw
 El repositorio es el lugar en el que se almacenan los datos actualizados e históricos de cambios.
 
 ---
+# Sistema-binario
+
+El sistema binario es un sistema de numeración en el que los números se representan utilizando solamente dos cifras: cero (0) y uno (1). Es uno de los sistemas que se utilizan en las computadoras, ya que estas trabajan internamente con dos niveles de voltaje.
+
+---
 
 # Sistema-operativo
 Es el software principal o conjunto de programas de un sistema informático que gestiona los recursos de hardware y provee servicios a los programas de aplicación, ejecutándose en modo privilegiado respecto al resto del software, sin permitir que un programa cualquiera realice cambios de importancia sobre él que puedan comprometer su funcionamiento.
@@ -531,6 +602,19 @@ La mayoría de transistores incluye tres puntos de conexión (también llamados 
 Dado que los ordenadores trabajan en sistema binario, estos estados de «encendido» y «apagado» de los transistores sirven para representar los unos y los ceros del sistema binario.
 
 Así, en un procesador o GPU se introducen millones de transistores de tamaño diminuto unidos entre sí, que trabajando en conjunto permiten que el procesador pueda realizar millones de operaciones cada ciclo de reloj. Conceptualmente, un procesador no es mas que una enorme fábrica con millones de interruptores.
+
+---
+# Transistores bipolares
+
+El transistor de unión bipolar es un dispositivo electrónico de estado sólido consistente en dos uniones PN en un solo cristal semiconductor, separados por una región muy estrecha, dando lugar a tres regiones o terminales: Emisor, Base y Colector. Según su fabricación pueden ser de dos tipos: NPN y PNP. 
+
+![Transistor bipolar](Diccionario_The_Egg/transistor_bipolar.png)
+
+Se pueden usar como amplificadores, por ejemplo para amplificar la pequeña corriente de salida de un circuito lógico de modo que pueda controlar una lámpara, relé u otro dispositivo de alta corriente.
+
+También se se usan como  interruptores
+
+Posee tres estados de operación: estado de corte, estado de saturación y estado de actividad.
 
 ---
 
