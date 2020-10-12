@@ -112,9 +112,37 @@ Aunque esta idea se puede aplicar a programas que se ejecutan en una sola comput
 
 En esta arquitectura hay una clara separación de responsabilidades:
 
-Cliente: es un programa o proceso que solicita un servicio y usa la información provista para sus propios objetivos
+**Cliente**: es un programa o proceso que solicita un servicio y usa la información provista para sus propios objetivos. 
 
-Servidor: Programa o proceso que ofrece un conjunto de servicios y espera peticiones para ejecutar o dar esos servicios.
+*Características*
+
+No necesita conocer la lógica del servidor, sólo su interfaz externa.
+
+No depende de la ubicación física del servidor, ni del tipo de equipo físico en el que se encuentra, ni de su sistema operativo.
+
+*Funciones*
+
+Manejo de la interfaz de usuario
+
+Captura y validación de los datos de entrada
+
+Generación de consultas/informes sobre BBDD
+
+**Servidor**: Programa o proceso que ofrece un conjunto de servicios y espera peticiones para ejecutar o dar esos servicios.
+
+*Características*
+
+Presenta a todos sus clientes una interfaz única y bien definida
+
+Los cambios implican pocos o ningún cambio en el cliente
+
+*Funciones*
+
+Acceso a ficheros compartidos
+
+Consultas y accesos a bases de datos
+
+Procesos y  lógica de negocio
 
 ---
 
@@ -255,6 +283,19 @@ El diagrama de flujo, flujograma o diagrama de actividades es una manera de repr
 
 ------
 
+# DNS
+
+Domain Name System (sistema de nombre de dominio). Es una tecnología basada en una base de datos que sirve para resolver nombres en las redes, es decir, para conocer la IP de la máquina donde está alojado el dominio al que queremos acceder.
+
+Es un sistema que sirve para traducir los nombres en la red, y está compuesto por tres partes con funciones bien diferenciadas
+
+**Cliente DNS**: está instalado en el cliente y realiza peticiones de resolución de nombres a los servidores DNS
+
+**Servidor DNS**: son los que contestan las peticiones y resuelven los nombres mediante un sistema estructurado en árbol. Las direcciones DNS que se ponen en  la configuración de la conexión, son las direcciones de los Servidores DNS.
+
+**Zonas de autoridad**: son servidores o grupos de ellos que tienen asignados resolver un conjunto de dominios determinado, como los . es o los .org
+
+---
 
 
 # Editor-de-código
@@ -274,12 +315,24 @@ Una función tiene tres componentes importantes:
 - el código de la función, que son las operaciones que hace la función
 - el resultado (o valor de retorno), que es le valor final que entrega la función
 
+
 ---
+
 # Frecuencia-de-muestreo
 
 La tasa o frecuencia de muestreo es el número de muestras por unidad de tiempo que se toman de una señal continua para producir una señal discreta, durante el proceso necesario para convertirla de analógica a digital. Generalmente se expresa en hercios(Hz) o kilohercios (kHz)
 
 ---
+# FTP
+
+El servicio FTP (File Transfer Protocol - Protocolo de Transferencia de Ficheros) es un protocolo de nivel de aplicación. Está basado en una arquitectura cliente servidor y proporciona un mecanismo estándar de transferencia de archivos entre sistemas a través de redes TCP/IP.
+
+Para utilizar el servicio FTP se debe disponer de una máquina servidor y otra cliente.
+
+El objetivo fundamental del FTP es poder intercambiar ficheros entre máquinas a través de la red (  o internet) con independencia del sistema de archivos y sistema operativo utilizado de una formar eficaz.
+
+---
+
 
 # Github
 
@@ -305,6 +358,14 @@ Hipertexto hace referencia a los enlaces que conectan las páginas web entre sí
 # Interprete
 
 También conocido como traductor ya que traduce programas escritos en un lenguaje de programación  al lenguaje máquina de la computadora y se ejecuta a medida que se va traduciendo 
+
+---
+
+# IP
+
+Una dirección IP es un número que identifica a una interfaz de un dispositivo (habitualmente una computadora) dentro de una red que utilice el protocolo IP ( Internet Protocol)
+
+Se representa mediante un número binario de 32 bits (IPv4). Las direcciones IP se pueden expresar como números de notación decimal. Ejemplo: 164.12.123.65 
 
 ---
 
@@ -384,6 +445,30 @@ En informática periférico es la denominación genérica de cualquier aparato o
 # Programación
 
 Indicar a un ordenador mediante código que quieres que haga. Se trata de resolver problemas, descomponiéndolos en instrucciones que un ordenador es capaz de realizar.
+
+---
+# Protocolo-TCP/IP
+
+TCP/IP es un grupo de protocolos que conforman la base de internet y otras redes. Se compone de varios protocolos determinantes para la comunicació por internet:
+
+- TCP (Transmision Control Protocol)
+- IP (Internet Protocol)
+- ICMP (Internet  Control Message Protocol)
+- UDP (User Datagram Protocol)
+
+Estos protocolos funcionan con independencia del hardware y el software subyacente. 
+
+En el modelo OSI, los protoclos se situan en las capas 3 y 4 de transporte y red respectivamenre, que son las encargadas de la conexión entre los dispositivos a través de una red. La dirección IP y el protocolo de internet se usan para que el paquete de datos llegue al receptor correcto. El TCP sirve para establecer y mantener una conexión entre los dispositivos implicados durante la transmisión.Si se produce un error en el transporte de los paquetes de datos, el protocolo se encarga de iniciar un nuevo intento de transmisión.
+
+Su modelo se divide en cuatro capas diferenciadas. Cuando se emplean juntas se puede referir a ellas como un paquete de ptotocolos
+
+**Capa de enlace de datos :** es la que maneja las partes físicas del envío y recepción de datos mediante cable Ethernet, la red inalámbrica, la tarjeta de interfaz de red, el controlador del dispositivo en el equipo,...
+
+**Capa de internet:** controla el movimiento de los paquetes alrededor de la red
+
+**Capa de transporte**: proporciona una conexión de datos fiable entre dispositivos. Divide los datos en paquetes, hace acuse de recibo de los paquetes que recibe del otro dispositivo y se asegura que  el otro dispositivo haga acuse de recibo de los paquetes que recibe.
+
+**Capa de aplicaciones**: es del grupo de aplicaciones que requiere comunicación de red. Es con lo que el usuario interactua, como correo electrónico  y la mensajería. Como la capa inferior gestiona los detalles de la comunicación, las aplicaciones no tienen que preocuparse por el
 
 ---
 
@@ -532,6 +617,15 @@ Los sistemas de control de versiones son una categoría de herramientas de softw
 El repositorio es el lugar en el que se almacenan los datos actualizados e históricos de cambios.
 
 ---
+
+# Servidor-web
+
+Almacena todos los archivos  propios de una página web ( texto, imagen, video, etc.) y los muestra a los clientes a través de los navegadores. Utiliza el protocolo HTTP (Hyper Text Transfer Protocol). 
+
+HTTP está diseñado para transferir lo que llamamos hipertextos, páginas web o páginas HTML (Hyper Text Markup Language)
+
+---
+
 # Sistema-binario
 
 El sistema binario es un sistema de numeración en el que los números se representan utilizando solamente dos cifras: cero (0) y uno (1). Es uno de los sistemas que se utilizan en las computadoras, ya que estas trabajan internamente con dos niveles de voltaje.
