@@ -265,6 +265,31 @@ Una vez creados los elementos de la web con HTML, se utiliza CSS para definir el
 
 ---
 
+# Data-preprocessing (preprocesado de datos)
+
+El preprocesamiento de datos engloba todas aquellas técnicas de análisis de datos que permiten mejorar la calidad de un conjunto de datos de modo que las técnicas de extracción de conocimiento/minería de datos puedan obtener mayor y mejor información.
+
+El preprocesado de datos incluye:
+
+- **Data cleaning** o limpieza de datos: proceso orientado a eliminar datos con ruido o incorrectos
+    - Elimina datos que faltan
+    - suaviza el efecto del ruido
+    - elimina datos fuera de rango, outliers
+    - corrige inconsistencias
+- **Data collecting and integration**: trata de integrar diferentes fuentes de datos en un almacén coherente y homogéneo como un data warehouse o un data cube.
+    - Obtiene datos de diferentes fuentes de información
+    - Resuelce problemas de representación y codificación
+    - Integra los datos desde diferentes tablas para crear información homogénea
+- **Data transformation**: transformación de los datos como por ejemplo normalización
+    - Sumarización de datos
+    - Operaciones de agregación
+- **Data reduction (Feature selection, Instance selection, discretization)**: orinetado a reducir el tamaño de los datos mediante agregación y/o eliminacción de características redundantes o clustering y selección de datos relevantes
+    - Selección de características (feature selection)
+    - Seleccion de instancias (Instance selection)
+    - Discretización
+
+---
+
 # Diagrama de Flujo
 
 El diagrama de flujo, flujograma o diagrama de actividades es una manera de representar gráficamente un algoritmo  o un proceso a través de una serie de pasos estructurados y vinculados que permiten su revisión como un todo.
@@ -303,6 +328,72 @@ Es un sistema que sirve para traducir los nombres en la red, y está compuesto p
 Un editor de código fuente es un editor de texto diseñado específicamente para editar el código fuente de programas informáticos. Puede ser una aplicación individual o estar incluido en un entorno de desarrollo integrado.
 
 Los editores de código fuente tienen características diseñadas exclusivamente para simplificar y acelerar la escritura de código fuente, como resaltado de sintaxis, autocompletar y pareo de llaves. Estos editores también proveen un modo conveniente de ejecutar un compilador, un intérprete, un depurador, o cualquier otro programa que sea relevante en el proceso de desarrollo de software
+
+---
+
+# ETL
+
+El proceso ETL consta de tres fases: Extracción (Extract), Transformación (Transform) y Carga (Load).
+
+Son procesos que se encargan de traer datos de sus origenes, reformatearlos, limpiarlos, cargarlos, analizarlos y reutilizarlos.
+
+## Extracción
+
+Pasos:
+
+- Extraer los datos desde los sistemas de origen
+- Analizar los datos extraidos obteniendo un chequeo
+- Interpretar el chequeo para verificar que los datos extraidos cumplen la pauta o estructura esperada. En caso contrario se deben rechazar
+
+Se debe tener en cuenta que los datos pueden provenir de multiples origenes y estar en formatos diferentes. Los origines pueden ser de diferentes tipos como bases de datos relacionales, no relacionales, ficheros planos, cvs, excel, etc.
+
+El proceso de extracción debe causar el menor impacto posible en el origen de datos. No debe sobrecargarlo y por ello se suele programar a horas concretas en las que hay un menor uso de los sistemas de origen.
+
+Las extracciones pueden ser:
+
+- *Totales*: en cada ejecución se extrae de una vez la totalidad de los datos a procesar
+- *Incrementales:* los datos se extraen en pequeños lotes. Por ejemplo cargas diarias de datos que extraen cada vez únicamente los datos del día anterior
+
+## Transformación
+
+Se aplican una serie de reglas de negocio o funciones sobre los datos extraidos para convertirlos en datos que serán cargados. Estas reglas o directrices deben ser:
+
+- Declarativas
+- Independientes
+- Claras
+- Inteligibles
+- Con una finalidad útil para el negocio
+
+### Transformaciones típicas
+
+- Seleccionar sólo ciertas filas o columnas para su carga en función de ciertas características. Por ejemplo, que las columnas con  valores nulos no se carguen.
+- Traducir códigos {"Hombre", "Mujer"} = {0, 1} | {"H", "M"}
+- Eliminar duplicados
+- Calcular nuevos valores: Total_Ventas  = Precio * Cantidad
+- Unir o combinar datos de distintas fuentes
+- Agrupar filas: Total por pais
+- Agrupar datos: máximo, mínimo, promedios, conteos
+- Generar nuevos campos en el destino: Edad  = año_actual - año_nacimiento
+- Transponer o pivotar tablas girando múltiples columnas en filas o viceversa
+- Dividir una columna en varias. Nombre completo → Nombre , Apellido
+
+## Carga
+
+Los datos procedentes de la transformación se cargan en el sistema destino. Hay que decidir si los datos se sobreescriben, se duplica información o se añade nueva información. En muchos casos basta con un resumen de los datos
+
+Hay dos formas básicas de desarrollar el proceso de carga:
+
+- **Acumulación simple**: consiste en realizar un resumen de todas las transacciones comprendidas en el periodo de tiempo seleccionado y transportar el resultado como una única transacción hacia el data warehouse,  almacenado el valor calculados que consistirá típicamente en un sumatorio o promedio de la magnitud considerada. Es la forma más sencilla y común de llevar a cabo el proceso de  carga
+- **Rolling**:  este proceso sería el más recomendable en los casos en los que se quiere mantener varios niveles de granularidad. Se almacena información resumida a distintos niveles jerárquicos en alguna o varias de las dimensiones de la magnitud almacenada, por ejemplo, totales  diarios, totales semanales, totales mensuales, etc.
+
+En esta fase se interactua directamente con la base de datos destino, por lo que deben aplicar todas las restricciones definida por ésta para garantizar la calidad de los datos. 
+
+Las **restricciones** suelen ser:
+
+- Unicidad. Valores únicos
+- Campos obligatorios
+- Rangos de valores
+- Intergridad referencial
 
 ---
 # Funciones-en-programación
