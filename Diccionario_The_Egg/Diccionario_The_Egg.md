@@ -94,6 +94,48 @@ Para que un algoritmo asimétrico sea considerado seguro debe cumplir que:
 - Si los datos han sido cifrados con la clave pública, sólo debe existir una clave privada capaz de descifrarlo y viceversa.
 
 ---
+# API
+
+Una API (Application Programming Interface / Interfaz de programación de aplicaciones) es un conjunto de subrutinas, funciones y procedimientos que ofrece cierta biblioteca para ser utilizado por otro software como una capa de abstracción. 
+
+La interfaz es una capa  de abstracción para que dos objetos se comuniquen. Una API es una interfaz para que se comuniquen programas de software y compartan datos entre ellos.
+
+Una arquitectura  de software es la forma en la que está  diseñado un sistema, cómo están organizados sus componentes, cómo se comunican entre ellos, qué funciones cumplen.
+
+Un servicio web es un sistema que permite la comunicación entre equipos que están en una red. los equipos tienen que seguir ciertos estándares e implementar el servicio http y son la base de las APIs remotas
+
+REST (Representational State Transfer) es una arquitectura que utilizan las APIs más comunes e implica que pueden guardarse los datos en cache, que el estado no se envía en las peticiones y que se pueden definir a qué datos se permite que otra aplicación acceda, revise o manipule
+
+El formato que más se usaba anteriormente para enviar los datos era el Xml. Actualmente se usa mas JSON
+
+Las APIS pueden ser públicas  o privadas. Las privadas requieren una autenticación. La primera vez que se realiza la auteticación el servidor devuelve un token que  hay que utilizar al solicitar información al servidor que comprobará si el token está vigente y no solicitará una nueva autenticación. El formato más común de los tokens para las API REST es JWT
+
+Las APIS pueden ser locales o remotas. Las remotas pueden utilizar servicios web utilizando algún protocolo. Los protocolos más comunes son el SOAP (Simple Object Access Protocol) o  la arquitectura REST. Si usa un servicio web utilizando la arquitectura REST se denominan Restful
+
+Los recursos consultados a través de las  API REST tienen un identificador único llamado URI. Se consulta a través del endpoint que es la url completa
+
+Al solicitar información a través de una API es servidor puede contestar con distintos códigos: 
+
+- 2xx: solicitud correcto
+- 3xx: redirecciones
+- 4xx: solicitud inválida
+- 5xx: errores en el servidor
+
+Los métodos HTTP que permiten interactuar con la API son:
+
+- get: solicitar información
+- post: enviar nueva información
+- put: actualizar información
+- delete: eliminar información
+
+Las APIS suelen devolver la información en distintos formatos. Los más comunes son:
+
+- Json
+- Xml
+- Texto plano
+
+---
+
 
 # Arduino
 Es una plataforma de creación de electrónica de código abierto basada en hardware y software libre, lo que permite que cualquier pueda utilizarlos y adaptarlos. Se pueden encontrar varios tipos de placas, accesorios y aplicaciones compatibles creadas por diferentes empresas o desarrolladores. Todas son diferentes, pero utilizando la misma base común.
@@ -477,6 +519,65 @@ Es un lenguaje script multiparadigma, basado en prototipos, dinámico, soporta e
 No confundir con Java. Ambos tienen semánticas y propósitos  diferentes
 
 ---
+# JSON
+
+JSON( Javascript Object Notation / Notación de objeto de Javascript) es un formato de texto sencillo para el intercambio de datos. Es es estandars actual para el intercambio de información. Es una  alternativa más simple y liviana al xml.
+
+Los objetos Json  comienzan y terminan con llaves {}.
+
+Un objeto Json tiene dos elementos centrales:
+
+- Keys (claves): deben ser cadenas de caracteres (strings) roeadas de comillas. Va seguida de dos puntos :
+- Values (valores): son tipos de datos Json válidos.  Pueden ser :
+    - arrays: Van rodeados por corchetes [ ] y los valores se separan por comas.
+
+        ```json
+        "estudiantes": [
+        {"primerNombre":"Tom", "Apellido":"Jackson"},
+        {"primerNombre":"Linda", "Apellido":"Garner"},
+        {"primerNombre":"Adam", "Apellido":"Cooper"}
+        ]
+        ```
+
+    - objetos: contiene una clave y un valor. El objeto, como valor, debe seguir la misma regla  que un objeto común.
+
+        ```json
+        "empleados": {"nombre":"Tom", "apellido":"Jackson"}
+        ```
+
+        Empleados es la clave y todo lo que está dentro de las llaves es el objeto.
+
+    - strings: secuencia de catacteres entre comillas dobles
+
+        ```json
+        "firstName":"Tom"
+        ```
+
+    - booleanos: verdadero o falso
+
+        ```json
+        {"Casado":"falso"}
+        ```
+
+    - números: entero o float
+
+        ```json
+        {"Edad":"30"}
+        ```
+
+    - nulo: indica que no hay información
+
+        ```json
+        {"Tipo de sangre":"nulo"}
+        ```
+
+Los objetos clave/valor se separan entre comas.
+
+```json
+{ "ciudad": "Nueva York", "pais": "Estados Unidos"}
+```
+
+---
 
 # Lenguaje-de-alto-nivel
 
@@ -538,6 +639,16 @@ En informática periférico es la denominación genérica de cualquier aparato o
 Indicar a un ordenador mediante código que quieres que haga. Se trata de resolver problemas, descomponiéndolos en instrucciones que un ordenador es capaz de realizar.
 
 ---
+# Protocolo-de-comunicación
+
+Un protocolo de comunicación es un sistema de reglas que permiten que dos o más entidades, computadoras, teléfonos celulares,etc. de un sistema de  comunicación se comuniquen entre ellas para transmitir información por medio de cualquier tipo de variación de una magnitud física.
+
+Se trata de las reglas o  el estándar que define la sintaxis, semántica y sincronización de la comunicación, así como también los posibles métodos de recuperación de  errores. 
+
+Para las computadoras, el protocolo de comunicación determina cómo deben circular los mensajes dentro de una red. Cuando la circulación de la información se desarrolla en internet, existen una serie de protocolos específicos que posibilitan el intercambio. Los más importantes son los TCP/IP
+
+---
+
 # Protocolo-TCP/IP
 
 TCP/IP es un grupo de protocolos que conforman la base de internet y otras redes. Se compone de varios protocolos determinantes para la comunicació por internet:
@@ -827,4 +938,6 @@ El diseño de la arquitectura von Neuman es más simple que la *arquitectura Har
 En la gran mayoría de computadoras modernas, se utiliza la misma memoria tanto para los datos como para las instrucciones de programa, y la distinción entre von Neuman vs Harvard se aplica a la arquitectura de memoria caché, pero no  a la memoria principal.
 
 ---
-* 1. * 
+# XML
+
+XML (Extensible Markup Language/ Lenguaje de marcado extensible) es un metalenguaje que permite definir lenguajes de marcas que se utiliza para almacenar datos de forma  legible. Fué el estándard inicial para el intercambio de información estructurada entre diferentes plataformas. Es similar a HTML 
