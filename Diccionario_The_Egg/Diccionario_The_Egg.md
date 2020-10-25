@@ -206,11 +206,38 @@ Una base de datos es un conjunto de datos pertenecientes a un mismo contexto y a
 
 Hay programas denominados sistemas gestores de bases de datos (SGBD) que permiten almacenar y posteriormente acceder a los datos de forma rápida y estructurada.
 
-Hay diferentes modelos de bases de datos: jerárquicas, de red, transaccionales, relacionales, multidimensionales, orientadas a objetos, documentales, deductivas.
+Hay diferentes modelos de bases de datos: jerárquicas, de red, transaccionales, relacionales, multidimensionales, orientadas a objetos, documentales, deductivas, NoSQL.
 
 Un modelo es un "descripción" de un contenedor de datos,así como de los métodos para almacenar y recuperar datos de esos contenedores.
 
-En el mundo empresarial las bases de datos más usadas desde los años 70 fueron las relacionales y los lenguajes de consulta SQL
+En el mundo empresarial las bases de datos más usadas desde los años 70 fueron las relacionales y los lenguajes de consulta SQL.
+
+En las **bases de datos relacionales** la información se encuentra en tablas y campos relacionados entre si. Las tablas se componen de filas o registros, que contienen los datos, y columnas o atributos (conjunto de valores de un tipo en concreto)
+
+Las **bases de datos distribuidas** consisten en el almacenamiento de porciones de la base de datos en diferentes ubicaciones físicas y, por tanto, el procesamiento está distribuido o replicado entre los distintos puntos de una red de trabajo. Tienen una mayor disponibilidad de los datos ya que si una de las bases de datos falla, se puede seguir funcionando correctamente, aunque puede que un poco ralentizado. Esto también puede provocar que haya duplicidad de los datos y un menor nivel de seguridad.
+
+Hay dos tipos de bases de datos distribuidas:
+
+- *Homogéneas*: las bases de datos son conscientes de las otras ubicaciones y cooperan en el procesamiento de las solicitudes. Tienen el mismo esquema y sistema de gestión de base de datos. Suelen utilizarse dentro de una misma organización.
+- *Heterogéneas*: cooperan en el procesamiento de forma limitada ya que pueden tener el esquema y el gestor diferentes, e incluso que los sitios no se conozcan entre sí. Suelen usarse entre distintas organizaciones.
+
+La base de datos distribuida más conocida en la actualidad es el Blockchain
+
+Las **bases de datos NoSql** suelen evitar el uso de SQL o lo usa de apoyo, pero no como consulta. Se suelen usar en proyectos en los que se necesita trabajar con volumenes de datos extremadamente altos. En las bases de datos con lenguajes SQL, los distintos atributos de un elemento están en diferentes columnas, mientras que en una NoSql todos los atributos están en una misma columna ahorrando espacio. No suelen permitir las uniones lógicas o joins
+
+Algunos lenguajes usados por bases de datos NoSQL son:
+
+JSON(JavaScript Object Notation), CQL(Contextual Query Language) o GQL(Graph Query Language)
+
+Las **bases de datos orientadas a objetos** representan los datos en forma de objetos y clases. Un objeto puede ser desde un resultado de búsqueda a una tabla, y una clase es una colección de objetos.
+
+Los objetos pueden ser referenciados o nombrados posteriormente como una unidad sin tener que entrar en sus complejidades.
+
+Generalmente están escritas en lenguajes de programación orientados a objetos.
+
+Las **bases de datos gráficas o orientadas a grafos** están especializadas en establecer relaciones entre los datos de forma visual y navegar por dichas relaciones. Para leer la información, hay que leer los nodos o conectores ( puntos de conexión de los datos de las tablas), generando un lenguaje natural.
+
+Algunos ejemplos son: Neo4j y Amazon Neptune
 
 ---
 
@@ -623,9 +650,38 @@ Desde su nacimineto en 1958 de la mano de John McCarthy, Lisp no ha dejado de cr
 
 # NoSQL
 
+# NoSQL
+
 En informática, NoSQL (a veces llamado "no solo SQL") es una amplia clase de sistemas de gestión de bases de datos que difieren del modelo clásico de SGBDR (Sistema de Gestión de Bases de Datos Relacionales) en aspectos importantes, siendo el más destacado que no usan SQL como lenguaje principal de consultas.
 
 Los datos almacenados no requieren estructuras fijas como tablas, normalmente no soportan operaciones JOIN, ni garantizan completamente ACID (atomicidad, consistencia, aislamiento y durabilidad) y habitualmente escalan bien horizontalmente. Los sistemas NoSQL se denominan a veces "no solo SQL" para subrayar el hecho de que también pueden soportar lenguajes de consulta de tipo SQL.
+
+La bases de datos no relacionales priorizan el acceso rápido sobre la normalización (redundancia de datos)
+
+Algunas de las bases de datos NoSQL más reconocidas en la actualidad son: MongoDB, Apache Cassandra, CouchDB, Redis y Neo4j.
+
+### **Tipos de bases de datos NoSql**
+
+- **Bases de datos documentales**: orientan su funcionamiento a datos alojados en documentos o tiendas de documentos. Se utilizan para almacenar, recuperar y administrar datos semiestructurados. Ofrecen mucha flexibilidad, escritura rápida y consultas rápidas gracias a su gran capacidad de indexación.
+- **Bases de datos orientadas a grafos:**  permiten representar los datos en estructuras de grafos. Muy útil con datos con altos niveles de interrelación. Permiten ejecutar consultas y almacenamiento de datos de cualquier característica sin necesidad de preocuparse por el volumen de los datos.
+- **Bases de datos clave/valor:** son modelos no relacionales que  utilizan un método simple de almacenamiento de datos. Toman los datos como un conjunto de pares "clave-valor" en los que las claves cumplen funciones de indentificadores únicos.  Son simples en cuanto a funcionalidad y brindan un alto rendimiento al ejecutar las lecturas y escrituras de datos. Son altamente divisibles y brindan grandes capacidades de escalabilidad horizontal.
+- **Bases de datos multivalor**: comparten significativas similitudes con los modelos relacionalestradicionales. Ambos esquemas contienen tablas, pero las bases de datos multivalor proporcionan un esquema de trabajo menos rígido. Además de proporcionar mayor flexibilidad, los datos almacenados pueden contener listas de valores por lo que cualquier dato almacenado puede tener diversos valores asignados. Tienen un nivel de complejidad un poco más elevado debido a que incorporan reglas de normalización para su diseño.
+- **Bases de datos orientadas a objetos:** Están conformadas por objetos que pueden ser de diferentes tipos, sobre los que se definen unas operaciones que determinan sus propiedades de interacción. Son altamente flexibles y admiten lenguajes de programación.
+- **Bases de datos tabulares:** Tienen forma de tabla. Incorporan elementos en columnas y líneas. Cada celda genera intersecciones entre las columnas y las líneas. A estas intersecciones se les asignan una numeración única para establecer un orden eficiente de los datos. Están pensadas para grandes volúmenes de datos.
+- **Bases de datos de Arrays:** sirven para trabajar con colecciones de datos conocidas como raster data. Los datos se sitúan en una cuadrícula regular con más de dos dimensiones. Se utilizan para representar simulaciones, sensores y datos estadísticos.
+
+### Ventajas
+
+- **Alto rendimiento y baja exigencia**: pueden ejecutarse en máquinas con recursos modestos. En comparación con los sistemas SQL, la inversión necesaria es significativamente más baja
+- **Escalabilidad horizontal:** Se pueden añadir nodos de forma horizontal para aumentar el rendimiento
+- **El volumen de datos no es problema**: no se generan cuellos de botella ni se corre riesgo de ralentizar el sistema
+- **Flexibilidad**: son extremadamente flexibles y se pueden hacer ajustes a casi todo lo que se necesite
+
+### Desventajas
+
+- Funciones de fiabilidad: Al no admintir funciones de fiabilidad lleva a los desarrolladores a implementar su propio código, lo que agrega mayor complejidad a los sistemas.
+- Aplicabilidad: La falta de fiabilidad limita la aplicabilidad de estas bases de datos a funciones delicadas como las del sector bancario, limitando mucho su potencial
+- **Incompatibilidad en consultas SQL**: agrega una dificultad mayor que que en caso de ser necesario se debe incluir una consulta manual, que puede hacer los procesos más lentos y complejos
 
 ---
 
@@ -885,7 +941,20 @@ De forma genérica en función del uso o utilidad:
 
 # SQL
 
-SQL (por sus siglas en inglés Structured Query Language; en español lenguaje de consulta estructurada) es un lenguaje de dominio específico utilizado en programación, diseñado para administrar, y recuperar información de sistemas de gestión de bases de datos relacionales.1 Una de sus principales características es el manejo del álgebra y el cálculo relacional para efectuar consultas con el fin de recuperar, de forma sencilla, información de bases de datos, así como realizar cambios en ellas. Consiste en un lenguaje de definición de datos, un lenguaje de manipulación de datos y un lenguaje de control de datos
+SQL (por sus siglas en inglés Structured Query Language; en español lenguaje de consulta estructurada) es un lenguaje de dominio específico utilizado en programación, diseñado para administrar, y recuperar información de sistemas de gestión de bases de datos relacionales. Una de sus principales características es el manejo del álgebra y el cálculo relacional para efectuar consultas con el fin de recuperar, de forma sencilla, información de bases de datos, así como realizar cambios en ellas. Consiste en un lenguaje de definición de datos, un lenguaje de manipulación de datos y un lenguaje de control de datos
+
+Se divide en tres lenguajes
+
+DDL (Data Definition Language): permite definir las estructuras. La  estructuras de las tablas y los registros
+
+DML(Data Manipulation Language): permite manipular la informacion 
+
+- Insert para llenar de datos las tablas
+- Select para leer datos de las tablas
+- Update para actualizar los  datos de las tablas
+- Delete para borrar los datos de las tablas
+
+DCL (Data Control Language): permite controlar los permisos de acceso a las bases de datos
 
 ---
 
