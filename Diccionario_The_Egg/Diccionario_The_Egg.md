@@ -514,6 +514,13 @@ HTML (Hyper Text Markup Language: Lenguaje de marcas de hipertexto) es un lengua
 Hipertexto hace referencia a los enlaces que conectan las páginas web entre sí, ya sea dentro de un mismo sitio web o entre diferentes sitios web. Los vínculos es un aspecto fundamental de la web.
 
 ---
+# Internet
+
+Es una red de comunicaciones digital y abierta que conecta puntos entre sí de todo el mundo. Es una red muy compleja que conecta millones de entidades entre sí a nivel mundial con una gran complejidad.
+
+El protocolo que usa internet para establecer las reglas de comunicación es IP ( Internet Protocol) que fue creado por la agencia Darpa para el departamento de defensa de EEUU. Actualmente se usa la versión 4 y la 6 lo está sustituyendo poco a poco.
+
+---
 
 # Interprete
 
@@ -526,6 +533,17 @@ También conocido como traductor ya que traduce programas escritos en un lenguaj
 Una dirección IP es un número que identifica a una interfaz de un dispositivo (habitualmente una computadora) dentro de una red que utilice el protocolo IP ( Internet Protocol)
 
 Se representa mediante un número binario de 32 bits (IPv4). Las direcciones IP se pueden expresar como números de notación decimal. Ejemplo: 164.12.123.65 
+
+---
+# IP-Pública
+
+La IP pública es un número único que identifica nuestra red desde el exterior. La IP del router de casa que es visible desde el exterior. Las suele proporcionar el ISP (proveedor de internet) y puede ser dinámica o fija. Hay páginas en internet que muestran la ip pública en el momento en el que se acceden.
+
+---
+
+# IP- Privada
+
+La IP privada es un número único que identifica a un dispositivo conectado a nuestra red interna. Son las direcciones que el router asigna a cada uno de los dispositivos de nuestra red. No  son accesibles desde internet.
 
 ---
 
@@ -647,8 +665,16 @@ La consecuencia directa de la ley de Moore es que los precios bajan al mismo tie
 Desde su nacimineto en 1958 de la mano de John McCarthy, Lisp no ha dejado de crecer. De hecho, su creador trabajó en el MTI junto a Marvin Minsky, uno de los padres de la Inteligencia Artificial. Lisp trabaja con expresiones simbólicas y prototipado, herramientas útiles en el campo del Machine Learning. Además, se utiliza en proyectos como CYC, cuyo objetivo es permitir a las aplicaciones basadas en IA ejecutar razonamientos similares a los humanos.
 
 ---
+# Mascara-de-subred
 
-# NoSQL
+La máscara de red es una combinación de bits que sirve para delimitar el ámbito de una red de ordenadores. Su función es indicar  a los dispositivos qué parte de la dirección IP es el número de la red, incluyendo la subred, y qué parte es la correspondiente al host.
+
+Mediante la máscara de red, un sistema (ordenador, puerta de enlace, router,...) podrá saber si debe enviar un  paquete dentro o fuera de la subred a la que está conectado. Por ejemplo, si el router tiene la dirección IP 192.168.1.1 y máscara de red 255.255.255.0, entiende que todo lo que se envía a una dirección IP con formato 192.168.1.X, se envía hacia la red local, mientras que direcciones con distinto formato de IP serán enviadas hacia afuera.
+
+Antes de enviar un paquete la computadora realiza la operación lógica AND, bit a bit entre la dirección de destino y la máscara y la dirección de origen y la máscara. Si el resultado es idéntico significa que la computadora remota está en la misma subred.
+
+---
+
 
 # NoSQL
 
@@ -703,6 +729,23 @@ Se trata de las reglas o  el estándar que define la sintaxis, semántica y sinc
 
 Para las computadoras, el protocolo de comunicación determina cómo deben circular los mensajes dentro de una red. Cuando la circulación de la información se desarrolla en internet, existen una serie de protocolos específicos que posibilitan el intercambio. Los más importantes son los TCP/IP
 
+Los protocolos pueden ser muy diferentes entre sí, pero suelen tener al menos las siguientes propiedades:
+
+- Detección de la conexión física subyacente
+- Negociación de características de conexión
+- Política de corrección de errores
+- Establecimiento de la conexión y su término
+- Qué hacer en caso de pérdida repentina de la conectividad
+- Estrategias de seguridad o cifrado
+- Formato de los mensajes
+
+Algunos ejemplos de protocolos informáticos son:
+
+- FTP (File Tranfer Protocol): para subir o descargar archivos a altas velocidades. Prioriza efectividad frente a seguridad
+- DNS( Domain Name Service): permite conectar una URL con la ruta específica en donde se hallan los recursos y la información a mostrar
+- HTTP(HyperText Transfer Protocol): establece los hipertextos o saltos informativos entre una página y otra, además de ser un lenguaje de programación para el diseño de páginas web
+- POP(Post Office Protocol): para servicios de correo electrónico. Permite recuperar los mensajes almacenados en un servidor remoto (servidor POP), especialmente en conexiones intermitentes o muy lentas
+
 ---
 
 # Protocolo-TCP/IP
@@ -720,16 +763,28 @@ En el modelo OSI, los protoclos se situan en las capas 3 y 4 de transporte y red
 
 Su modelo se divide en cuatro capas diferenciadas. Cuando se emplean juntas se puede referir a ellas como un paquete de ptotocolos
 
-**Capa de enlace de datos :** es la que maneja las partes físicas del envío y recepción de datos mediante cable Ethernet, la red inalámbrica, la tarjeta de interfaz de red, el controlador del dispositivo en el equipo,...
+**Capa de enlace de datos :** es la que maneja las partes físicas del envío y recepción de datos mediante cable Ethernet, la red inalámbrica, la tarjeta de interfaz de red, el controlador del dispositivo en el equipo,... Especifica el modo en que los datos deben enrutarse independientemente del tipo de red utilizado.
 
-**Capa de internet:** controla el movimiento de los paquetes alrededor de la red
+**Capa de internet:** controla el movimiento de los paquetes alrededor de la red. Proporciona los datagramas o paquetes de datos, unidad mínima de información en una red, y administra las direcciones IP. Es considerada la capa más importante y engloba protocolos como IP, ARP,ICMP,IGMP y RARP.
 
 **Capa de transporte**: proporciona una conexión de datos fiable entre dispositivos. Divide los datos en paquetes, hace acuse de recibo de los paquetes que recibe del otro dispositivo y se asegura que  el otro dispositivo haga acuse de recibo de los paquetes que recibe.
 
 **Capa de aplicaciones**: es del grupo de aplicaciones que requiere comunicación de red. Es con lo que el usuario interactua, como correo electrónico  y la mensajería. Como la capa inferior gestiona los detalles de la comunicación, las aplicaciones no tienen que preocuparse por el
 
----
+### Ventajas
 
+- Es capaz de trabajar sobre una extensa gama de hardware y soporta muchos sistemas operativos (multiplataforma).
+- Es adecuado tanto para grandes y medianas redes como para redes empresariales o domésticas
+- Está diseñado para enrutar y además presenta gran compatibilidad con las herramientas estándar para analizar y monitorizar el funcionamiento de una red.
+- Es el protocolo estándar que se utiliza a nivel mundial para conectarse a internet y a los servidores web
+
+### Desventajas
+
+- No distingue bien entre interfaces, protocolos y servicios lo cual afecta al desarrollo de nuevas tecnologías en TCP/IP
+- En redes con bajo volumen de tráfico puede llegar a ser más lento. En redes con mayor volumen de tráfico, que necesitan gran cantidad de enrutamiento, puede ser mucho más rápido.
+- Cuando se utiliza en servidores de ficheros o de impresión no ofrece un gran rendimiento
+
+---
 # Puertas lógicas
 
 [https://es.wikipedia.org/wiki/Puerta_lógica](https://es.wikipedia.org/wiki/Puerta_l%C3%B3gica)
@@ -867,12 +922,38 @@ En relación al software, una Arduino ejecuta inmediatamente la tarea para la qu
 Existen placas como Arduberry  que permiten conectar shields Arduino a una Raspberry Pi
 
 ---
+# Red-LAN
+
+Red de área local (Local Area Network).  Son  redes de pequeña extensión, donde el  usuario es el dueño de la red con velocidades de 1 a 100 Mbps ethernet. Con fibra óptica podría alcanzar los 1000 Mbps.
+
+Son las de uso más frecuente. Son conjuntos de máquinas interconectadas, ubicadas en extensiones relativamente pequeñas. 
+
+La LAN permite la interacción entre múltiples equipos para compartir datos y recursos. Teóricamente no existe un límite de computadoras que pueden estar conectadas a una LAN, pero con el uso de buenos equipos y excelente organización de red, a partir de los 400 o 500 equipos se percibe degradación en el rendimiento de la red
+
+---
+
+# Red-WAN
+
+Red de área amplia (Wide Area Network). Son redes de gran extendión, dan servicio a múltiples usuarios, atraviesan incluso paises. Un ejemplo de WAN pública es internet.
+
+Son redes LAN y MAN (Metropolitan Area Network) interconectadas entre sí. Sus nodos están separados por distancias que pueden abarcar continentes enteros y no necesitan está conectados físicamente ya que pueden usar servicios de microondas y satelitales.
+
+---
 
 # Repositorio-de-control-de-versiones
 
 Los sistemas de control de versiones son una categoría de herramientas de software que ayudan a un equipo de software a gestionar los cambios en el código fuente a lo largo del tiempo. El software de control de versiones realiza un seguimiento de todas las modificaciones en el código en un tipo especial de base de datos
 
 El repositorio es el lugar en el que se almacenan los datos actualizados e históricos de cambios.
+
+---
+# Router
+
+Dispositivo o componente de red que concecta rutas entre sí. Como un cruce de carreteras. Tiene en memoria una tabla de rutas que sería el equivalente a un panel de señalización.
+
+Los routers utilizados en las casas sirven para crear un punto de acceso que permite conectarse a internet y para generar una red dentro de la casa
+
+El router es la puerta o gateway de una red ya que es un dispositivo que enruta o reenvía datos de una red a otra según su dirección IP. Cuando el router recibe un paquete de datos inspecciona su dirección IP y determina si el paquete va para su propia red o para otra red. Si es para su propia red lo recibe y sino lo envía fuera.
 
 ---
 
@@ -955,6 +1036,13 @@ DML(Data Manipulation Language): permite manipular la informacion
 - Delete para borrar los datos de las tablas
 
 DCL (Data Control Language): permite controlar los permisos de acceso a las bases de datos
+
+---
+# Switch
+
+Es un dispositivo que tiene varios puertos que aceptan conexiones ethernet de diferentes dispositivos de red. Es inteligente ya que puede aprender las direcciones físicas, direcciones mac, de los dispositivos que están conectados almacenándolas en una tabla interna. Cuando un paquete de datos se  envía a un switch, éste solo lo redigirá al puerto de destino deseado.
+
+Se suele utilizar para intercambiar datos dentro de una red de área local cómo una red doméstica o una red de una empresa, pero no se utiliza para intercambiar datos fuera de su propia red.
 
 ---
 
