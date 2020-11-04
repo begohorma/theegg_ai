@@ -53,6 +53,13 @@ En informática y matemática, es una estructura algebraica que esquematiza las 
 
 Un algoritmo es un conjunto de instrucciones o reglas definidas y no ambiguas, ordenada y finitas que permite solucionar un problema, realizar un cómputo, procesar datos y llevar a cabo otras tareas o actividades.
 
+Pueden ser  des distintos tipos:
+
+- Numéricos: resuelven problemas numéricos
+- No numéricos: resuelven problemas no numéricos
+- Graficos: se representan con diagramas de flujo
+- No gráficos: se representan con pseudocódigo
+
 ---
 # Algoritmo-de-cifrado-simétrico
 
@@ -299,6 +306,15 @@ Traducen el código escrito en un lenguaje de  programación al lenguaje de máq
 Permite traducir todo un programa de una sola vez, haciendo una ejecución más rápida y puede almacenarse para usarse luego sin volver a hacer la traducción.
 
 ---
+# Convención-de-programación
+
+Las convenciones de programación son un conjunto de directrices para un lenguaje de programación concreto que recomienda estilo, prácticas, y métodos de programación para cada aspecto de un programa escrito en cada lenguaje. 
+
+Normalmente comprenden gestión de archivos, sangría, comentarios, declaraciones, sentencias, espaciado, convenciones de nombres, buenas prácticas de programación, principios de programación, buenas prácticas de arquitectura, etc. Son las directrices para la calidad estructural del software.
+
+El seguimiento de la convención facilita la legibilidad del código fuente y el mantenimiento del software.
+
+---
 
 # Convertidor-analógico-digital
 
@@ -467,13 +483,19 @@ Las **restricciones** suelen ser:
 ---
 # Funciones-en-programación
 
-En programación, una función es una sección de un programa que calcula un valor de manera independiente al resto del programa.
+En programación, una función es una sección de un programa que ejecuta una tarea determinada de manera independiente al resto del programa.
 
 Una función tiene tres componentes importantes:
 
 - los parámetros, que son los valores que recibe la función  como entrada
 - el código de la función, que son las operaciones que hace la función
 - el resultado (o valor de retorno), que es le valor final que entrega la función
+
+Las variables definidas dentro de las funciones se denominan variables locales y no pueden ser accedidas desde el exterior de la función.
+
+Las variables que se definen fuera de las funciones se denominan variables globales y son accesibles desde cualquier fuera y dentro de las funciones.
+
+Las funciones permiten crear programas o scripts mejor estructurados y más claros, evitando repeticiones innecesarias y facilitando su mantenimiento.
 
 
 ---
