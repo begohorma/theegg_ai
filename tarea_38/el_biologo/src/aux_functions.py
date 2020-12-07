@@ -3,8 +3,13 @@ import re
 
 
 def get_correct_dna_sequence(prompt):
+    value = ""
     while True:
-        value = str(input(prompt)).upper()
+        try:
+            value = str(input(prompt)).upper()
+        except ValueError:
+            print("El valor debe ser una cadena de texto")
+            continue
 
         if chek_dna_sequence(value):
             break
