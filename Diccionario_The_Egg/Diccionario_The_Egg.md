@@ -502,13 +502,17 @@ Las **restricciones** suelen ser:
 
 ---
 
-# Scrapping
+# Expresiones-regulares
 
-El scrapping o web scrapping es una técnica para extraer datos de cualquier página web de forma automatizada usando programas o scripts web que escanean la estructura HTML del sitio web.
+Las expresiones regulares provienen de la matemática teórica, concretamente de la Teoría de Lenguajes Formales, pero se usan mucho en programación.
 
-El scrapping se utiliza junto al web crawling. El scrapping técnicamente es sólo el proceso de descarga de la información. Está más enfocado en la transformación de datos sin enstructura en la web (HTML) en datos estructurados que pueden ser almacenados y analizados en una base de datos central, en una hoja de cálculo o en alguna fuente de almacenamiento.
+Una expresión regular puede pensarse como una palabra, formada por caracteres especiales, que sirve para identificar un conjunto de otras palabras.
 
-El web crawler dirige al web scraper a través de la red para que pueda recabar la información solicitada en un sistema de almacenamiento concreto.
+Las expresiones regulares son herramientas para buscar y encontrar coincidencias en partes de un texto describiendo un patrón que debería usarse para identificar esas partes.
+
+Un expresión regular es un conjunto de símbolos que describen el patrón de texto.
+
+Se utilizan para encontrar coincidencias, buscar y reemplazar texto
 
 ---
 
