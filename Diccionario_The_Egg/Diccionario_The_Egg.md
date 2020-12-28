@@ -315,6 +315,26 @@ Normalmente comprenden gestión de archivos, sangría, comentarios, declaracione
 El seguimiento de la convención facilita la legibilidad del código fuente y el mantenimiento del software.
 
 ---
+# Crawling
+
+El crawling o web crawling es un proceso por el cual un robot web navega sistemáticamente a través de interner explorando webs y siguiendo links con el propósito de recoger el contenido en otro sistema.
+
+Las arañas web o crawlers son programas, robots, que inspeccionan páginas web de forma metódica y automatizada. 
+
+Su funcionamiento es:
+
+- Visitar una serie de URLs.
+- Descargar el contenido de esas páginas utilizando web scraping
+- Identificar los hiperenlaces
+- Visitar recursivamente los hiperenlaces
+- Descargar el contenido de las nueva páginas
+- Analizar los nuevos enlaces
+- Repite el proceso con todas la urls obtenidas
+- Devuelve una base de datos estructurada con los resultados
+
+![web crawling](Diccionario_The_Egg/web_crawling.png)
+
+---
 
 # Convertidor-analógico-digital
 
@@ -481,6 +501,17 @@ Las **restricciones** suelen ser:
 - Intergridad referencial
 
 ---
+
+# Scrapping
+
+El scrapping o web scrapping es una técnica para extraer datos de cualquier página web de forma automatizada usando programas o scripts web que escanean la estructura HTML del sitio web.
+
+El scrapping se utiliza junto al web crawling. El scrapping técnicamente es sólo el proceso de descarga de la información. Está más enfocado en la transformación de datos sin enstructura en la web (HTML) en datos estructurados que pueden ser almacenados y analizados en una base de datos central, en una hoja de cálculo o en alguna fuente de almacenamiento.
+
+El web crawler dirige al web scraper a través de la red para que pueda recabar la información solicitada en un sistema de almacenamiento concreto.
+
+---
+
 # Funciones-en-programación
 
 En programación, una función es una sección de un programa que ejecuta una tarea determinada de manera independiente al resto del programa.
@@ -737,6 +768,44 @@ Algunas de las bases de datos NoSQL más reconocidas en la actualidad son: Mongo
 En informática periférico es la denominación genérica de cualquier aparato o dispositivo  auxiliar e independiente que se conecta a la CPU de una computadora y se comunica con ella. Ejemplos: teclado, ratón, monitor, altavoces, auriculares, hubs, impresoras, ... 
 
 ---
+# Procesamiento-del-lenguaje-natural
+
+El procesamiento del lenguaje natural (PLN) es el campo de conocimiento de la Inteligencia Artificial que se ocupa de investigar la manera de comunicar las máquinas con las personas mediante el uso de lenguajes naturales, como el español, el inglés o el chino.
+
+Las lenguas humanas pueden expresarse por escrito (texto), oralmente (voz) y también mediante signos. el PLN está más avanzado en el tratamiento de textos donde hay muchos más datos y son más fáciles de conseguir en formato electrónico.
+
+Los audios, aunque estén en formato digital, hay que procesarlos para transcribirlos en letras o caracteres y generar la pregunta a entender. El proceso de respuesta es el inverso: primero se elabora la oración en texto y luego se sintetiza la voz.
+
+## Modelos
+
+Para tratar computacionalmente un lenguaje natural es necesario un proceso de modelización matemática. 
+
+Hay dos aproximaciones:
+
+- Modelos Lógicos: gramáticas
+
+    Estos modelos pretenden reflejar la estructura lógica del lenguaje.
+
+    Los lingüistas escriben reglas de reconocimiento de patrones estructurales, empleando un formalismo gramatical concreto.Estas reglas combinadas con la información de diccionarios computaciones definen los patrones que hay que reconocer para resolver la tarea( buscar información, traducir, etc.)
+
+- Modelos probabilísticos basados en datos
+
+    Es el paradigma de "aprendizaje automático", los algoritmos infieren las posibles respuestas a partir de los datos observados anteriormente en el corpus
+
+    Los lingüistas recogen colecciones de ejemplos y datos (corpus) y a partir de ellos calculan las frecuencias de diferentes unidades lingüísticas (letras, palabras, oraciones) y su probabilidad de aparecer en un contexto determinado. Calculando esta probabilidad, se puede predecir cuál será la siguiente unidad en un contexto dado, sin necesidad de recurrir a reglas gramaticales explícitas
+
+## Componentes
+
+Dependiendo del objetivo de la tarea de PLN se aplican los análisis necesarios. 
+
+- **Análisis morfológico o léxico:** análisis interno de las palabras de las oraciones para extraer lemas, rasgos flexivos y unidades léxica compuestas. Esencial para la información básica: categoría sintáctica y  significado léxico
+- **Análisis sintáctico**: análisis de la estructura de las oraciones de acuerdo con el modelo gramatical empleado (lógico o estadístico)
+- **Análisis semántico**: proporciona la interpretación de las oraciones, una vez eliminadas las ambigüedades mofosintácticas
+- **Análisis pragmático**: incorpora  el análisis del contexto de uso a la interpretación final. Incluye el tratamiento del lenguaje figurado (metáfora e ironía) como conocimiento del mundo específico necesario para entender un texto especializado.
+
+Un conversor de texto a voz no necesita el análisis semántico o pragmático, pero un sistema conversacional requiere información muy detallada del contexto y del dominio temático.
+
+---
 
 # Programación
 
@@ -976,6 +1045,15 @@ Dispositivo o componente de red que concecta rutas entre sí. Como un cruce de c
 Los routers utilizados en las casas sirven para crear un punto de acceso que permite conectarse a internet y para generar una red dentro de la casa
 
 El router es la puerta o gateway de una red ya que es un dispositivo que enruta o reenvía datos de una red a otra según su dirección IP. Cuando el router recibe un paquete de datos inspecciona su dirección IP y determina si el paquete va para su propia red o para otra red. Si es para su propia red lo recibe y sino lo envía fuera.
+
+---
+# Scrapping
+
+El scrapping o web scrapping es una técnica para extraer datos de cualquier página web de forma automatizada usando programas o scripts web que escanean la estructura HTML del sitio web.
+
+El scrapping se utiliza junto al web crawling. El scrapping técnicamente es sólo el proceso de descarga de la información. Está más enfocado en la transformación de datos sin enstructura en la web (HTML) en datos estructurados que pueden ser almacenados y analizados en una base de datos central, en una hoja de cálculo o en alguna fuente de almacenamiento.
+
+El web crawler dirige al web scraper a través de la red para que pueda recabar la información solicitada en un sistema de almacenamiento concreto.
 
 ---
 
