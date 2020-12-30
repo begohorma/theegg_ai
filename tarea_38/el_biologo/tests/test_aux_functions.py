@@ -23,7 +23,7 @@ test_data_invalid = [
 @pytest.mark.parametrize("seq", test_data_valid)
 def test_correct_dna_sequence(seq):
     output = chek_dna_sequence(seq)
-    assert output is True
+    assert output is True()
 
 
 @pytest.mark.parametrize("seq", test_data_invalid)

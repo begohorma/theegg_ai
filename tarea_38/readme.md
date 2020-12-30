@@ -29,6 +29,7 @@ Cuando no se encuentran más caracteres comunes se compara la *nueva_candidata* 
 
 ![biologo_diagrama_flujo](el_biologo/img/biologo_flowchart.png)
 
+
 ##Ejecución
 
 El código fuente se encuentra dentro de la carpeta src y los tests dentro de la carpeta test.
