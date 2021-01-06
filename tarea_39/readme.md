@@ -127,7 +127,7 @@ En un ordenador en el que esté instalado el simulador Packet Tracer abrir los a
 Abrir el archivo `Red_con_servidor_DCHP.pkt`
 Desde la consola de comandos de uno de los PCs se puede comprobar la configuración IP del PC y la conexión con otro PC y el gateway
 
-![Red_2_Consola](img/simulador_redes_red_2_Consola.png)
+![Red_2_Consola](img/simulador_redes_red_2_consola.png)
 
 
 ## Red VLAN básica
