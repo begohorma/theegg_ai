@@ -1034,6 +1034,24 @@ Red de área amplia (Wide Area Network). Son redes de gran extendión, dan servi
 Son redes LAN y MAN (Metropolitan Area Network) interconectadas entre sí. Sus nodos están separados por distancias que pueden abarcar continentes enteros y no necesitan está conectados físicamente ya que pueden usar servicios de microondas y satelitales.
 
 ---
+# Redes informáticas
+
+Las redes informáticas, redes de comunicaciones de datos o redes de computadoras son un número de sistemas informáticos conectados entre sí mediante una serie de dispositivos alámbricos o inalámbricos, gracias a los cuales pueden compartir información en paquetes de datos, transmitidos mediante impulsos eléctricos, ondas electromagnéticas o cualquier otro medio físico.
+
+Según su tamaño se clasifican en:
+
+- Redes LAN: De área local
+- Redes MAN: De área metropolitana
+- Redes WAN: De área amplia
+
+Según la tecnología de conexión se clasifican en:
+
+- Redes de medios guiados: las computadoras se entrelazan con algún sistema físico de cables como el par trenzado, el cable coaxial o la fibra óptica
+- Redes de medios no guiados: las computadoras se conectan a través de medios dispersos y de alcance de área, como las ondas de radio, el infrarrojo o las microondas
+
+Otras posibles clasificaciones son según la topología, la relación  funcional o la direccionalidad de los datos.
+
+---
 
 # Repositorio-de-control-de-versiones
 
