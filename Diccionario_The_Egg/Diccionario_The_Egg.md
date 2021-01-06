@@ -248,7 +248,17 @@ Algunos ejemplos son: Neo4j y Amazon Neptune
 
 ---
 
-# Bucles
+# Bases-de-datos-relacionales
+
+Una base de datos relacional es un tipo de base de datos que almacena y proporciona acceso a puntos de datos relacionados entre sí. Se basan en el modelo relacional, una forma intuitiva y directa de representar datos en tablas. 
+
+En una base de datos relacional, cada fila en una tabla es un registro con una ID única, llamada clave. Las columnas de la tabla contienen los atributos de los datos y cada registro suele tener un valor para cada atributo, lo que simplifica la creación de las relaciones entre los puntos de datos.
+
+El modelo relacional implica que las estructuras lógicas de los datos (tablas, vistas e índices) estén separadas de las estructuras de almacenamiento físico.
+
+---
+
+# Bucles, Bucles-en-programación
 
 Un bucle en programación es una secuencia que repite varias veces un mismo trozo de código, hasta que la condición asignada al bucle deja de cumplirse. Los bucles más usados son 
 
@@ -732,6 +742,18 @@ Antes de enviar un paquete la computadora realiza la operación lógica AND, bit
 
 ---
 
+# MySQL
+
+MySQL es el SGBD( Sistema de Gestión de Base de Datos) de código abierto más utilizado a nivel global. Desde que pasa a las manos de Oracle, se distribuye con una licencia dual. Sus  primeros desarrolladores siguen encargándose del proyecto, ahora bajo el nombre de MariaDB.
+
+---
+
+# MongoDB
+
+Es un sistema de base de datos NoSQL, orientado a documentos y de código abierto. En lugar de guardar los datos en tablas, como se hace en las bases de datos relacionales, guarda estructuras de datos BSON (una especificación similar a JSON) con un esquema dinámico, haciendo que la integración de los datos en ciertas aplicaciones sea más fácil y rápida.
+
+---
+
 
 # NoSQL
 
@@ -772,6 +794,13 @@ Algunas de las bases de datos NoSQL más reconocidas en la actualidad son: Mongo
 En informática periférico es la denominación genérica de cualquier aparato o dispositivo  auxiliar e independiente que se conecta a la CPU de una computadora y se comunica con ella. Ejemplos: teclado, ratón, monitor, altavoces, auriculares, hubs, impresoras, ... 
 
 ---
+
+# PostgreSQL
+
+Es un sistema de gestión de bases de datos relacional orientado a objetos y de código abierto. Es gratuito y libre y de su desarrollo se ocupa la comunidad open source.
+
+---
+
 # Procesamiento-del-lenguaje-natural
 
 El procesamiento del lenguaje natural (PLN) es el campo de conocimiento de la Inteligencia Artificial que se ocupa de investigar la manera de comunicar las máquinas con las personas mediante el uso de lenguajes naturales, como el español, el inglés o el chino.
