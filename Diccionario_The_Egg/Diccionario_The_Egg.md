@@ -10,6 +10,19 @@ Como reconocimiento a sus aportaciones a la informática el departamento de defe
 El segundo martes de octubre se celebra el día de Ada Lovelace para reivindicar la presencia de las mujeres en ciencia, tecnología, ingeniería y matemáticas.
 
 ---
+
+# AJAX
+
+Es el acrónimo de Asynchronous Javascript And XML(Javascript asíncrono y XML). Es una técnica de desarrollo web para crear aplicaciones interactivas o RIA (Rich Internet Applications). Estas aplicaciones se ejecutan en le lado del cliente, el navegador, mientras se mantiene la comunicación asíncrona con el servidor en segundo plano. De esta forma es posible realizar cambios sobre las páginas sin necesidad de recargarlas, mejorando la interactividad, velocidad y usabilidad de las aplicaciones.
+
+Ajax es una tecnología asíncrona, en el sentido en que los datos adicionales se solicitan al servidor y se cargan en segundo plano sin interferir en la visualización ni el comportamiento de la página.
+
+Javascript es un leguaje interpretado con el que normalmente se realizan las llamadas de Ajax. El acceso a los datos se realiza mediante XMLHttpRequest que es un objeto disponible en los navegadores actuales. El contenido asíncrono no es necesario que esté formateado en XML.
+
+Es una técnica válida para múltiples plataformas, sistemas operativos y navegadores ya que está basado en estándares abiertos como JavaScript y Document Model (DOM)
+
+---
+
 # Algebra-booleana
 
 El álgebra booleana fue inventada en 1854 por el matemático ingles George Boole. Es un método para simplificar los circuitos lógicos en electrónica digital.
@@ -101,6 +114,88 @@ Para que un algoritmo asimétrico sea considerado seguro debe cumplir que:
 - Si los datos han sido cifrados con la clave pública, sólo debe existir una clave privada capaz de descifrarlo y viceversa.
 
 ---
+
+# Algoritmos-de-ordenación
+
+Un  algoritmo de ordenación pone elementos de una lista o vector en una secuencia dada por una relación de orden. Las relaciones de orden más usadas son el orden numérico y lexicográfico. Conseguir ordenamientos eficientes es importante para otros algoritmos como los de búsqueda y fusión que utilizan listas ordenadas para una ejecución rápida.
+
+El caso promedio del coste de ordenar un vector de n elementos se calcula suponiendo que el vector corresponde a una permutación aleatoria de sus elementos
+
+## Algunos algoritmos de ordenación
+
+### Bubblesort (Burbuja):
+
+**Complejidad**: O(n^2) **Memoria**: O(1) **Método**: Intercambio
+
+Se basa en comparar elementos adyacentes de la lista e intercambiar sus valores si están desordenados. Los valores más pequeños burbujean hacia el primer elemento de la lista mientras que los más grandes se hunden al final de la lista. Hay que comprobar varias veces la lista hasta que no sean necesarios más intercambios. También se le conoce como el método de intercambio directo.
+
+### Insertion sort (por inserción):
+
+**Complejidad**: O(n^2) **Memoria**: O(1) **Método**: Inserción
+
+Inicialmente se tiene un sólo  elemento, que es un conjunto ordenado. Después, cuando hay k elementos ordenados se toma el k+1 y se compara con todos los elementos ya ordenados, deteniéndose cuando se encuentra un elemento menor (todos los elementos mayores se desplazan una posición a la derecha) o cuando ya no se encuentra elementos(se desplazan todos los elementos y éste es el más pequeño). En ese punto se inserta el elemento k+1 parando el desplazamiento de los demás elementos
+
+### Shell sort :
+
+**Complejidad**: O(n^1,25) **Memoria**: O(1) **Método**: Inserción
+
+Es una generalización del insertion sort teniendo en cuenta dos observaciones:
+
+- El ordenamiento por inserción es eficiente si la entrada está "casi ordenada"
+- El ordenamiento  por inserción es ineficiente, en general, porque mueve los valores sólo una posición cada vez.
+
+Mejora el ordenamiento por inserción comparando elementos separados por  un espacio de varias posiciones. Esto permite que un elemento haga "pasos más grandes" hacia su posición esperada. Los pasos múltiples se hacen con tamaños de espacio cada vez más pequeños. El último paso es un simple ordenamiento por inserción.
+
+### Quick sort (rápido):
+
+**Complejidad**: O(n^2) peor caso. O(n log n) promedio. **Memoria**: O(log n) **Método**: partición.
+
+Trabaja de la siguiente forma:
+
+- Se elige un elemento del conjunto de elementos a ordenar al que se le llama pivote
+- Se recolocan los demás elementos de la lista a cada lado del pivote de manera que a un lado quedan los menores y al otro los mayores. Los elementos iguales al pivote pueden colocarse a la derecha o a la izquierda. En ese momento el pivote ocupa la posición que le corresponde en la lista ordenada.
+- Se separa la lista original en dos sublistas, una la de los elementos de la derecha del pivote y otra la de los elementos de la izquierda del pivote.
+- Se repite el proceso de forma recursiva para cada sublista mientras tengan más de un elemento.
+- Una vez terminado el proceso todos los elementos estarán ordenados.
+
+La eficiencia del algoritmo depende de la posición en la que termine el pivote.
+
+- Mejor caso: termina en el centro de la lista, dividiéndola en dos sublistas del mismo tamaño. O(n log n)
+- Peor caso: termina  en un extremo de la lista. O(n^2)
+- Promedio: O( n log n)
+
+### Merge sort (mezcla):
+
+**Complejidad**: O(n log n) **Memoria**: O(n) **Método**: mezcla
+
+Funciona de la siguiente manera:
+
+- Si la longitud de la lista es 0 ó 1, ya está ordenada. En otro caso:
+- Dividir la lista desordenada en dos sublistas de aproximadamente la mitad del tamaño.
+- Ordenar cada sublista, recursivamente aplicando el merge sort
+- Mezclar las dos sublistas en una lista ordenada.
+
+El ordenamiento por mezcla incorpora dos ideas principales para mejorar su tiempo de ejecución:
+
+- Una lista pequeña necesitará menos pasos para ordenarse que una grande
+- Se necesitan menos pasos para construir una lista ordenada a partir de dos listas ordenadas, que a partir de dos listas desordenadas.
+
+### Heap sort (montículos) :
+
+**Complejidad**: O(n log n) **Memoria**: O(1) **Método**: selección
+
+Consiste en almacenar todos los elementos del vector en un montículo (heap) y luego extraer el nodo que queda como nodo raiz del montículo (cima) en sucesivas iteraciones obteniendo el conjunto ordenado. El móntículo (heap) es un árbol binario con la propiedad de que en la cima contiene siempre el menor elemento ( o el mayor, según se defina el montículo) de todos los elementos almacenados en él.
+
+El algoritmo, después de cada extracción, recoloca en el nodo raiz la última hoja por la derecha del último nivel, lo que destruye la propiedad del heap. Pero, a continuación realiza un proceso de "descenso" del número insertado de forma que se elige en cada movimiento el mayor de sus dos hijos con el que se intercambia. Este intercambio, realizado sucesivamente "hunde" el nodo en el árbol, restaurando la propiedad del heap y dejando paso a la siguiente extracción del nodo raiz.
+
+### Binary Tree (árbol binario):
+
+**Complejidad**: O(n log n) **Memoria**: O(n) **Método**: Inserción
+
+Ordena los elementos haciendo uso de un árbol binario de búsqueda (ABB/BST). Se basa en ir construyendo poco a poco el árbol binario introduciendo cada uno de los elementos de forma que queden ordenados. La  lista de elementos ordenados se obtiene recorriendo el árbol en *inorden.*
+
+---
+
 # API
 
 Una API (Application Programming Interface / Interfaz de programación de aplicaciones) es un conjunto de subrutinas, funciones y procedimientos que ofrece cierta biblioteca para ser utilizado por otro software como una capa de abstracción. 
@@ -207,6 +302,21 @@ Al contrario que en la arquitectura von Neumann, una computadora con la arquitec
 
 ---
 
+# Asíncrono
+
+Algo asíncrono es que no tiene lugar en completa correspondencia temporal con otro proceso o con la causa que lo produce. 
+
+Un comunicación asíncrona es la que se establece de manera diferida en el tiempo, es decir, no existe coincidencia temporal o no hay intervención de las dos partes. 
+
+Elementos de la comunicación asíncrona
+
+- **Emisor**: envía la información sabiendo que no obtendrá una respuesta inmediata
+- **Receptor**: será consciente de la llegada del mensaje solo cuando acceda al canal especificado
+- **Cana**l: Es el medio físico acordado por ambas  partes por el que se transmite el mensaje, debe ser perdurable en el tiempo ya que el mensaje se almacenará allí durante un tiempo indefinido
+- **Código**: Debe ser perdurable en el tiempo, compartido entre los elementos de la comunicación y contar con un soporte físico para su almacenamiento
+
+---
+
 # Bases-de-datos
 
 Una base de datos es un conjunto de datos pertenecientes a un mismo contexto y almacenados sistemáticamente para su posterior uso. Actualmente la mayoría de  las bases de datos están en formato digital. 
@@ -308,6 +418,14 @@ Un bucle en programación es una secuencia que repite varias veces un mismo troz
 
 
 ---
+# Código-fuente
+
+El código fuente de un programa informático es un conjunto de líneas de texto con los pasos que debe seguir la computadora para ejecutar el programa. Está escrito por un programador en algún lenguaje de programación, pero para poder ser ejecutado por la computadora tiene que ser traducido a lenguaje máquina o código binario utilizando compiladores, ensambladores, interpretes y otros sistemas de traducción.
+
+El termino código fuente también se usa para hacer referencia al código fuente de otros elementos de software, como el código fuente de una página web, la cual está escrita en lenguaje HTML, o en javascript, u otros lenguajes de programación web, y que posteriormente es ejecutado por el navegador web para visualizar la página cuando es visitada.
+
+---
+
 
 # Compilador
 
@@ -589,6 +707,18 @@ El protocolo que usa internet para establecer las reglas de comunicación es IP 
 
 ---
 
+# Interfaz
+
+Una interfaz se utiliza en informática para nombrar a la conexión entre dos sistemas, programas, dispositivos o componentes de cualquier tipo, que proporciona una comunicación de distintos niveles, permitiendo el intercambio de información. 
+
+Algunos ejemplos de interfaces informáticas son:
+
+- interfaces de usuario (entre computadora y usuario): la pantalla, el ratón, la ventana gráfica de un programa
+- interfaces físicas(entre dispositivos) : el SCSI, USB
+- interfaces lógicas(entre programas):  API, DOM
+
+---
+
 # Interprete
 
 También conocido como traductor ya que traduce programas escritos en un lenguaje de programación  al lenguaje máquina de la computadora y se ejecuta a medida que se va traduciendo 
@@ -752,6 +882,59 @@ MySQL es el SGBD( Sistema de Gestión de Base de Datos) de código abierto más 
 
 Es un sistema de base de datos NoSQL, orientado a documentos y de código abierto. En lugar de guardar los datos en tablas, como se hace en las bases de datos relacionales, guarda estructuras de datos BSON (una especificación similar a JSON) con un esquema dinámico, haciendo que la integración de los datos en ciertas aplicaciones sea más fácil y rápida.
 
+---
+
+# Notación-asintótica
+
+Las notaciones asintóticas son lenguajes que permiten analizar el tiempo de ejecución de un algoritmo identificando su comportamiento si el tamaño de entrada para el algoritmo aumenta. También conocido como tasa de crecimiento de un algoritmo.
+
+Las notaciónes asintóticas expresan el tiempo de ejecución con funciones matemáticas.
+
+Hay varias notaciones asintóticas:
+
+- **Big-O**: es una notación asintótica para el peor caso, o el techo de crecimiento para una función determinada. De cota superior. Se busca que la cota superior sea lo más baja posible.
+- **Big-Omega**: es una notación asintótica para el mejor caso, o el piso en el crecimiento de una función dada. De cota inferior. Se busca que la cota inferior sea lo más alta posible
+- **Big-Theta**:  es una notación asintótica que tiene en cuenta tanto el límite superior como el inferior. Es más precisa, pero más difícil de calcular. De cota ajustada
+
+---
+
+# Notación-Big-O
+
+La notación Big O es una herramienta para determinar la complejidad de un algoritmo, permitiendo medir su rendimiento en cuanto a uso de espacio en disco, recursos(memoria y ciclos de reloj de CPU) y tiempo de ejecución, entre otras, ayudando a identificar el peor escenario donde el algoritmos llegue a su más alto punto de exigencia.
+
+La notación Big-O proporciona una manera de saber cómo se va a comportar un algoritmos en  función de los argumentos que se le pasen y la escala de los mismos
+
+Los términos de complejidad Big O más utilizados son:
+
+- **O(1) : constante**
+
+    Sin importar el tamaño de la entrada o la salida, el tiempo de ejecución y recursos utilizados por el algoritmo es siempre el mismo. Ejemplo: función que devuelve el último elemento de un array pasado como parámetro
+
+- **O(n): linear**
+
+    El tiempo de ejecución y/o uso de recursos es directamente proporcional al tamaño del valor de entrada necesario para la ejecución del algoritmo. Crece en una línea recta. Ejemplo: función que imprime todos los elementos de un array pasado como parámetro.
+
+- **O(log n): logarítmica**
+
+    El tiempo de ejecución y/o uso de recursos es directamente  proporcional al resultado logarítmico del tamaño del valor de entrada. Se asocia con algoritmos que "trocean" el problema para abordarlo. Ejemplo: algoritmo de búsqueda binaria
+
+- **O(n^2): cuadrática**
+
+    El tiempo de ejecución y/o uso de recursos es directamente proporcional al cuadrado del tamaño del valor de entrada. Es típico de algoritmos que necesitan realizar una iteración por todos los elementos en cada uno de los elementos a procesar. La complejidad puede incrementarse con mas ciclos anidados, hasta llegar a ser una complejidad de n*n. Ejemplo: algoritmos de ordenamiento de datos como el método de la burbuja, el de inserción y el método de selección.
+
+- **O(2^n): exponencial**
+
+    El tiempo de ejecución y/o uso de recursos se incrementa al doble cada vez que se agregue un nuevo dato al valor de entrada, es decir se incrementa de manera exponencial.   Ejemplo: cálculo recursivo de la sucesión de Fibonacci que es muy poco eficiente. Se calcula llamándose a si misma la función con los dos números anteriores F(n) = F(n-1) +F(n-2)
+
+- **O(n!): factorial**
+
+    El tiempo de ejecución y/o uso de recursos incrementa de forma factorial al tamaño de los datos de entrada. Son algoritmos fallidos. Suelen ser algoritmos que tratan de resolver algo por fuerza bruta
+
+ ![Diagrama de complejidad Big O](Diccionario_The_Egg/Big_O_Comlexity_chart.png)
+ 
+ ![Big O CheatSheet](Diccionario_The_Egg/Big_O_CheatSheet.png)
+ 
+ 
 ---
 
 
@@ -1113,6 +1296,13 @@ El web crawler dirige al web scraper a través de la red para que pueda recabar 
 Almacena todos los archivos  propios de una página web ( texto, imagen, video, etc.) y los muestra a los clientes a través de los navegadores. Utiliza el protocolo HTTP (Hyper Text Transfer Protocol). 
 
 HTTP está diseñado para transferir lo que llamamos hipertextos, páginas web o páginas HTML (Hyper Text Markup Language)
+
+---
+# Síncrono
+
+Que se desarrolla en perfecta correspondencia temporal con otro proceso o causa.
+
+La comunicación síncrona es el intercambio de información en tiempo real, de forma simultánea. Es necesario que alguien emita y alguien reciba a la vez, por lo que tanto el emisor como el receptor tienen que estar pendientes a la vez de la comunicación.
 
 ---
 
