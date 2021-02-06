@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5, la revolución de los navegadores</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/reproductor.css" rel="stylesheet" type="text/css">
+    <script src="js/reproductor.js"></script>
+</head>
+<body>
+    <header>HTML5, la revolución de los navegadores</header>
+    <main>
+        <section>
+        <div>
+            <p>Página realizada para familiarizarse con los conceptos básicos del diseño web.
+                Se incluyen pequeños articulos en los que se practican y explican los conceptos requeridos
+                en la tarea
+                <ul>
+                    <li>Etiquetas Html 5 para una página web básica</li>
+                    <li>Uso de CSS para dar formato básico como color</li>
+                    <li>Insertar videos de Youtube</li>
+                    <li>Uso básico de la etiqueta video de Html 5</li>
+                    <li>Control por voz del play y pause de un video</li>
+                </ul>
+            </p>
+        </div>
+        </section>
+        <section id  ="articulos">
+            <article>
+                <h1>Normalice CSS - Unificar estilo de todos los navegadores </h1>
+                <p>Los navegadores tienen un conjunto predeterminado de estilos CSS que utilizan para representar los
+                    elementos. Estos estilos son distintos en cada navegador por lo que una misma página puede verse y
+                    comportarse de forma diferente dependiendo del navegador utilizado.
+                </p>
+                <p>
+                    El fichero <a href="http://necolas.github.io/normalize.css/" >normalize.css</a> anula las
+                    inconsistencias más comunes entre los estilos de los navegadores y corrige errores conocidos.
+                    Esto permite mantener los estilos similares en los navegadores y que la web se vea igual
+                    independientemente del navegador utilizado
+                </p>
+                <h2>¿Qué hace?</h2>
+                    <ul>
+                        <li> Preserva los valores predetermiados por defecto de los navegadores a diferencia de algunos CSS
+                        reset</li>
+                        <li> Normaliza estilos para un amplio rango de navegadores</li>
+                        <li> Corrige errores e inconsistencias de los navegadores</li>
+                        <li> Mejora la usabilidad con modificaciones sutiles</li>
+                    </ul>
+                <h2> ¿Cómo utilizarlo?</h2>
+                <ol>
+                    <li> Descargar el fichero de la <a href="http://necolas.github.io/normalize.css/" >página oficial</a>
+                        y colocarlo en la carpeta de los css del proyecto web
+                    </li>
+                    <li>Crear la referencia en el <code> &lt;head&gt;</code> del documento html:
+                            <code>
+                                &lt;link href="css/normalize.css" rel="stylesheet" type="text/css"&gt;
+                            </code>
+                    </li>
+                </ol>
+            </article>
+            <article>
+                <h1>Insertar videos de Youtube </h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/91CxoB6DHHY" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                </iframe>
+                <p>Para insertar videos de Youtube se utiliza el código de inserción que proporciona Youtube en la
+                    opción  compartir de cada video. Éste código no utiliza la etiqueta <code> &lt;video&gt; </code>
+                    sino que utiliza <code> &lt;iframe&gt; </code> </p>
+            </article>
+            <article>
+                <h1> Uso básico de la etiqueta video HTML5</h1>
+                <video src="video/Robots.mp4" width="720" height="400" controls></video>
+                <p>
+                    Para insertar un video del que disponemos la ruta completa podemos utlizar la etiqueta
+                    <code> &lt;video&gt; </code> en la que se especifica la ruta del video en el atributo <b>src</b>.
+                </p>
+                <p>
+                Otros atributos básicos del video son <b>width</b> y <b>height</b> para especificar el ancho y alto
+                del video respectivamente. El atributo <b>controls</b> muestra los controles para que el usuario
+                pueda controlar el vídeo.</p>
+
+            </article>
+            <article>
+                <h1>Control de video por voz</h1>
+                <div id="reproductor">
+                   <!-- <video id="media" src="video/Robots.mp4" width="720" height="400" controls></video>-->
+                    <video id="media" src="video/big-buck-bunny.mp4" width="720" height="400" controls></video>
+                    <nav>
+                        <div id="botones">
+                            <input type="button" id="btnReproducir" value =">" onclick="reproducir()">
+                            <input type="button" id="escuchar" value = "Comenzar reconocimiento voz " onclick="reconocer()">
+                            <input type="text" id="txtStatus">
+                            <input type="text" id="txtResult">
+                        </div>
+                    </nav>
+                </div>
+
+                <p>
+                    El boton <b>">"</b> permite iniciar y parar la reproducción del video de forma manual.
+                </p>
+                <p>
+                    Pulsar el botón <b>"Comenzar reconocimiento voz"</b> para que el navegador comience a escuchar.
+                    Dar permiso al uso del micrófono si se solicita.
+                    En la etiqueta de la derecha se mostrará el mensaje <b>"Escuchando"</b> cuando el reconocedor de voz
+                    esté activo.
+                </p>
+                <p>
+                    Decir:
+                    <ul>
+                        <li><b> "Reproducir"</b>:  para que se inicie la reproducción del video.</li>
+                        <li><b> "Parar</b>:  para detener la reproducción del video.</li>
+                    </ul>
+                </p>
+            </article>
+           <!-- <article>
+                <div class="example">
+                    <textarea id="texto"></textarea>
+                    <button onclick="procesar()" id="procesar">Escuchar</button>
+                </div>
+            </article>-->
+        </section>
+
+    </main>
+</body>
+</html>

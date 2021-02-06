@@ -1,0 +1,35 @@
+/**{
+    box-sizing: border-box;
+}*/
+body{
+    font-family: "OpenSansRegular",Arial,Helvetica,sans-serif !important;
+
+}
+header{
+    background-color: #003d8d;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    color:white;
+    padding: 2rem 4.5rem;
+}
+main{
+    display: block;
+    align-content:center;
+    margin:2rem 4.5rem;
+}
+
+h1{
+    color: darkblue;
+    padding: 40px 0 10px;
+
+}
+h2,a {
+    color: #003d8d;
+
+}
+
+code {
+    background-color: whitesmoke;
+}
+
