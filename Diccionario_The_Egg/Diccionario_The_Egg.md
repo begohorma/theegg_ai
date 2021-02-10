@@ -418,6 +418,32 @@ Un bucle en programación es una secuencia que repite varias veces un mismo troz
 
 
 ---
+
+# Búsqueda-binaria
+
+Se utiliza cuando el vector en el que se busca está previamente ordenado. 
+
+Para implementarlo se compara el  elemento a buscar con un elemento cualquiera del vector, normalmente con el elemento central. Si el valor es mayor que el elemento buscado se repite el proceso en la parte del vector que va del principio hasta ese elemento. Si es menor el proceso se repite en la parte del vector que va desde el elemento hasta el final. De esta manera cada vez se tienen intervalos más pequeños hasta llegar a uno indivisible. Si el elemento no está en éste entonces se deduce que el elemento a buscar no está en el vector.
+
+Este algoritmo reduce el tiempo de búsqueda considerablemente, ya que disminuye exponencialmente el número de iteraciones necesarias. Su complejidad es O(log n)
+
+### Pseudocódigo
+
+![Búsqueda binaria](Diccionario_The_Egg/busqueda_binaria_pseudocodigo.png)
+
+---
+
+# Búsqueda-secuencial
+
+Consiste en ir comparando el elemento a buscar con cada elemento del vector hasta encontrarlo o hasta llegar al final. Se puede saber que el elemento existe cuando se encuentra, pero no se puede saber si no existe hasta que se llega al final del vector. Se puede usar tanto si el vector está  ordenado como si no lo está. Su complejidad es O(n)
+
+### Pseudocódigo
+
+![Búsqueda secuencial](Diccionario_The_Egg/busqueda_secuencial_pseudocodigo.png)
+
+---
+
+
 # Código-fuente
 
 El código fuente de un programa informático es un conjunto de líneas de texto con los pasos que debe seguir la computadora para ejecutar el programa. Está escrito por un programador en algún lenguaje de programación, pero para poder ser ejecutado por la computadora tiene que ser traducido a lenguaje máquina o código binario utilizando compiladores, ensambladores, interpretes y otros sistemas de traducción.
