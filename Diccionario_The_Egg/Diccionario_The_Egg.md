@@ -442,7 +442,11 @@ Consiste en ir comparando el elemento a buscar con cada elemento del vector hast
 ![Búsqueda secuencial](Diccionario_The_Egg/busqueda_secuencial_pseudocodigo.png)
 
 ---
+# Ciberseguridad
 
+La ciberseguridad es el conjunto de procedimientos y herramientas que se implementan para proteger la información que se genera y procesa a través de computadoras, servidores, dispositivos móviles, redes y sistemas electrónicos. Para referirse a ciberseguridad también se utiliza  el término seguridad informática o seguridad de la información electrónica
+
+---
 
 # Código-fuente
 
@@ -998,11 +1002,31 @@ Algunas de las bases de datos NoSQL más reconocidas en la actualidad son: Mongo
 - **Incompatibilidad en consultas SQL**: agrega una dificultad mayor que que en caso de ser necesario se debe incluir una consulta manual, que puede hacer los procesos más lentos y complejos
 
 ---
+# Pentesting
+
+Un pentest o test de penetración, es un método para evaluar los sistemas de información  y la red digital de una organización simulando un ataque. Está diseñado para determinar el alcance de los fallos de seguridad de un sistema.
+
+Es un asalto lanzado desde la propia organización o proveedor para  encontrar vulnerabilidades que permitan a potenciales atacantes robar información o afectar a sus activos. Se utilizan técnicas y herramientas similares o iguales a las que utilizan los atacantes, pero sin el ánimo de perjudicar a la organización. Los test de intrusión deben ir precedidos por un acuerdo firmado donde se define el alcance, restricciones y/o limitaciones de las pruebas.
+
+## Tipos de pentesting
+
+- **White Box**: El pentester o auditor conoce todos los datos sobre el sistema: Estructura, contraseñas, IPs, firewalls.  Es el más completo y forma parte de un análisis integral de la estructura. Suele realizarlo personal interno de la organización o se contrata a alguien externo si es necesario.
+- **Black Box:** El pentester o auditor no tiene apenas conocimientos sobre la organización y su infraestructura y actúa como un ciberdelicuente más. Es lo más parecido a un ataque real. Suele ser realizado por personal especializado externo a las organizaciones
+- **Grey Box:** Es una mezcla de los anteriores, ya que el auditor posee cierta información previa sobre la infraestructura de la organización, la suficiente para no partir de cero. Suele ser el test más recomendado cuando se contrata a empresas especializadas.
+
+---
+
 
 # Periférico
 En informática periférico es la denominación genérica de cualquier aparato o dispositivo  auxiliar e independiente que se conecta a la CPU de una computadora y se comunica con ella. Ejemplos: teclado, ratón, monitor, altavoces, auriculares, hubs, impresoras, ... 
 
 ---
+# Phising
+
+Es un término informático que distingue a un conjunto de técnicas que persiguen el engaño a una víctima ganándose su confianza haciéndose pasar por una persona, empresa o servicio de confianza (suplantación de identidad de tercero de confianza), para manipularla y hacer que realice acciones que no debería realizar (revelar información confidencial o hacer click en un enlace). Para realizar el engaño, habitualmente se hace uso de ingeniería social explotando instintos sociales como ayudar o ser eficiente. Los objetivos pueden ser: robar información, instalar malware, sabotear sistemas o robar dinero a través de fraudes. Se llama *phisher* al que practica phising. 
+
+---
+
 
 # PostgreSQL
 
@@ -1255,6 +1279,12 @@ En relación al software, una Arduino ejecuta inmediatamente la tarea para la qu
 Existen placas como Arduberry  que permiten conectar shields Arduino a una Raspberry Pi
 
 ---
+# Ransomware
+
+Es un malware que secuestra los datos del ordenador bloqueándolos sólo a ellos o a todo el equipo y pidiendo un rescate económico a cambio de recuperarlos. Puede instalarse a través de otro malware. No se debe pagar el rescate para no fomentar su uso y porque no se tiene garantía de conseguir liberar los datos
+
+---
+
 # Red-LAN
 
 Red de área local (Local Area Network).  Son  redes de pequeña extensión, donde el  usuario es el dueño de la red con velocidades de 1 a 100 Mbps ethernet. Con fibra óptica podría alcanzar los 1000 Mbps.
@@ -1386,6 +1416,12 @@ De forma genérica en función del uso o utilidad:
 - Software malicioso o malintencionado
 
 ---
+# Spyware
+
+Es un malware que se instala por sí sólo en el equipo o mediante la interacción de una segunda aplicación que lo lanza sin que el usuario se dé cuenta. Suele trabajar intentando no ser detectado para recolectar información sobre el usuario u organización y después transmitirla a una entidad externa sin el conocimiento o el consetimiento del propietario del ordenador.
+
+---
+
 
 # SQL
 
@@ -1435,6 +1471,30 @@ Se pueden usar como amplificadores, por ejemplo para amplificar la pequeña corr
 También se se usan como  interruptores
 
 Posee tres estados de operación: estado de corte, estado de saturación y estado de actividad.
+
+---
+
+# Troyano
+
+Un troyano es un malware que va dentro de un programa legítimo o disfrazado en él para introducirse en un equipo como si fuese un Caballo de Troya. Mientras que un virus suele ser destructivo, un troyano trata de pasar desapercibido mientras accede al dispositivo con la intención de ejecutar  acciones ocultas con las que abrir una puerta trasera para que otros programas maliciosos puedan acceder a él o robar información. No se propagan a si mismos.
+
+## Tipos de troyanos según las acciones que pueden  realizar
+
+- **Puerta Trasera (Backdoor)**: proporcionan control remoto del ordenador infectado. Se suelen utilizar para unir un conjunto de ordenadores infectados para formar un botnet o red zombi para usarse con fines delictivos
+- **Exploit**:  programas que contienen datos o código que se aprovechan de una vulnerabilidad del software de aplicaciones que ejecuta el ordenador
+- **Rookit**: Están diseñados para ocultar ciertos objetos o actividades en el sistema. Su objetivo principal suele ser evitar la detección de malware.
+- **Trojan-Banker (Troyano Bancario)**: diseñados para robar datos bancarios de sistemas de banca on-line, sistemas de pago electrónico y tarjetas de débito o crédito
+- **Trojan-DDos**:  realizan ataques Dos (denegación de servicio) contra una dirección web específica.
+- **Trojan-Downloader**:programas de descarga de troyanos que pueden descargar e instalar nuevas versiones de malware
+- **Trojan-Dropper**: se utilizan para instalar troyanos y virus, o bien para evitar detección de malware. No todos los antivirus pueden analizar todos los componentes incluidos en este tipo de troyano
+- **Trojan-FakeAV**: simulan la actividad de software antivirus. Diseñados para extorsionar al usuario a cambio de detección y eliminación de amenazas, aunque estas no existan realmente
+- **Trojan-GameThief**: roba los datos de la cuenta de usuarios de los jugadores on-line
+- **Trojan-IM**: roban los datos de inicio de sesión y las contraseñas de programas de mensajería instantánea.
+- **Trojan-Ransom**:  pueden modificar los datos del ordenador para que no funcione correctamente o no se puedan utilizar datos específicos. El cibercriminal solo restaurará el rendimiento del ordenador o desbloqueará los datos una vez pagado el rescate solicitado
+- **Trojan-SMS**: envían mensajes desde el móvil a números de teléfono con  tarificación especial.
+- **Trojan-Spy:**  espían cómo se utiliza el ordenador. Por ejemplo, mediante seguimiento de los datos introducidos por teclado, realización  de capturas de pantalla o obtención de una lista de las aplicaciones en ejecución.
+- **Trojan-Mailfinder**:  recopilan las direcciones de correo electrónico del ordenador
+- **Otros** : trojan-ArcBomb, Trojan-Clicker, Trojan-Notifier, Trojan-Proxy, Trojan-PSW
 
 ---
 
