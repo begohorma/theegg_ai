@@ -317,6 +317,26 @@ Elementos de la comunicación asíncrona
 
 ---
 
+# Ataque DDoS
+
+Un ataque de denegación de servicio distribuido DDoS( Distributed Denial of Services) es un ataque a un sistema de computadores o red que causa que un servicio o recurso sea inaccesible a los usuarios legítimos. 
+
+Tiene como objetivo inhabilitar un servidor, un servicio o una infraestructura. 
+
+Se lleva a cabo generando un gran flujo de información desde varios puntos de conexión hacia un mismo punto de destino. La forma más común de realizarlo es a través de una red de bots.
+
+Las formas de ataque DDoS más comunes son: 
+
+- por saturación del ancho de banda para dejarlo inaccesible
+- por agotamiento de los recursos del sistema de la máquina, impidiendo que responda al tráfico legítimo.
+
+---
+# Ataque informático
+
+Un ciberataque o ataque informático, es cualquier maniobra ofensiva de explotación deliberada que tiene como objetivo tomar el control, desestabilizar o dañar un sistema informático ( ordenador, red privada, ...). El atacante es un individuo u organización que intenta obtener el control de un sistema informático para utilizarlo con fines maliciosos, robo de información o hacer daño a su objetivo. Utiliza códigos maliciosos.
+
+---
+
 # Bases-de-datos
 
 Una base de datos es un conjunto de datos pertenecientes a un mismo contexto y almacenados sistemáticamente para su posterior uso. Actualmente la mayoría de  las bases de datos están en formato digital. 
@@ -471,6 +491,16 @@ Las convenciones de programación son un conjunto de directrices para un lenguaj
 Normalmente comprenden gestión de archivos, sangría, comentarios, declaraciones, sentencias, espaciado, convenciones de nombres, buenas prácticas de programación, principios de programación, buenas prácticas de arquitectura, etc. Son las directrices para la calidad estructural del software.
 
 El seguimiento de la convención facilita la legibilidad del código fuente y el mantenimiento del software.
+
+---
+# Cracker
+
+El termino cracker (rompedor) se utiliza para referirse a las personas que rompen o vulneran algún sistema de seguridad de forma ilícita. 
+
+Suele referirse a una persona como cracker cuando:
+
+- Mediante ingeniería inversa realiza seriales, keygens y cracks, los cuales sirven para modificar el comportamiento, ampliar la funcionalidad del software o hardware original al que se le aplican, etc. Se suelen utilizar para burlar restricciones cómo que un programa deje de funcionar en un determinado tiempo, o que solo funcione si es instalado desde un CD original.
+- Viola la seguridad de un sistema informático y toma el control de este, obteniendo información, borrando datos, etc...
 
 ---
 # Crawling
@@ -716,6 +746,23 @@ GitHub es una plataforma de desarrollo colaborativo de software para alojar proy
 Actualmente propiedad de Microsoft.
 
 ---
+# Hacker
+
+Persona con grandes conocimientos de informática que se dedica a detectar fallos de seguridad en sistemas informáticos. Pueden estar motivados por multitud de razones incluyendo fines de lucro, protesta o por el desafío.
+
+### Tipos de Hackers
+
+- **Black Hat o Ciberdelincuentes**: acceden a sistemas o redes no autorizadas con el fin de infringir daños, obtener acceso a información financiera, datos personales, contraseñas e introducir virus. Hay dos tipos:
+    - **Crackers**: modifican softwares, crean malware, colapsan servidores e infectan redes
+    - **Phreakers**: actúan en el ámbito de las telecomunicaciones
+- **Grey Hat**: su ética depende del momento y del lugar, prestan sus servicios a agencias de inteligencia, grandes empresas o gobiernos, divulgan información de utilidad por un módico precio
+- **White Hat o Hackers éticos**: se dedican a la investigación y notifican vulnerabilidades o fallos en sistemas de seguridad.
+- **Newbies o Neófitos**: no tienen mucha experiencia ni conocimientos. son los novatos del hacking
+- **Hacktivista**: utilizan sus habilidades para atacar a una red con fines políticos. Un ejemplo representativo es Anonymous.
+- **Script Kiddie**: es un inexperto que irrumpe en los sistemas informáticos  mediante el uso de herramientas automatizadas preempaquetadas y escritas por otros, generalmente  con poca comprensión del concepto subyacente.
+- **Blue Hat**: es una persona fuera de las empresas de consultoría informática que es utilizado para hacer una prueba de errores de un sistema antes de su lanzamiento en busca de exploits para que puedan ser cerrados.
+
+---
 
 # Hardware
 Es la parte física de un ordenador o sistema informático. Está formado por los componentes eléctricos, electrónicos, electromecánicos y mecánicos, tales como circuitos de cables y luz, placas, memorias, discos duros, dispositivos periféricos y cualquier otro material en estado físico que sea necesario para que el equipo funcione.
@@ -727,6 +774,21 @@ Es la parte física de un ordenador o sistema informático. Está formado por lo
 HTML (Hyper Text Markup Language: Lenguaje de marcas de hipertexto) es un lenguaje de marcado para la elaboración de páginas web. Es la pieza más básica para la construcción de la web y se usa para definir el sentido y estructura del contenido de una página web mediante etiquetas que identifican los elementos de la página: párrafo, título, texto, tabla, lista de elementos, etc.
 
 Hipertexto hace referencia a los enlaces que conectan las páginas web entre sí, ya sea dentro de un mismo sitio web o entre diferentes sitios web. Los vínculos es un aspecto fundamental de la web.
+
+---
+# Ingeniería social
+
+La ingeniería social consisten en engañar a la gente para que cedan su información personal como contraseñas o datos bancarios o para que permitan el acceso a un equipo con el fin de instalar software malicioso de forma inadvertida. Los ladrones y estafadores la utilizan porque es más fácil engañar a alguien para que revele su contraseña que vulnerar su seguridad.
+
+Se basa en que el eslabón más débil en cualquier cadena de seguridad son los seres humanos. Busca explotar este punto débil, apelando a la vanidad, avaricia, curiosidad, altruismo, respeto o temor a la autoridad de las personas.
+
+Aspectos a tener en cuenta sobre la ingeniería social:
+
+- Es física y digital
+- Su calidad es muy variable
+- Los países también  la usan: las usan como parte de ataques mucho más sofisticados APT(Amenazas Persistentes Avanzadas)
+- Es probable  que el ataque pase inadvertido
+- Se enfoca principalmente en las empresas
 
 ---
 # Internet
@@ -771,6 +833,39 @@ La IP pública es un número único que identifica nuestra red desde el exterior
 # IP- Privada
 
 La IP privada es un número único que identifica a un dispositivo conectado a nuestra red interna. Son las direcciones que el router asigna a cada uno de los dispositivos de nuestra red. No  son accesibles desde internet.
+
+---
+
+# Inyección SQL
+
+Una inyección SQL ,o SQLi, es un tipo de ataque a una aplicación web que permite a un atacante insertar sentencias SQL maliciosas obteniendo acceso a datos sensibles en la base de datos o destruyendo datos.
+
+El origen  de la vulnerabilidad radica en una incorrecta comprobación o filtrado de las variables utilizadas en un programa que contiene o genera código SQL.  Se conoce como inyección SQL, indistintamente, al tipo de vulnerabilidad, al método de infiltración, al hecho de incrustar SQL intruso y a la porción de código incrustado.
+
+## Tipos
+
+- **Inyección SQL en banda**
+
+    Es la forma más simple de inyección.El  atacante es capaz de utilizar el mismo canal para insertar el código SQL malicioso y para recoger los resultados.
+
+    - **Ataque basado en errores:** Se utiliza en las fases iniciales del ataque. La idea es obtener más información sobre la estructura de la base de datos y los nombres de las tablas. Por ejemplo un mensaje de error puede contener el nombre de la tabla y de las columnas utilizadas en la consulta. Estos datos se usan para crear nuevos ataques
+    - **Ataque basado en la Unión**:  Se utiliza la unión SQL para mostrar los resultados de una tabla diferente.
+- **Inyección SQL inferencial (Blind SQL Injection)**
+
+    El atacante envía varias consultas a la base de datos para evaluar cómo la aplicación las analiza.
+
+    - **Ataque booleano**: el atacante evalúa qué partes de la entrada de un usuario son vulnerables a las inyecciones SQL probando dos versiones diferentes de una cláusula booleana a través de la entrada:
+        - " ... and 1=1"
+        - " .. and 1=2"
+
+        Si la aplicación funciona normalmente en el primer caso, pero muestra una anomalía en el segundo, india que la aplicación es vulnerable a un ataque de inyección SQL
+
+    - **Ataque basado en tiempo**: el atacante utiliza una función predefinida basada en tiempo del sistema de administración de base de datos que es utilizada por la aplicación, por ejemplo la función sleep(). Si la consulta se ejecuta con el retraso, la aplicación es vulnerable.
+- **Inyección SQL fuera de banda**
+
+    Se utilizan como alternativa a las técnicas de inyección SQL inferencial. Suelen implicar el envío de datos de la base de datos a una ubicación maligna elegida por el atacante. Depende en gran medida de las capacidades del sistema de gestión de base de datos como la capacidad de proceso de archivos externos. 
+
+    En MySQL, las  funciones LOAD_FILE() y INTO OUTFILE  se pueden usar para leer el contenido de un archivo en el servidor y que se transmitan los datos a una fuente externa.
 
 ---
 
@@ -892,6 +987,28 @@ La consecuencia directa de la ley de Moore es que los precios bajan al mismo tie
 Desde su nacimineto en 1958 de la mano de John McCarthy, Lisp no ha dejado de crecer. De hecho, su creador trabajó en el MTI junto a Marvin Minsky, uno de los padres de la Inteligencia Artificial. Lisp trabaja con expresiones simbólicas y prototipado, herramientas útiles en el campo del Machine Learning. Además, se utiliza en proyectos como CYC, cuyo objetivo es permitir a las aplicaciones basadas en IA ejecutar razonamientos similares a los humanos.
 
 ---
+# Man-in-the-middle
+
+Un ataque Man in the Middle (MitM) o ataque de intermediario es el método por el cual un hacker interviene en el tráfico de datos de dos partes vinculadas entre sí en una comunicación, haciéndose pasar por cualquiera de ellas, haciéndoles creer que se están comunicando entre ellos cuando en realidad es el intermediario quien recibe la comunicación. El objetivo es interceptar, leer o manipular de forma efectiva la comunicación entre la víctima y sus datos sin que nadie se dé cuanta de que hay una tercera persona incluida en la operación.
+
+El ataque MitM puede incluir alguno de los siguientes **subataques**:
+
+- Interceptación de la comunicación, incluyendo análisis del tráfico y posiblemente un ataque a partir de textos planos conocidos.
+- Ataques a partir de textos cifrados escogidos, en función de lo que el receptor haga con el mensaje descifrado
+- Ataques de sustitución
+- Ataques de repetición
+- Ataque de denegación de servicio. El atacante podría, por ejemplo, bloquear las comunicaciones antes de atacar una de las partes. La defensa en ese caso pasa por el envío periódico de mensajes de status autenticados.
+
+Existen varios tipos  de defensa contra MitM que emplean técnicas de autenticación basadas en:
+
+- Claves públicas
+- Autenticación mutua fuerte
+- Claves secretas (secretos con alta entropía)
+- Otros criterios, como el reconocimiento de voz u otras características biométricas
+- Fijación de certificados
+
+---
+
 # Mascara-de-subred
 
 La máscara de red es una combinación de bits que sirve para delimitar el ámbito de una red de ordenadores. Su función es indicar  a los dispositivos qué parte de la dirección IP es el número de la red, incluyendo la subred, y qué parte es la correspondiente al host.
@@ -1522,6 +1639,27 @@ El diseño de la arquitectura von Neuman es más simple que la *arquitectura Har
 En la gran mayoría de computadoras modernas, se utiliza la misma memoria tanto para los datos como para las instrucciones de programa, y la distinción entre von Neuman vs Harvard se aplica a la arquitectura de memoria caché, pero no  a la memoria principal.
 
 ---
+
 # XML
 
 XML (Extensible Markup Language/ Lenguaje de marcado extensible) es un metalenguaje que permite definir lenguajes de marcas que se utiliza para almacenar datos de forma  legible. Fué el estándard inicial para el intercambio de información estructurada entre diferentes plataformas. Es similar a HTML 
+
+---
+
+# XSS
+
+Una secuencia de comandos en sitios cruzados o Cross-site scripting (XSS) es un tipo de vulnerabilidad informática o  agujero de seguridad típico de las  aplicaciones web, que puede permitir a una una tercera persona inyectar en páginas web visitadas  por el  usuario código Javascript o en otro lenguaje similar.
+
+Los atacantes explotan la confianza que tiene el usuario en un sitio en particular.
+
+## Tipos
+
+- **Reflejada**
+
+    Consiste en modificar valores que la aplicación web usa para pasar variables entre dos páginas. El código va embebido dentro de un enlace que al pincharlo el navegador le lleva a una página, normalmente una legal en la que el usuario tiene una cuenta, y a continuación el código embebido se ejecuta intentando robarle la "cookie" de la  sesión, o los datos que introduzca en un formulario.
+
+- **Almacenada**
+
+    Consiste en insertar código HTML peligroso en sitios. Por ejemplo dejar código almacenado  en un servidor formando parte de una contribución a un foro. Cualquier usuario que entre a leer la contribución leerá el texto inocente, pero probablemente no el código inyectado que será interpretado por su navegador, ejecutando las instrucciones definidas por el hacker. 
+
+---
