@@ -1,6 +1,274 @@
-# Diccionario_The_Egg
+# Diccionario_The__Egg
 
+
+# Indice
+[A](#A) [B](#B) [C](#C) [D](#D) [E](#E) [F](#F) [G](#G) [H](#H) [I](#I) [J](#J) [K](#K) [L](#L) [M](#M) [N](#N) [O](#O) [P](#P) [Q](#Q) [R](#R) [S](#S) [T](#T) [U](#U) [V](#V) [X](#X)
+<a name="A"></a>
+## A
+
+[Ada-lovelace](#Ada-lovelace)
+
+[AJAX](#AJAX)
+
+[Algebra-booleana](#Algebra-booleana)
+
+[Algoritmo](#Algoritmo)
+
+[Algoritmo-de-cifrado-simétrico](#Algoritmo-de-cifrado-simétrico)
+
+[Algoritmo-de-cifrado-asimétrico](#Algoritmo-de-cifrado-asimétrico)
+
+[Algoritmos-de-ordenación](#Algoritmos-de-ordenación)
+
+[Análisis-exploratorio](#Análisis-exploratorio)
+
+[API](#API)
+
+[Arduino](#Arduino)
+
+[Arquitectura-cliente-servidor](#Arquitectura-cliente-servidor)
+
+[Arquitectura-harvard](#Arquitectura-harvard)
+
+[Asíncrono](#Asíncrono)
+
+[Ataque DDoS](#Ataque DDoS)
+
+[Ataque informático](#Ataque informático)
+
+<a name="B"></a>
+## B
+[Bases-de-datos](#Bases-de-datos)
+
+[Bases-de-datos-relacionales](#Bases-de-datos-relacionales)
+
+[Bucles, Bucles-en-programación](#Bucles, Bucles-en-programación)
+
+[Búsqueda-binaria](#Búsqueda-binaria)
+
+[Búsqueda-secuencial](#Búsqueda-secuencial)
+
+<a name="C"></a>
+## C
+[Ciberseguridad](#Ciberseguridad)
+
+[Código-fuente](#Código-fuente)
+
+[Compilador](#Compilador)
+
+[Convención-de-programación](#Convención-de-programación)
+
+[Cracker](#Cracker)
+
+[Crawling](#Crawling)
+
+[Convertidor-analógico-digital](#Convertidor-analógico-digital)
+
+[CSS](#CSS)
+
+<a name="D"></a>
+## D
+[Data-preprocessing (preprocesado de datos)](#Data-preprocessing (preprocesado de datos))
+
+[Dato-estructurado](#Dato-estructurado)
+
+[Dato-semiestructurado](#Dato-semiestructurado)
+
+[Dato-no- estructurado](#Dato-no- estructurado)
+
+[Diagrama de flujo](#Diagrama de flujo)
+
+[DNS](#DNS)
+
+<a name="E"></a>
+## E
+[Editor-de-código](#Editor-de-código)
+
+[Estadística-descriptiva](#Estadística-descriptiva)
+
+[Estadística- inferencial](#Estadística- inferencial)
+
+[ETL](#ETL)
+
+[Expresiones-regulares](#Expresiones-regulares)
+
+<a name="F"></a>
+## F
+[Funciones-en-programación](#Funciones-en-programación)
+
+[Frecuencia-de-muestreo](#Frecuencia-de-muestreo)
+
+[FTP](#FTP)
+
+<a name="G"></a>
+## G
+[Github](#Github)
+
+<a name="H"></a>
+## H
+[Hacker](#Hacker)
+
+[Hardware](#Hardware)
+
+[Html](#Html)
+
+<a name="I"></a>
+## I
+[Ingeniería social](#Ingeniería social)
+
+[Internet](#Internet)
+
+[Interfaz](#Interfaz)
+
+[Interprete](#Interprete)
+
+[IP](#IP)
+
+[IP-Pública](#IP-Pública)
+
+[IP-Privada](#IP-Privada)
+
+[Inyección SQL](#Inyección SQL)
+
+<a name="J"></a>
+## J
+
+[Java](#Java)
+
+[Javascript](#Javascript)
+
+[JSON](#JSON)
+
+<a name="K"></a>
+## K
+
+<a name="L"></a>
+## L
+[Lenguaje-de-alto-nivel](#Lenguaje-de-alto-nivel)
+
+[Lenguaje-de-máquina](#Lenguaje-de-máquina)
+
+[Lenguaje-de-programación](#Lenguaje-de-programación)
+
+[Ley de Moore](#Ley de Moore)
+
+[Lisp](#Lisp)
+
+<a name="M"></a>
+## M
+[Man-in-the-middle](#Man-in-the-middle)
+
+[Mascara-de-subred](#Mascara-de-subred)
+
+[MySQL](#MySQL)
+
+[MongoDB](#MongoDB)
+
+<a name="N"></a>
+## N
+
+[Notación-asintótica](#Notación-asintótica)
+
+[Notación-Big-O](#Notación-Big-O)
+
+[NoSQL](#NoSQL)
+
+<a name="O"></a>
+## O
+
+<a name="P"></a>
+## P
+[Pentesting](#Pentesting)
+
+[Periférico](#Periférico)
+
+[Phising](#Phising)
+
+[PostgreSQL](#PostgreSQL)
+
+[Procesamiento-del-lenguaje-natural](#Procesamiento-del-lenguaje-natural)
+
+[Programación](#Programación)
+
+[Protocolo-de-comunicación](#Protocolo-de-comunicación)
+
+[Protocolo-TCP/IP](#Protocolo-TCP/IP)
+
+[Puertas lógicas](#Puertas lógicas)
+
+[Php](#Php)
+
+[Python](#Python)
+
+
+<a name="Q"></a>
+## Q
+
+<a name="R"></a>
+## R
+[R](#R)
+
+[Raspberry pi](#Raspberry pi)
+
+[Ransomware](#Ransomware)
+
+[Red-LAN](#Red-LAN)
+
+[Red-WAN](#Red-WAN)
+
+[Redes informáticas](#Redes informáticas)
+
+[Repositorio-de-control-de-versiones](#Repositorio-de-control-de-versiones)
+
+[Router](#Router)
+
+<a name="S"></a>
+## S
+
+[Scrapping](#Scrapping)
+
+[Servidor-web](#Servidor-web)
+
+[Síncrono](#Síncrono)
+
+[Sistema-binario](#Sistema-binario)
+
+[Sistema-operativo](#Sistema-operativo)
+
+[Software](#Software)
+
+[Spyware](#Spyware)
+
+[SQL](#SQL)
+
+[Switch](#Switch)
+
+<a name="T"></a>
+## T
+
+[Transistor](#Transistor)
+
+[Transistores bipolares](#Transistores bipolares)
+
+[Troyano](#Troyano)
+
+[Turing](#Turing)
+
+<a name="U"></a>
+## U
+
+<a name="V"></a>
+## V
+[Von-neumann](#Von-neumann)
+
+<a name="X"></a>
+## X
+
+[XML](#XML)
+
+[XSS](#XSS)
 ---
+<a name="Ada-lovelace"></a>
 # Ada-lovelace
 
 Ada Lovelace (1815 - 1852) es conocida como la primera programadora de la historia. Fue una matemática, informática y escritora británica hija del poeta Lord Byron y la matemática Lady Byron. Colaboró con Charles Babage en su máquina analítica. En las notas sobre la máquina escribió el primer algoritmo destinado a ser interpretado por una máquina. Creo el primer programa de ordenador antes de que existieran los ordenadores. Además teorizó que se podría usar la computación para mucho más que los cálculos numéricos.
@@ -10,7 +278,7 @@ Como reconocimiento a sus aportaciones a la informática el departamento de defe
 El segundo martes de octubre se celebra el día de Ada Lovelace para reivindicar la presencia de las mujeres en ciencia, tecnología, ingeniería y matemáticas.
 
 ---
-
+<a name="AJAX"></a>
 # AJAX
 
 Es el acrónimo de Asynchronous Javascript And XML(Javascript asíncrono y XML). Es una técnica de desarrollo web para crear aplicaciones interactivas o RIA (Rich Internet Applications). Estas aplicaciones se ejecutan en le lado del cliente, el navegador, mientras se mantiene la comunicación asíncrona con el servidor en segundo plano. De esta forma es posible realizar cambios sobre las páginas sin necesidad de recargarlas, mejorando la interactividad, velocidad y usabilidad de las aplicaciones.
@@ -22,7 +290,7 @@ Javascript es un leguaje interpretado con el que normalmente se realizan las lla
 Es una técnica válida para múltiples plataformas, sistemas operativos y navegadores ya que está basado en estándares abiertos como JavaScript y Document Model (DOM)
 
 ---
-
+<a name="Algebra-booleana"></a>
 # Algebra-booleana
 
 El álgebra booleana fue inventada en 1854 por el matemático ingles George Boole. Es un método para simplificar los circuitos lógicos en electrónica digital.
@@ -61,7 +329,7 @@ En informática y matemática, es una estructura algebraica que esquematiza las 
 
 ---
 
-
+<a name="Algoritmo"></a>
 # Algoritmo
 
 Un algoritmo es un conjunto de instrucciones o reglas definidas y no ambiguas, ordenada y finitas que permite solucionar un problema, realizar un cómputo, procesar datos y llevar a cabo otras tareas o actividades.
@@ -74,6 +342,7 @@ Pueden ser  des distintos tipos:
 - No gráficos: se representan con pseudocódigo
 
 ---
+<a name="Algoritmo-de-cifrado-simétrico"></a>
 # Algoritmo-de-cifrado-simétrico
 
 Utiliza una sola clave para cifrar y descifrar el mensaje y tiene que ser conocida por el emisor y el recpetor. Con la clave el emisor cifra la información, la manda a través del canal inseguro y el receptor descifrará la información con la misma clave que usó el emisor.
@@ -90,6 +359,7 @@ Los algoritmos criptográficos son públicos, por lo que su fortaleza debe depen
 La principal ventaja de los algoritmos simétricos es la velocidad de los algoritmos, y son muy usados para el cifrado de grandes cantidades de datos. 
 
 ---
+<a name="Algoritmo-de-cifrado-asimétrico"></a>
 # Algoritmo-de-cifrado-asimétrico
 
 Se basa en el uso de dos claves:
@@ -114,7 +384,7 @@ Para que un algoritmo asimétrico sea considerado seguro debe cumplir que:
 - Si los datos han sido cifrados con la clave pública, sólo debe existir una clave privada capaz de descifrarlo y viceversa.
 
 ---
-
+<a name="Algoritmos-de-ordenación"></a>
 # Algoritmos-de-ordenación
 
 Un  algoritmo de ordenación pone elementos de una lista o vector en una secuencia dada por una relación de orden. Las relaciones de orden más usadas son el orden numérico y lexicográfico. Conseguir ordenamientos eficientes es importante para otros algoritmos como los de búsqueda y fusión que utilizan listas ordenadas para una ejecución rápida.
@@ -195,7 +465,24 @@ El algoritmo, después de cada extracción, recoloca en el nodo raiz la última 
 Ordena los elementos haciendo uso de un árbol binario de búsqueda (ABB/BST). Se basa en ir construyendo poco a poco el árbol binario introduciendo cada uno de los elementos de forma que queden ordenados. La  lista de elementos ordenados se obtiene recorriendo el árbol en *inorden.*
 
 ---
+<a name="Análisis-exploratorio"></a>
+# Análisis-exploratorio
 
+El Análisis exploratorio de datos (E.D.A: Exploratory Data Analysis) es un a forma de analizar los datos. Es el tratamiento estadístico al que se someten las muestras recogidas durante un proceso de investigación en cualquier campo científico.
+
+Tiene como objetivo identificar el modelo teórico más adecuado para representar la población de la cual proceden los datos muestrales. Se basa en gráficos y estadísticos que permiten explorar la distribución identificando características como: valores atípicos o outliers, saltos o discontinuidades, concentraciones de valores, forma de la distribución, etc. 
+
+Se puede realizar sobre todos los casos conjuntamente o de forma separada por grupos.
+
+El EDA es un ciclo iterativo en el que:
+
+1. Se generan preguntas sobre los datos
+2.  Se buscan las respuestas visualizando, transformando y modelando los datos
+3.  Se usa lo aprendido para refinar las preguntas y/o generar nuevas preguntas.
+
+
+---
+<a name="API"></a>
 # API
 
 Una API (Application Programming Interface / Interfaz de programación de aplicaciones) es un conjunto de subrutinas, funciones y procedimientos que ofrece cierta biblioteca para ser utilizado por otro software como una capa de abstracción. 
@@ -238,7 +525,7 @@ Las APIS suelen devolver la información en distintos formatos. Los más comunes
 
 ---
 
-
+<a name="Arduino"></a>
 # Arduino
 Es una plataforma de creación de electrónica de código abierto basada en hardware y software libre, lo que permite que cualquier pueda utilizarlos y adaptarlos. Se pueden encontrar varios tipos de placas, accesorios y aplicaciones compatibles creadas por diferentes empresas o desarrolladores. Todas son diferentes, pero utilizando la misma base común.
 
@@ -247,7 +534,7 @@ Ofrece la plataforma Arduino IDE, que es un entorno de programación con el que 
 El proyecto nació en 2003 con el fin de facilitar el acceso y uso de la electrónica y la programación. El resultado es una placa con todos los elementos necesarios para conectar periféricos a las entradas y salidas de un microcontrolador, y que se puede programar tanto en Windows como macOs, y GNU/Linux. Un proyecto que promueve la filosofía "learning by doing"
 
 ---
-
+<a name="Arquitectura-cliente-servidor"></a>
 # Arquitectura-cliente-servidor
 
 Esta arquitectura consiste básicamente en un cliente que realiza peticiones a otro programa, el servidor, que le da la respuesta.
@@ -289,7 +576,7 @@ Consultas y accesos a bases de datos
 Procesos y  lógica de negocio
 
 ---
-
+<a name="Arquitectura-harvard"></a>
 # Arquitectura-harvard
 Es una arquitectura de computadores con pistas de almacenamiento y de señal físicamente separadas para las  instrucciones y para los datos.
 
@@ -301,7 +588,7 @@ Al contrario que en la arquitectura von Neumann, una computadora con la arquitec
 ![Diagrama Arquitectura Harvard](Diccionario_The_Egg/arquitecturaHarvard.png)
 
 ---
-
+<a name="Asíncrono"></a>
 # Asíncrono
 
 Algo asíncrono es que no tiene lugar en completa correspondencia temporal con otro proceso o con la causa que lo produce. 
@@ -316,7 +603,7 @@ Elementos de la comunicación asíncrona
 - **Código**: Debe ser perdurable en el tiempo, compartido entre los elementos de la comunicación y contar con un soporte físico para su almacenamiento
 
 ---
-
+<a name="Ataque DDoS"></a>
 # Ataque DDoS
 
 Un ataque de denegación de servicio distribuido DDoS( Distributed Denial of Services) es un ataque a un sistema de computadores o red que causa que un servicio o recurso sea inaccesible a los usuarios legítimos. 
@@ -331,12 +618,13 @@ Las formas de ataque DDoS más comunes son:
 - por agotamiento de los recursos del sistema de la máquina, impidiendo que responda al tráfico legítimo.
 
 ---
+<a name="Ataque informático"></a>
 # Ataque informático
 
 Un ciberataque o ataque informático, es cualquier maniobra ofensiva de explotación deliberada que tiene como objetivo tomar el control, desestabilizar o dañar un sistema informático ( ordenador, red privada, ...). El atacante es un individuo u organización que intenta obtener el control de un sistema informático para utilizarlo con fines maliciosos, robo de información o hacer daño a su objetivo. Utiliza códigos maliciosos.
 
 ---
-
+<a name="Bases-de-datos"></a>
 # Bases-de-datos
 
 Una base de datos es un conjunto de datos pertenecientes a un mismo contexto y almacenados sistemáticamente para su posterior uso. Actualmente la mayoría de  las bases de datos están en formato digital. 
@@ -377,7 +665,7 @@ Las **bases de datos gráficas o orientadas a grafos** están especializadas en 
 Algunos ejemplos son: Neo4j y Amazon Neptune
 
 ---
-
+<a name="Bases-de-datos-relacionales"></a>
 # Bases-de-datos-relacionales
 
 Una base de datos relacional es un tipo de base de datos que almacena y proporciona acceso a puntos de datos relacionados entre sí. Se basan en el modelo relacional, una forma intuitiva y directa de representar datos en tablas. 
@@ -387,7 +675,7 @@ En una base de datos relacional, cada fila en una tabla es un registro con una I
 El modelo relacional implica que las estructuras lógicas de los datos (tablas, vistas e índices) estén separadas de las estructuras de almacenamiento físico.
 
 ---
-
+<a name="Bucles, Bucles-en-programación"></a>
 # Bucles, Bucles-en-programación
 
 Un bucle en programación es una secuencia que repite varias veces un mismo trozo de código, hasta que la condición asignada al bucle deja de cumplirse. Los bucles más usados son 
@@ -438,7 +726,7 @@ Un bucle en programación es una secuencia que repite varias veces un mismo troz
 
 
 ---
-
+<a name="Búsqueda-binaria"></a>
 # Búsqueda-binaria
 
 Se utiliza cuando el vector en el que se busca está previamente ordenado. 
@@ -452,7 +740,7 @@ Este algoritmo reduce el tiempo de búsqueda considerablemente, ya que disminuye
 ![Búsqueda binaria](Diccionario_The_Egg/busqueda_binaria_pseudocodigo.png)
 
 ---
-
+<a name="Búsqueda-secuencial"></a>
 # Búsqueda-secuencial
 
 Consiste en ir comparando el elemento a buscar con cada elemento del vector hasta encontrarlo o hasta llegar al final. Se puede saber que el elemento existe cuando se encuentra, pero no se puede saber si no existe hasta que se llega al final del vector. Se puede usar tanto si el vector está  ordenado como si no lo está. Su complejidad es O(n)
@@ -462,12 +750,13 @@ Consiste en ir comparando el elemento a buscar con cada elemento del vector hast
 ![Búsqueda secuencial](Diccionario_The_Egg/busqueda_secuencial_pseudocodigo.png)
 
 ---
+<a name="Ciberseguridad"></a>
 # Ciberseguridad
 
 La ciberseguridad es el conjunto de procedimientos y herramientas que se implementan para proteger la información que se genera y procesa a través de computadoras, servidores, dispositivos móviles, redes y sistemas electrónicos. Para referirse a ciberseguridad también se utiliza  el término seguridad informática o seguridad de la información electrónica
 
 ---
-
+<a name="Código-fuente"></a>
 # Código-fuente
 
 El código fuente de un programa informático es un conjunto de líneas de texto con los pasos que debe seguir la computadora para ejecutar el programa. Está escrito por un programador en algún lenguaje de programación, pero para poder ser ejecutado por la computadora tiene que ser traducido a lenguaje máquina o código binario utilizando compiladores, ensambladores, interpretes y otros sistemas de traducción.
@@ -476,7 +765,7 @@ El termino código fuente también se usa para hacer referencia al código fuent
 
 ---
 
-
+<a name="Compilador"></a>
 # Compilador
 
 Traducen el código escrito en un lenguaje de  programación al lenguaje de máquina generando un código binario ejecutable.
@@ -484,6 +773,7 @@ Traducen el código escrito en un lenguaje de  programación al lenguaje de máq
 Permite traducir todo un programa de una sola vez, haciendo una ejecución más rápida y puede almacenarse para usarse luego sin volver a hacer la traducción.
 
 ---
+<a name="Convención-de-programación"></a>
 # Convención-de-programación
 
 Las convenciones de programación son un conjunto de directrices para un lenguaje de programación concreto que recomienda estilo, prácticas, y métodos de programación para cada aspecto de un programa escrito en cada lenguaje. 
@@ -493,6 +783,7 @@ Normalmente comprenden gestión de archivos, sangría, comentarios, declaracione
 El seguimiento de la convención facilita la legibilidad del código fuente y el mantenimiento del software.
 
 ---
+<a name="Cracker"></a>
 # Cracker
 
 El termino cracker (rompedor) se utiliza para referirse a las personas que rompen o vulneran algún sistema de seguridad de forma ilícita. 
@@ -503,6 +794,7 @@ Suele referirse a una persona como cracker cuando:
 - Viola la seguridad de un sistema informático y toma el control de este, obteniendo información, borrando datos, etc...
 
 ---
+<a name="Crawling"></a>
 # Crawling
 
 El crawling o web crawling es un proceso por el cual un robot web navega sistemáticamente a través de interner explorando webs y siguiendo links con el propósito de recoger el contenido en otro sistema.
@@ -523,7 +815,7 @@ Su funcionamiento es:
 ![web crawling](Diccionario_The_Egg/web_crawling.png)
 
 ---
-
+<a name="Convertidor-analógico-digital"></a>
 # Convertidor-analógico-digital
 
 ![Convertidor Analógico Digital ](Diccionario_The_Egg/convertidor_analogico_digital.png)
@@ -547,7 +839,7 @@ La cuantificación representa el componente de muestreo de las variaciones de va
 Después de la cuantificación, los valores de las tomas de voltajes se representan numéricamnte por medio de códigos y estándares previamente establecidos. Lo más común es codificar la señal digital en código binario.
 
 ---
-
+<a name="CSS"></a>
 # CSS
 
 CSS (Cascading Style Sheets :  Hojas de estilo en cascada) es un lenguaje de  hojas de estilos utilizado para controlar el aspecto o presentación de los documentos HTML o  basados en XML. 
@@ -557,7 +849,7 @@ Es la mejor forma de separar los contenidos de su presentación y es imprescindi
 Una vez creados los elementos de la web con HTML, se utiliza CSS para definir el aspecto de cada elemento: color, tamaño y tipo de letra del texto, separación horizontal y vertical entre elementos, posición de cada elemento dentro de la página, etc.
 
 ---
-
+<a name="Data-preprocessing (preprocesado de datos)"></a>
 # Data-preprocessing (preprocesado de datos)
 
 El preprocesamiento de datos engloba todas aquellas técnicas de análisis de datos que permiten mejorar la calidad de un conjunto de datos de modo que las técnicas de extracción de conocimiento/minería de datos puedan obtener mayor y mejor información.
@@ -582,7 +874,45 @@ El preprocesado de datos incluye:
     - Discretización
 
 ---
+<a name="Dato-estructurado"></a>
+# Dato-estructurado
 
+Los datos estructurados son aquellos que se encuentran ordenados. Se organizan en una serie de filas y columnas bien definidas. Son los que se usan habitualmente en las bases de datos relacionales (RDBMS) y se  gestionan con SQL(Structured Query Language)
+
+Al estar ordenados son más fáciles de gestionar, tanto digital como manualmente. Permiten una mayor predictibilidad. La extracción de información de ellos es simple.
+
+Ejemplos: Bases de datos, hojas de cálculo, tabla de Excel
+
+---
+<a name="Dato-semiestructurado"></a>
+# Dato-semiestructurado
+
+Los datos semiestructurados son aquellos con un nivel medio de estructuración y rigidez organizativa. Están a medio camino entre los datos estructurados y los no estructurados. 
+
+Tienen un cierto nivel de estructura, jerarquía y organización, aunque carecen de un esquema fijo. En lugar de tener estructuras esquemáticos, como los estructurados, se podría decir que son con forma  de árbol, con etiquetas para facilitar el manejo.
+
+Tienen algunas propiedades organizativas  que facilitan su análisis. Si se procesan se puede conseguir su almacenamiento en bases de datos relacionales y en filas y columnas. Sin embargo, no todos los que se colocan en un grupo tienen siempre las mismas propiedades. A veces difieren en tipo y tamaño.
+
+Contienen metadatos (etiquetas y elementos) que se utilizan para agruparlos y describir cómo se almacenan. Pero al no contener tantos metadatos como los estructurados, su gestión y automatización es más dificultosa.
+
+Ejemplos: XML y otros lenguajes de marcado, archivos comprimidos, paquetes TCP/IP, ejecutables binarios
+
+---
+<a name="Dato-no- estructurado"></a>
+# Dato-no- estructurado
+
+Los datos no estructurados, generalmente son datos binarios, que no tienen estructura interna identificables. Es un conglomerado masivo y desorganizado de varios objetos que no tienen valor hasta que se identifican y almacenan de manera organizada.
+
+Suelen representar sobre el 80% de los datos existentes en una organización.
+
+Ejemplos: Archivos de imágenes, Archivos pdf y texto, datos de redes sociales, datos de ubicación y mensajería instantánea, archivos de audio.
+
+No pueden almacenarse en bases de datos relacionales, ya que no se pueden ajustar a fila y columnas, pero se pueden almacenar en bases de datos no relacionales o NoSQl.
+
+Obtener la información valiosa contenida en ellos exige análisis avanzados y un alto nivel de experiencia técnica. Requieren técnicas de datamining que implican métodos de machine learning, inteligencia artificial y estadística
+
+---
+<a name="Diagrama de flujo"></a>
 # Diagrama de Flujo
 
 El diagrama de flujo, flujograma o diagrama de actividades es una manera de representar gráficamente un algoritmo  o un proceso a través de una serie de pasos estructurados y vinculados que permiten su revisión como un todo.
@@ -600,7 +930,7 @@ El diagrama de flujo, flujograma o diagrama de actividades es una manera de repr
 
 
 ------
-
+<a name="DNS"></a>
 # DNS
 
 Domain Name System (sistema de nombre de dominio). Es una tecnología basada en una base de datos que sirve para resolver nombres en las redes, es decir, para conocer la IP de la máquina donde está alojado el dominio al que queremos acceder.
@@ -614,7 +944,7 @@ Es un sistema que sirve para traducir los nombres en la red, y está compuesto p
 **Zonas de autoridad**: son servidores o grupos de ellos que tienen asignados resolver un conjunto de dominios determinado, como los . es o los .org
 
 ---
-
+<a name="Editor-de-código"></a>
 
 # Editor-de-código
 
@@ -623,7 +953,68 @@ Un editor de código fuente es un editor de texto diseñado específicamente par
 Los editores de código fuente tienen características diseñadas exclusivamente para simplificar y acelerar la escritura de código fuente, como resaltado de sintaxis, autocompletar y pareo de llaves. Estos editores también proveen un modo conveniente de ejecutar un compilador, un intérprete, un depurador, o cualquier otro programa que sea relevante en el proceso de desarrollo de software
 
 ---
+<a name="Estadística-descriptiva"></a>
+# Estadística-descriptiva
 
+La estadística descriptiva es una disciplina que se encarga de recoger, almacenar, ordenar, realizar tablas o gráficos y calcular parámetros básico sobre el conjunto de datos. Adicionalmente ofrece medidas que resumen la información de una gran cantidad de datos.
+
+El objetivo del análisis descriptivo es
+
+- Recolectar y ordenar la información por medio de gráficas y medios visuales
+- Extraer las características más representativas de una colección de datos.
+- Describir tendencias
+
+## Tipos de análisis
+
+- **Medidas de tendencia central**:
+
+    Pretenden resumir en un solo valor a un conjunto de datos. Representan un punto central entorno al cual se encuentran las observaciones.
+
+    Las medidas son:  
+
+    **Mediana :**posición central de los elementos ordenados. Cuando hay presencia de de datos extremos (Variables cuantitativas)
+
+    **Media:** promedio aritmético. Cuando no hay presencia de datos extremos (variables cuantitativas)
+
+    **Moda:** valor que más se repite. Observación de mayor Frecuencia. (Variables categóricas)
+         
+
+- **Medidas de dispersión**:
+
+    Cuantifican la variabilidad de los datos. Indican cuánto se alejan los datos respecto a la media aritmética y cómo de variables son los datos. Para un mismo valor de media, cuanto mayor sea  la desviación estándar más dispersos son los datos.
+
+    La medidas más usadas son: la ***varianza***, la ***desviación estándar*** y el ***rango***
+
+    Para una **distribución Norma**l se tiene una regla Empírica que indica que:
+
+    Aproximadamente el 68% de los datos están entre la media y una desviación estándar
+
+    Aproximadamente el 95% de los datos están entre la media y dos desviaciones estándar
+
+    Aproximadamente el 100% de los datos están entre la media y tres desviaciones estándar
+
+- **Medidas de posición - distribución**:
+
+    Ayudan a comprender cuál es la posición de una observación con respecto al conjunto total de observaciones. Dividen al conjunto total en subgrupos con el mismo número de datos.
+
+    Permiten ubicar gráficamente como se juntan los valores de una muestra determinada en función de la frecuencia de los valores
+
+    La medidas más usadas son: ***percentiles***, ***cuartiles***, ***quintiles*** y ***deciles***
+
+    ### Tipos de medidas de distribución
+
+    - **Simetría (coeficiente de Pearson)**
+        - **Simétrica**: (Distribución Normal). Los datos se distribuyen de forma similar a los lados derecho e izquierdo de la media. Media, mediana y moda prácticamente iguales.
+        - **Asimetría negativa** (-)(izquierda): Hay una mayor proporción de valores a la izquierda de la media. Media < Mediana
+        - **Asimetría positiva** (+)(derecha): Hay una mayor proporción de valores a la derecha de la media. Media > Mediana
+    - **Curtosis** (Coeficiente de curtosis): se basa en la medida de la concentración de datos que están cercanos  a la media. Cuanto más elementos cercano haya se curtosis será mayor y la gráfica será más puntiaguda
+        - **Leptocúrtica**(+): Más elementos cerca de la media. Gráfica estrecha y picuda
+        - **Mesocúrtia**(0): Distibución normal. Campana de Gauss
+        - **Platicúrtica**(-): Menos elementos cerca de la media. Gráfica ancha y aplanada.
+
+---
+
+<a name="ETL"></a>
 # ETL
 
 El proceso ETL consta de tres fases: Extracción (Extract), Transformación (Transform) y Carga (Load).
@@ -689,7 +1080,7 @@ Las **restricciones** suelen ser:
 - Intergridad referencial
 
 ---
-
+<a name="Expresiones-regulares"></a>
 # Expresiones-regulares
 
 Las expresiones regulares provienen de la matemática teórica, concretamente de la Teoría de Lenguajes Formales, pero se usan mucho en programación.
@@ -703,7 +1094,7 @@ Un expresión regular es un conjunto de símbolos que describen el patrón de te
 Se utilizan para encontrar coincidencias, buscar y reemplazar texto
 
 ---
-
+<a name="Funciones-en-programación"></a>
 # Funciones-en-programación
 
 En programación, una función es una sección de un programa que ejecuta una tarea determinada de manera independiente al resto del programa.
@@ -722,12 +1113,13 @@ Las funciones permiten crear programas o scripts mejor estructurados y más clar
 
 
 ---
-
+<a name="Frecuencia-de-muestreo"></a>
 # Frecuencia-de-muestreo
 
 La tasa o frecuencia de muestreo es el número de muestras por unidad de tiempo que se toman de una señal continua para producir una señal discreta, durante el proceso necesario para convertirla de analógica a digital. Generalmente se expresa en hercios(Hz) o kilohercios (kHz)
 
 ---
+<a name="FTP"></a>
 # FTP
 
 El servicio FTP (File Transfer Protocol - Protocolo de Transferencia de Ficheros) es un protocolo de nivel de aplicación. Está basado en una arquitectura cliente servidor y proporciona un mecanismo estándar de transferencia de archivos entre sistemas a través de redes TCP/IP.
@@ -738,7 +1130,7 @@ El objetivo fundamental del FTP es poder intercambiar ficheros entre máquinas a
 
 ---
 
-
+<a name="Github"></a>
 # Github
 
 GitHub es una plataforma de desarrollo colaborativo de software para alojar proyectos utilizando el sistema de control de versiones Git.
@@ -763,12 +1155,12 @@ Persona con grandes conocimientos de informática que se dedica a detectar fallo
 - **Blue Hat**: es una persona fuera de las empresas de consultoría informática que es utilizado para hacer una prueba de errores de un sistema antes de su lanzamiento en busca de exploits para que puedan ser cerrados.
 
 ---
-
+<a name="Hardware"></a>
 # Hardware
 Es la parte física de un ordenador o sistema informático. Está formado por los componentes eléctricos, electrónicos, electromecánicos y mecánicos, tales como circuitos de cables y luz, placas, memorias, discos duros, dispositivos periféricos y cualquier otro material en estado físico que sea necesario para que el equipo funcione.
 
 ---
-
+<a name="Html"></a>
 # Html
 
 HTML (Hyper Text Markup Language: Lenguaje de marcas de hipertexto) es un lenguaje de marcado para la elaboración de páginas web. Es la pieza más básica para la construcción de la web y se usa para definir el sentido y estructura del contenido de una página web mediante etiquetas que identifican los elementos de la página: párrafo, título, texto, tabla, lista de elementos, etc.
@@ -776,6 +1168,7 @@ HTML (Hyper Text Markup Language: Lenguaje de marcas de hipertexto) es un lengua
 Hipertexto hace referencia a los enlaces que conectan las páginas web entre sí, ya sea dentro de un mismo sitio web o entre diferentes sitios web. Los vínculos es un aspecto fundamental de la web.
 
 ---
+<a name="Ingeniería social"></a>
 # Ingeniería social
 
 La ingeniería social consisten en engañar a la gente para que cedan su información personal como contraseñas o datos bancarios o para que permitan el acceso a un equipo con el fin de instalar software malicioso de forma inadvertida. Los ladrones y estafadores la utilizan porque es más fácil engañar a alguien para que revele su contraseña que vulnerar su seguridad.
@@ -791,6 +1184,7 @@ Aspectos a tener en cuenta sobre la ingeniería social:
 - Se enfoca principalmente en las empresas
 
 ---
+<a name="Internet"></a>
 # Internet
 
 Es una red de comunicaciones digital y abierta que conecta puntos entre sí de todo el mundo. Es una red muy compleja que conecta millones de entidades entre sí a nivel mundial con una gran complejidad.
@@ -798,7 +1192,7 @@ Es una red de comunicaciones digital y abierta que conecta puntos entre sí de t
 El protocolo que usa internet para establecer las reglas de comunicación es IP ( Internet Protocol) que fue creado por la agencia Darpa para el departamento de defensa de EEUU. Actualmente se usa la versión 4 y la 6 lo está sustituyendo poco a poco.
 
 ---
-
+<a name="Interfaz"></a>
 # Interfaz
 
 Una interfaz se utiliza en informática para nombrar a la conexión entre dos sistemas, programas, dispositivos o componentes de cualquier tipo, que proporciona una comunicación de distintos niveles, permitiendo el intercambio de información. 
@@ -810,13 +1204,13 @@ Algunos ejemplos de interfaces informáticas son:
 - interfaces lógicas(entre programas):  API, DOM
 
 ---
-
+<a name="Interprete"></a>
 # Interprete
 
 También conocido como traductor ya que traduce programas escritos en un lenguaje de programación  al lenguaje máquina de la computadora y se ejecuta a medida que se va traduciendo 
 
 ---
-
+<a name="IP"></a>
 # IP
 
 Una dirección IP es un número que identifica a una interfaz de un dispositivo (habitualmente una computadora) dentro de una red que utilice el protocolo IP ( Internet Protocol)
@@ -824,18 +1218,19 @@ Una dirección IP es un número que identifica a una interfaz de un dispositivo 
 Se representa mediante un número binario de 32 bits (IPv4). Las direcciones IP se pueden expresar como números de notación decimal. Ejemplo: 164.12.123.65 
 
 ---
+<a name="IP-Pública"></a>
 # IP-Pública
 
 La IP pública es un número único que identifica nuestra red desde el exterior. La IP del router de casa que es visible desde el exterior. Las suele proporcionar el ISP (proveedor de internet) y puede ser dinámica o fija. Hay páginas en internet que muestran la ip pública en el momento en el que se acceden.
 
 ---
-
-# IP- Privada
+<a name="IP-Privada"></a>
+# IP-Privada
 
 La IP privada es un número único que identifica a un dispositivo conectado a nuestra red interna. Son las direcciones que el router asigna a cada uno de los dispositivos de nuestra red. No  son accesibles desde internet.
 
 ---
-
+<a name="Inyección SQL"></a>
 # Inyección SQL
 
 Una inyección SQL ,o SQLi, es un tipo de ataque a una aplicación web que permite a un atacante insertar sentencias SQL maliciosas obteniendo acceso a datos sensibles en la base de datos o destruyendo datos.
@@ -868,13 +1263,13 @@ El origen  de la vulnerabilidad radica en una incorrecta comprobación o filtrad
     En MySQL, las  funciones LOAD_FILE() y INTO OUTFILE  se pueden usar para leer el contenido de un archivo en el servidor y que se transmitan los datos a una fuente externa.
 
 ---
-
+<a name="Java"></a>
 # Java
 
 Java es un lenguaje de programación orientado a objetos que posee todas las herramientas necesarias para trabajar en proyectos de Inteligencia Artificial. Las características más destacadas de Java son la transparencia, la mantenibilidad y la portabilidad. Permite codificar algoritmos muy fácilmente y es un lenguaje escalable. Teniendo en cuenta que una IA está basada en gran medida en estos algoritmos, Java es una muy buena opción. Además, dispone de interfaces de datos muy atractivas para mejorar la experiencia del usuario. Si tenemos alguna duda, dispone de una nutrida comunidad de usuarios que pueden ayudarnos.
 
 ---
-
+<a name="Javascript"></a>
 # Javascript
 
 Javascript (JS) es un lenguaje de programación ligero e interpretado, orientado a objetos y con funciones de primera clase (se pueden pasar funciones como argumentos de otras funciones, devolverlas como valores de otras funciones y asignarlas a variables o almacenarlas en estructuras de datos).
@@ -886,6 +1281,7 @@ Es un lenguaje script multiparadigma, basado en prototipos, dinámico, soporta e
 No confundir con Java. Ambos tienen semánticas y propósitos  diferentes
 
 ---
+<a name="JSON"></a>
 # JSON
 
 JSON( Javascript Object Notation / Notación de objeto de Javascript) es un formato de texto sencillo para el intercambio de datos. Es es estandars actual para el intercambio de información. Es una  alternativa más simple y liviana al xml.
@@ -945,7 +1341,7 @@ Los objetos clave/valor se separan entre comas.
 ```
 
 ---
-
+<a name="Lenguaje-de-alto-nivel"></a>
 # Lenguaje-de-alto-nivel
 
 El Lenguaje de alto nivel es aquel que se aproxima más al lenguaje natural humano que al lenguaje binario de las computadoras, el que se conoce como lenguaje de bajo nivel.
@@ -955,13 +1351,13 @@ Un lenguaje de alto nivel permite al programador escribir las instrucciones de u
 Un lenguaje de alto nivel se caracteriza por expresar los algoritmos de una manera adecuada a la capacidad cognitiva humana, en lugar de a la capacidad ejecutora de las máquinas.Ésta es la razón por la que a estos lenguajes se les considera de alto nivel, porque se pueden utilizar palabras de muy fácil comprensión para el programador.
 
 ---
-
+<a name="Lenguaje-de-máquina"></a>
 # Lenguaje-de-máquina
 
 Es el más primitivo de los lenguajes y es una colección de dígitos binarios o bits (0 y 1) que la computadora lee e interpreta y son los únicos idiomas que las computadoras entienden.
 
 ---
-
+<a name="Lenguaje-de-programación"></a>
 # Lenguaje-de-programación
 
 Es un lenguaje formal que, mediante una serie de instrucciones, le permite a un programador escribir un conjunto de órdenes, acciones consecutivas, datos y algoritmos para crear programas que controlen el comportamiento físico y lógico de una máquina.
@@ -969,7 +1365,7 @@ Es un lenguaje formal que, mediante una serie de instrucciones, le permite a un 
 Existen muchísimos lenguajes de programación y cada uno se enfoca a distintos usos. Se elige el lenguaje de programación a utilizar en función de lo que se quiera hacer  con él.
 
 ---
-
+<a name="Ley de Moore"></a>
 # Ley de Moore
 
 La ley de Moore expresa que aproximadamente cada dos años se duplica el número de transistores en un microprocesador
@@ -981,12 +1377,13 @@ En 2010, la International Technology Roadmap for Semiconductors predijo que este
 La consecuencia directa de la ley de Moore es que los precios bajan al mismo tiempo que las prestaciones suben: la computadora que hoy vale 3000 dólares costará la mitad al año siguiente y estará obsoleta en dos años. En 26 años el número de transistores en un chip se ha incrementado 3200 veces.
 
 ---
-
+<a name="Lisp"></a>
 # Lisp
 
 Desde su nacimineto en 1958 de la mano de John McCarthy, Lisp no ha dejado de crecer. De hecho, su creador trabajó en el MTI junto a Marvin Minsky, uno de los padres de la Inteligencia Artificial. Lisp trabaja con expresiones simbólicas y prototipado, herramientas útiles en el campo del Machine Learning. Además, se utiliza en proyectos como CYC, cuyo objetivo es permitir a las aplicaciones basadas en IA ejecutar razonamientos similares a los humanos.
 
 ---
+<a name="Man-in-the-middle"></a>
 # Man-in-the-middle
 
 Un ataque Man in the Middle (MitM) o ataque de intermediario es el método por el cual un hacker interviene en el tráfico de datos de dos partes vinculadas entre sí en una comunicación, haciéndose pasar por cualquiera de ellas, haciéndoles creer que se están comunicando entre ellos cuando en realidad es el intermediario quien recibe la comunicación. El objetivo es interceptar, leer o manipular de forma efectiva la comunicación entre la víctima y sus datos sin que nadie se dé cuanta de que hay una tercera persona incluida en la operación.
@@ -1008,7 +1405,7 @@ Existen varios tipos  de defensa contra MitM que emplean técnicas de autenticac
 - Fijación de certificados
 
 ---
-
+<a name="Mascara-de-subred"></a>
 # Mascara-de-subred
 
 La máscara de red es una combinación de bits que sirve para delimitar el ámbito de una red de ordenadores. Su función es indicar  a los dispositivos qué parte de la dirección IP es el número de la red, incluyendo la subred, y qué parte es la correspondiente al host.
@@ -1018,19 +1415,19 @@ Mediante la máscara de red, un sistema (ordenador, puerta de enlace, router,...
 Antes de enviar un paquete la computadora realiza la operación lógica AND, bit a bit entre la dirección de destino y la máscara y la dirección de origen y la máscara. Si el resultado es idéntico significa que la computadora remota está en la misma subred.
 
 ---
-
+<a name="MySQL"></a>
 # MySQL
 
 MySQL es el SGBD( Sistema de Gestión de Base de Datos) de código abierto más utilizado a nivel global. Desde que pasa a las manos de Oracle, se distribuye con una licencia dual. Sus  primeros desarrolladores siguen encargándose del proyecto, ahora bajo el nombre de MariaDB.
 
 ---
-
+<a name="MongoDB"></a>
 # MongoDB
 
 Es un sistema de base de datos NoSQL, orientado a documentos y de código abierto. En lugar de guardar los datos en tablas, como se hace en las bases de datos relacionales, guarda estructuras de datos BSON (una especificación similar a JSON) con un esquema dinámico, haciendo que la integración de los datos en ciertas aplicaciones sea más fácil y rápida.
 
 ---
-
+<a name="Notación-asintótica"></a>
 # Notación-asintótica
 
 Las notaciones asintóticas son lenguajes que permiten analizar el tiempo de ejecución de un algoritmo identificando su comportamiento si el tamaño de entrada para el algoritmo aumenta. También conocido como tasa de crecimiento de un algoritmo.
@@ -1044,7 +1441,7 @@ Hay varias notaciones asintóticas:
 - **Big-Theta**:  es una notación asintótica que tiene en cuenta tanto el límite superior como el inferior. Es más precisa, pero más difícil de calcular. De cota ajustada
 
 ---
-
+<a name="Notación-Big-O"></a>
 # Notación-Big-O
 
 La notación Big O es una herramienta para determinar la complejidad de un algoritmo, permitiendo medir su rendimiento en cuanto a uso de espacio en disco, recursos(memoria y ciclos de reloj de CPU) y tiempo de ejecución, entre otras, ayudando a identificar el peor escenario donde el algoritmos llegue a su más alto punto de exigencia.
@@ -1084,7 +1481,7 @@ Los términos de complejidad Big O más utilizados son:
  
 ---
 
-
+<a name="NoSQL"></a>
 # NoSQL
 
 En informática, NoSQL (a veces llamado "no solo SQL") es una amplia clase de sistemas de gestión de bases de datos que difieren del modelo clásico de SGBDR (Sistema de Gestión de Bases de Datos Relacionales) en aspectos importantes, siendo el más destacado que no usan SQL como lenguaje principal de consultas.
@@ -1119,6 +1516,7 @@ Algunas de las bases de datos NoSQL más reconocidas en la actualidad son: Mongo
 - **Incompatibilidad en consultas SQL**: agrega una dificultad mayor que que en caso de ser necesario se debe incluir una consulta manual, que puede hacer los procesos más lentos y complejos
 
 ---
+<a name="Pentesting"></a>
 # Pentesting
 
 Un pentest o test de penetración, es un método para evaluar los sistemas de información  y la red digital de una organización simulando un ataque. Está diseñado para determinar el alcance de los fallos de seguridad de un sistema.
@@ -1133,24 +1531,25 @@ Es un asalto lanzado desde la propia organización o proveedor para  encontrar v
 
 ---
 
-
+<a name="Periférico"></a>
 # Periférico
 En informática periférico es la denominación genérica de cualquier aparato o dispositivo  auxiliar e independiente que se conecta a la CPU de una computadora y se comunica con ella. Ejemplos: teclado, ratón, monitor, altavoces, auriculares, hubs, impresoras, ... 
 
 ---
+<a name="Phising"></a>
 # Phising
 
 Es un término informático que distingue a un conjunto de técnicas que persiguen el engaño a una víctima ganándose su confianza haciéndose pasar por una persona, empresa o servicio de confianza (suplantación de identidad de tercero de confianza), para manipularla y hacer que realice acciones que no debería realizar (revelar información confidencial o hacer click en un enlace). Para realizar el engaño, habitualmente se hace uso de ingeniería social explotando instintos sociales como ayudar o ser eficiente. Los objetivos pueden ser: robar información, instalar malware, sabotear sistemas o robar dinero a través de fraudes. Se llama *phisher* al que practica phising. 
 
 ---
 
-
+<a name="PostgreSQL"></a>
 # PostgreSQL
 
 Es un sistema de gestión de bases de datos relacional orientado a objetos y de código abierto. Es gratuito y libre y de su desarrollo se ocupa la comunidad open source.
 
 ---
-
+<a name="Procesamiento-del-lenguaje-natural"></a>
 # Procesamiento-del-lenguaje-natural
 
 El procesamiento del lenguaje natural (PLN) es el campo de conocimiento de la Inteligencia Artificial que se ocupa de investigar la manera de comunicar las máquinas con las personas mediante el uso de lenguajes naturales, como el español, el inglés o el chino.
@@ -1189,12 +1588,13 @@ Dependiendo del objetivo de la tarea de PLN se aplican los análisis necesarios.
 Un conversor de texto a voz no necesita el análisis semántico o pragmático, pero un sistema conversacional requiere información muy detallada del contexto y del dominio temático.
 
 ---
-
+<a name="Programación"></a>
 # Programación
 
 Indicar a un ordenador mediante código que quieres que haga. Se trata de resolver problemas, descomponiéndolos en instrucciones que un ordenador es capaz de realizar.
 
 ---
+<a name="Protocolo-de-comunicación"></a>
 # Protocolo-de-comunicación
 
 Un protocolo de comunicación es un sistema de reglas que permiten que dos o más entidades, computadoras, teléfonos celulares,etc. de un sistema de  comunicación se comuniquen entre ellas para transmitir información por medio de cualquier tipo de variación de una magnitud física.
@@ -1221,7 +1621,7 @@ Algunos ejemplos de protocolos informáticos son:
 - POP(Post Office Protocol): para servicios de correo electrónico. Permite recuperar los mensajes almacenados en un servidor remoto (servidor POP), especialmente en conexiones intermitentes o muy lentas
 
 ---
-
+<a name="Protocolo-TCP/IP"></a>
 # Protocolo-TCP/IP
 
 TCP/IP es un grupo de protocolos que conforman la base de internet y otras redes. Se compone de varios protocolos determinantes para la comunicació por internet:
@@ -1259,6 +1659,7 @@ Su modelo se divide en cuatro capas diferenciadas. Cuando se emplean juntas se p
 - Cuando se utiliza en servidores de ficheros o de impresión no ofrece un gran rendimiento
 
 ---
+<a name="Puertas lógicas"></a>
 # Puertas lógicas
 
 [https://es.wikipedia.org/wiki/Puerta_lógica](https://es.wikipedia.org/wiki/Puerta_l%C3%B3gica)
@@ -1355,7 +1756,7 @@ Esta puerta al ser el complemento de la puerta OR exclusiva (XOR), sus resultado
 La puerta lógica XNOR se identifica como función par, en tanto que la puerta lógica XOR se identifica como función impar.
 
 ---
-
+<a name="Php"></a>
 # Php
 
 PHP (acrónimo recursivo de PHP: Hypertext Preprocessor) es un lenguaje de código abierto muy popular especialmente adecuado para el desarrollo web y que puede ser incrustado en HTML, por lo que en un mismo archivo se puede combinar código PHP con código HTML siguiendo ciertas reglas. Se utiliza para crear páginas dinámicas
@@ -1363,7 +1764,7 @@ PHP (acrónimo recursivo de PHP: Hypertext Preprocessor) es un lenguaje de códi
 A diferencia de javascript el código PHP se ejecuta en el lado del servidor donde se genera el HTML que se devuelve a la parte cliente
 
 ---
-
+<a name="Python"></a>
 # Python
 
 Python es un lenguaje de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código.2 Se trata de un lenguaje de programación multiparadigma, ya que soporta orientación a objetos, programación imperativa y, en menor medida, programación funcional. Es un lenguaje interpretado, dinámico y multiplataforma.
@@ -1371,7 +1772,7 @@ Python es un lenguaje de programación interpretado cuya filosofía hace hincapi
 Python es uno de los lenguajes más utilizados para configurar IA. Su simplicidad y las filosofías DRY (Don’t Repeat Yourself) y RAD (Rapid Application Development) en las que se basa lo convierten en un candidato ideal. Puede utilizarse tanto para estructurar datos como para generar algoritmos de IA. Además, dispone de un catálogo de librerías muy extenso que permite hacer realidad cualquier tipo de proyecto. Ningún soporte se resiste a Python, puesto que sirve para trabajar en aplicaciones de todo tipo, sean mobile, web, data science o IA.
 
 ---
-
+<a name="R"></a>
 # R
 
 R dispone de paquetes de programación muy numerosos. Algunos de ellos se utilizan en el ámbito del Machine Learning, como RODBC. Para garantizar la funcionalidad de la IA, implementan algoritmos de aprendizaje automático. Se trata de uno de los mejores lenguajes para analizar y tratar con datos. Por ello, es posible crear buenas IA con finalidades estadísticas.
@@ -1379,7 +1780,7 @@ R dispone de paquetes de programación muy numerosos. Algunos de ellos se utiliz
 Se trata de uno de los lenguajes de programación más utilizados en investigación científica, siendo además muy popular en los campos de aprendizaje automático (machine learning), minería de datos, investigación biomédica, bioinformática y matemáticas financieras. A esto contribuye la posibilidad de cargar diferentes bibliotecas o paquetes con funcionalidades de cálculo y graficación.
 
 ---
-
+<a name="Raspberry pi"></a>
 # Raspberry pi
 
 Es un ordenador del tamaño de una tarjeta de crédito que se conecta a la TV o un monitor, un teclado y un ratón. Se puede utilizar para aprender a programar o para construir proyectos electrónicos, y para muchas de las cosas que hacen los PCs de escritorio como hojas de cálculo, procesamiento de textos, navegar internet y jugar videojuegos. Además reproduce video de alta definición. 
@@ -1396,12 +1797,13 @@ En relación al software, una Arduino ejecuta inmediatamente la tarea para la qu
 Existen placas como Arduberry  que permiten conectar shields Arduino a una Raspberry Pi
 
 ---
+<a name="Ransomware"></a>
 # Ransomware
 
 Es un malware que secuestra los datos del ordenador bloqueándolos sólo a ellos o a todo el equipo y pidiendo un rescate económico a cambio de recuperarlos. Puede instalarse a través de otro malware. No se debe pagar el rescate para no fomentar su uso y porque no se tiene garantía de conseguir liberar los datos
 
 ---
-
+<a name="Red-LAN"></a>
 # Red-LAN
 
 Red de área local (Local Area Network).  Son  redes de pequeña extensión, donde el  usuario es el dueño de la red con velocidades de 1 a 100 Mbps ethernet. Con fibra óptica podría alcanzar los 1000 Mbps.
@@ -1411,7 +1813,7 @@ Son las de uso más frecuente. Son conjuntos de máquinas interconectadas, ubica
 La LAN permite la interacción entre múltiples equipos para compartir datos y recursos. Teóricamente no existe un límite de computadoras que pueden estar conectadas a una LAN, pero con el uso de buenos equipos y excelente organización de red, a partir de los 400 o 500 equipos se percibe degradación en el rendimiento de la red
 
 ---
-
+<a name="Red-WAN"></a>
 # Red-WAN
 
 Red de área amplia (Wide Area Network). Son redes de gran extendión, dan servicio a múltiples usuarios, atraviesan incluso paises. Un ejemplo de WAN pública es internet.
@@ -1419,6 +1821,7 @@ Red de área amplia (Wide Area Network). Son redes de gran extendión, dan servi
 Son redes LAN y MAN (Metropolitan Area Network) interconectadas entre sí. Sus nodos están separados por distancias que pueden abarcar continentes enteros y no necesitan está conectados físicamente ya que pueden usar servicios de microondas y satelitales.
 
 ---
+<a name="Redes informáticas"></a>
 # Redes informáticas
 
 Las redes informáticas, redes de comunicaciones de datos o redes de computadoras son un número de sistemas informáticos conectados entre sí mediante una serie de dispositivos alámbricos o inalámbricos, gracias a los cuales pueden compartir información en paquetes de datos, transmitidos mediante impulsos eléctricos, ondas electromagnéticas o cualquier otro medio físico.
@@ -1437,7 +1840,7 @@ Según la tecnología de conexión se clasifican en:
 Otras posibles clasificaciones son según la topología, la relación  funcional o la direccionalidad de los datos.
 
 ---
-
+<a name="Repositorio-de-control-de-versiones"></a>
 # Repositorio-de-control-de-versiones
 
 Los sistemas de control de versiones son una categoría de herramientas de software que ayudan a un equipo de software a gestionar los cambios en el código fuente a lo largo del tiempo. El software de control de versiones realiza un seguimiento de todas las modificaciones en el código en un tipo especial de base de datos
@@ -1445,6 +1848,7 @@ Los sistemas de control de versiones son una categoría de herramientas de softw
 El repositorio es el lugar en el que se almacenan los datos actualizados e históricos de cambios.
 
 ---
+<a name="Router"></a>
 # Router
 
 Dispositivo o componente de red que concecta rutas entre sí. Como un cruce de carreteras. Tiene en memoria una tabla de rutas que sería el equivalente a un panel de señalización.
@@ -1454,6 +1858,7 @@ Los routers utilizados en las casas sirven para crear un punto de acceso que per
 El router es la puerta o gateway de una red ya que es un dispositivo que enruta o reenvía datos de una red a otra según su dirección IP. Cuando el router recibe un paquete de datos inspecciona su dirección IP y determina si el paquete va para su propia red o para otra red. Si es para su propia red lo recibe y sino lo envía fuera.
 
 ---
+<a name="Scrapping"></a>
 # Scrapping
 
 El scrapping o web scrapping es una técnica para extraer datos de cualquier página web de forma automatizada usando programas o scripts web que escanean la estructura HTML del sitio web.
@@ -1463,6 +1868,7 @@ El scrapping se utiliza junto al web crawling. El scrapping técnicamente es só
 El web crawler dirige al web scraper a través de la red para que pueda recabar la información solicitada en un sistema de almacenamiento concreto.
 
 ---
+<a name="Servidor-web"></a>
 
 # Servidor-web
 
@@ -1471,6 +1877,7 @@ Almacena todos los archivos  propios de una página web ( texto, imagen, video, 
 HTTP está diseñado para transferir lo que llamamos hipertextos, páginas web o páginas HTML (Hyper Text Markup Language)
 
 ---
+<a name="Síncrono"></a>
 # Síncrono
 
 Que se desarrolla en perfecta correspondencia temporal con otro proceso o causa.
@@ -1478,13 +1885,13 @@ Que se desarrolla en perfecta correspondencia temporal con otro proceso o causa.
 La comunicación síncrona es el intercambio de información en tiempo real, de forma simultánea. Es necesario que alguien emita y alguien reciba a la vez, por lo que tanto el emisor como el receptor tienen que estar pendientes a la vez de la comunicación.
 
 ---
-
+<a name="Sistema-binario"></a>
 # Sistema-binario
 
 El sistema binario es un sistema de numeración en el que los números se representan utilizando solamente dos cifras: cero (0) y uno (1). Es uno de los sistemas que se utilizan en las computadoras, ya que estas trabajan internamente con dos niveles de voltaje.
 
 ---
-
+<a name="Sistema-operativo"></a>
 # Sistema-operativo
 Es el software principal o conjunto de programas de un sistema informático que gestiona los recursos de hardware y provee servicios a los programas de aplicación, ejecutándose en modo privilegiado respecto al resto del software, sin permitir que un programa cualquiera realice cambios de importancia sobre él que puedan comprometer su funcionamiento.
 
@@ -1517,7 +1924,7 @@ El SO tiene 3 componentes esenciales que permiten la interacción con el hardwar
 - iOS
 
 ---
-
+<a name="Software"></a>
 # Software
 Es un término informático que hace referencia a un programa o conjunto de programas, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.
 
@@ -1533,13 +1940,14 @@ De forma genérica en función del uso o utilidad:
 - Software malicioso o malintencionado
 
 ---
+<a name="Spyware"></a>
 # Spyware
 
 Es un malware que se instala por sí sólo en el equipo o mediante la interacción de una segunda aplicación que lo lanza sin que el usuario se dé cuenta. Suele trabajar intentando no ser detectado para recolectar información sobre el usuario u organización y después transmitirla a una entidad externa sin el conocimiento o el consetimiento del propietario del ordenador.
 
 ---
 
-
+<a name="SQL"></a>
 # SQL
 
 SQL (por sus siglas en inglés Structured Query Language; en español lenguaje de consulta estructurada) es un lenguaje de dominio específico utilizado en programación, diseñado para administrar, y recuperar información de sistemas de gestión de bases de datos relacionales. Una de sus principales características es el manejo del álgebra y el cálculo relacional para efectuar consultas con el fin de recuperar, de forma sencilla, información de bases de datos, así como realizar cambios en ellas. Consiste en un lenguaje de definición de datos, un lenguaje de manipulación de datos y un lenguaje de control de datos
@@ -1558,6 +1966,7 @@ DML(Data Manipulation Language): permite manipular la informacion
 DCL (Data Control Language): permite controlar los permisos de acceso a las bases de datos
 
 ---
+<a name="Switch"></a>
 # Switch
 
 Es un dispositivo que tiene varios puertos que aceptan conexiones ethernet de diferentes dispositivos de red. Es inteligente ya que puede aprender las direcciones físicas, direcciones mac, de los dispositivos que están conectados almacenándolas en una tabla interna. Cuando un paquete de datos se  envía a un switch, éste solo lo redigirá al puerto de destino deseado.
@@ -1565,7 +1974,7 @@ Es un dispositivo que tiene varios puertos que aceptan conexiones ethernet de di
 Se suele utilizar para intercambiar datos dentro de una red de área local cómo una red doméstica o una red de una empresa, pero no se utiliza para intercambiar datos fuera de su propia red.
 
 ---
-
+<a name="Transistor"></a>
 # Transistor
 
 Desarrollados por John Bardeen, Walter Brattain y William Shockey en los laboratorios Bell el 23 de Diciembre de 1947, los transistores significan en realidad «transfer resistance» por sus propiedades. Se trata de un elemento eléctrico fabricado con semiconductores que es capaz de alterar el flujo de corriente para dejar pasarla o no, representando los unos y los ceros del sistema binario.
@@ -1577,6 +1986,7 @@ Dado que los ordenadores trabajan en sistema binario, estos estados de «encendi
 Así, en un procesador o GPU se introducen millones de transistores de tamaño diminuto unidos entre sí, que trabajando en conjunto permiten que el procesador pueda realizar millones de operaciones cada ciclo de reloj. Conceptualmente, un procesador no es mas que una enorme fábrica con millones de interruptores.
 
 ---
+<a name="Transistores bipolares"></a>
 # Transistores bipolares
 
 El transistor de unión bipolar es un dispositivo electrónico de estado sólido consistente en dos uniones PN en un solo cristal semiconductor, separados por una región muy estrecha, dando lugar a tres regiones o terminales: Emisor, Base y Colector. Según su fabricación pueden ser de dos tipos: NPN y PNP. 
@@ -1590,7 +2000,7 @@ También se se usan como  interruptores
 Posee tres estados de operación: estado de corte, estado de saturación y estado de actividad.
 
 ---
-
+<a name="Troyano"></a>
 # Troyano
 
 Un troyano es un malware que va dentro de un programa legítimo o disfrazado en él para introducirse en un equipo como si fuese un Caballo de Troya. Mientras que un virus suele ser destructivo, un troyano trata de pasar desapercibido mientras accede al dispositivo con la intención de ejecutar  acciones ocultas con las que abrir una puerta trasera para que otros programas maliciosos puedan acceder a él o robar información. No se propagan a si mismos.
@@ -1614,7 +2024,7 @@ Un troyano es un malware que va dentro de un programa legítimo o disfrazado en 
 - **Otros** : trojan-ArcBomb, Trojan-Clicker, Trojan-Notifier, Trojan-Proxy, Trojan-PSW
 
 ---
-
+<a name="Turing"></a>
 # Turing
 
 **Alan Turing**. Uno de los padres de la ciencia de la computación y precursor de la informática moderna.
@@ -1626,7 +2036,9 @@ T**esis Church-Turing**: cualquier modelo computacional existente tiene las mism
 En la segunda guerra mundial trabajo en **descifrar los códigos de Enigma** construyendo la máquina Bombe.
 
 **Test de Turing:** método para determinar si una máquina puede pensar. Humano chatea con una máquina haciendo preguntas y tiene que concluir si se trataba de una persona o un máquina.
+---
 
+<a name="Von-neumann"></a>
 # Von-neumann
 **John von Neuman** fue un matemático húngaro-estadounidense, que realizó contribuciones fundamentales en física cuántica, análisis funcional,  teoría de conjuntos, teoría de juegos, ciencias de la computación, economía, análisis numérico, cibernética, hidrodinámica, estadística y muchos otros campos. Se le considera uno de los matemáticos más importantes del siglo XX.
 
@@ -1639,13 +2051,13 @@ El diseño de la arquitectura von Neuman es más simple que la *arquitectura Har
 En la gran mayoría de computadoras modernas, se utiliza la misma memoria tanto para los datos como para las instrucciones de programa, y la distinción entre von Neuman vs Harvard se aplica a la arquitectura de memoria caché, pero no  a la memoria principal.
 
 ---
-
+<a name="XML"></a>
 # XML
 
 XML (Extensible Markup Language/ Lenguaje de marcado extensible) es un metalenguaje que permite definir lenguajes de marcas que se utiliza para almacenar datos de forma  legible. Fué el estándard inicial para el intercambio de información estructurada entre diferentes plataformas. Es similar a HTML 
 
 ---
-
+<a name="XSS"></a>
 # XSS
 
 Una secuencia de comandos en sitios cruzados o Cross-site scripting (XSS) es un tipo de vulnerabilidad informática o  agujero de seguridad típico de las  aplicaciones web, que puede permitir a una una tercera persona inyectar en páginas web visitadas  por el  usuario código Javascript o en otro lenguaje similar.
