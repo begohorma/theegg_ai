@@ -32,9 +32,9 @@
 
 [Asíncrono](#Asíncrono)
 
-[Ataque DDoS](#Ataque DDoS)
+[Ataque-DDoS](#Ataque-DDoS)
 
-[Ataque informático](#Ataque informático)
+[Ataque-informático](#Ataque-informático)
 
 <a name="B"></a>
 ## B
@@ -42,7 +42,7 @@
 
 [Bases-de-datos-relacionales](#Bases-de-datos-relacionales)
 
-[Bucles, Bucles-en-programación](#Bucles, Bucles-en-programación)
+[Bucles,_Bucles-en-programación](#Bucles,_Bucles-en-programación)
 
 [Búsqueda-binaria](#Búsqueda-binaria)
 
@@ -68,15 +68,15 @@
 
 <a name="D"></a>
 ## D
-[Data-preprocessing (preprocesado de datos)](#Data-preprocessing (preprocesado de datos))
+[Data-preprocessing(preprocesado-de-datos)](#Data-preprocessing(preprocesado-de-datos))
 
 [Dato-estructurado](#Dato-estructurado)
 
 [Dato-semiestructurado](#Dato-semiestructurado)
 
-[Dato-no- estructurado](#Dato-no- estructurado)
+[Dato-no-estructurado](#Dato-no-estructurado)
 
-[Diagrama de flujo](#Diagrama de flujo)
+[Diagrama-de-flujo](#Diagrama-de-flujo)
 
 [DNS](#DNS)
 
@@ -86,7 +86,7 @@
 
 [Estadística-descriptiva](#Estadística-descriptiva)
 
-[Estadística- inferencial](#Estadística- inferencial)
+[Estadística-inferencial](#Estadística-inferencial)
 
 [ETL](#ETL)
 
@@ -114,7 +114,7 @@
 
 <a name="I"></a>
 ## I
-[Ingeniería social](#Ingeniería social)
+[Ingeniería-social](#Ingeniería-social)
 
 [Internet](#Internet)
 
@@ -128,7 +128,7 @@
 
 [IP-Privada](#IP-Privada)
 
-[Inyección SQL](#Inyección SQL)
+[Inyección-SQL](#Inyección-SQL)
 
 <a name="J"></a>
 ## J
@@ -150,7 +150,7 @@
 
 [Lenguaje-de-programación](#Lenguaje-de-programación)
 
-[Ley de Moore](#Ley de Moore)
+[Ley-de-Moore](#Ley-de-Moore)
 
 [Lisp](#Lisp)
 
@@ -194,7 +194,7 @@
 
 [Protocolo-TCP/IP](#Protocolo-TCP/IP)
 
-[Puertas lógicas](#Puertas lógicas)
+[Puertas-lógicas](#Puertas-lógicas)
 
 [Php](#Php)
 
@@ -208,7 +208,7 @@
 ## R
 [R](#R)
 
-[Raspberry pi](#Raspberry pi)
+[Raspberry-pi](#Raspberry-pi)
 
 [Ransomware](#Ransomware)
 
@@ -216,7 +216,7 @@
 
 [Red-WAN](#Red-WAN)
 
-[Redes informáticas](#Redes informáticas)
+[Redes-informáticas](#Redes-informáticas)
 
 [Repositorio-de-control-de-versiones](#Repositorio-de-control-de-versiones)
 
@@ -248,7 +248,7 @@
 
 [Transistor](#Transistor)
 
-[Transistores bipolares](#Transistores bipolares)
+[Transistores-bipolares](#Transistores-bipolares)
 
 [Troyano](#Troyano)
 
@@ -603,7 +603,7 @@ Elementos de la comunicación asíncrona
 - **Código**: Debe ser perdurable en el tiempo, compartido entre los elementos de la comunicación y contar con un soporte físico para su almacenamiento
 
 ---
-<a name="Ataque DDoS"></a>
+<a name="Ataque-DDoS"></a>
 # Ataque DDoS
 
 Un ataque de denegación de servicio distribuido DDoS( Distributed Denial of Services) es un ataque a un sistema de computadores o red que causa que un servicio o recurso sea inaccesible a los usuarios legítimos. 
@@ -618,7 +618,7 @@ Las formas de ataque DDoS más comunes son:
 - por agotamiento de los recursos del sistema de la máquina, impidiendo que responda al tráfico legítimo.
 
 ---
-<a name="Ataque informático"></a>
+<a name="Ataque-informático"></a>
 # Ataque informático
 
 Un ciberataque o ataque informático, es cualquier maniobra ofensiva de explotación deliberada que tiene como objetivo tomar el control, desestabilizar o dañar un sistema informático ( ordenador, red privada, ...). El atacante es un individuo u organización que intenta obtener el control de un sistema informático para utilizarlo con fines maliciosos, robo de información o hacer daño a su objetivo. Utiliza códigos maliciosos.
@@ -675,7 +675,7 @@ En una base de datos relacional, cada fila en una tabla es un registro con una I
 El modelo relacional implica que las estructuras lógicas de los datos (tablas, vistas e índices) estén separadas de las estructuras de almacenamiento físico.
 
 ---
-<a name="Bucles, Bucles-en-programación"></a>
+<a name="Bucles,_Bucles-en-programación"></a>
 # Bucles, Bucles-en-programación
 
 Un bucle en programación es una secuencia que repite varias veces un mismo trozo de código, hasta que la condición asignada al bucle deja de cumplirse. Los bucles más usados son 
@@ -849,7 +849,7 @@ Es la mejor forma de separar los contenidos de su presentación y es imprescindi
 Una vez creados los elementos de la web con HTML, se utiliza CSS para definir el aspecto de cada elemento: color, tamaño y tipo de letra del texto, separación horizontal y vertical entre elementos, posición de cada elemento dentro de la página, etc.
 
 ---
-<a name="Data-preprocessing (preprocesado de datos)"></a>
+<a name="Data-preprocessing(preprocesado-de-datos"></a>
 # Data-preprocessing (preprocesado de datos)
 
 El preprocesamiento de datos engloba todas aquellas técnicas de análisis de datos que permiten mejorar la calidad de un conjunto de datos de modo que las técnicas de extracción de conocimiento/minería de datos puedan obtener mayor y mejor información.
@@ -898,7 +898,7 @@ Contienen metadatos (etiquetas y elementos) que se utilizan para agruparlos y de
 Ejemplos: XML y otros lenguajes de marcado, archivos comprimidos, paquetes TCP/IP, ejecutables binarios
 
 ---
-<a name="Dato-no- estructurado"></a>
+<a name="Dato-no-estructurado"></a>
 # Dato-no- estructurado
 
 Los datos no estructurados, generalmente son datos binarios, que no tienen estructura interna identificables. Es un conglomerado masivo y desorganizado de varios objetos que no tienen valor hasta que se identifican y almacenan de manera organizada.
@@ -912,7 +912,7 @@ No pueden almacenarse en bases de datos relacionales, ya que no se pueden ajusta
 Obtener la información valiosa contenida en ellos exige análisis avanzados y un alto nivel de experiencia técnica. Requieren técnicas de datamining que implican métodos de machine learning, inteligencia artificial y estadística
 
 ---
-<a name="Diagrama de flujo"></a>
+<a name="Diagrama-de-flujo"></a>
 # Diagrama de Flujo
 
 El diagrama de flujo, flujograma o diagrama de actividades es una manera de representar gráficamente un algoritmo  o un proceso a través de una serie de pasos estructurados y vinculados que permiten su revisión como un todo.
@@ -1168,7 +1168,7 @@ HTML (Hyper Text Markup Language: Lenguaje de marcas de hipertexto) es un lengua
 Hipertexto hace referencia a los enlaces que conectan las páginas web entre sí, ya sea dentro de un mismo sitio web o entre diferentes sitios web. Los vínculos es un aspecto fundamental de la web.
 
 ---
-<a name="Ingeniería social"></a>
+<a name="Ingeniería-social"></a>
 # Ingeniería social
 
 La ingeniería social consisten en engañar a la gente para que cedan su información personal como contraseñas o datos bancarios o para que permitan el acceso a un equipo con el fin de instalar software malicioso de forma inadvertida. Los ladrones y estafadores la utilizan porque es más fácil engañar a alguien para que revele su contraseña que vulnerar su seguridad.
@@ -1230,7 +1230,7 @@ La IP pública es un número único que identifica nuestra red desde el exterior
 La IP privada es un número único que identifica a un dispositivo conectado a nuestra red interna. Son las direcciones que el router asigna a cada uno de los dispositivos de nuestra red. No  son accesibles desde internet.
 
 ---
-<a name="Inyección SQL"></a>
+<a name="Inyección-SQL"></a>
 # Inyección SQL
 
 Una inyección SQL ,o SQLi, es un tipo de ataque a una aplicación web que permite a un atacante insertar sentencias SQL maliciosas obteniendo acceso a datos sensibles en la base de datos o destruyendo datos.
@@ -1365,7 +1365,7 @@ Es un lenguaje formal que, mediante una serie de instrucciones, le permite a un 
 Existen muchísimos lenguajes de programación y cada uno se enfoca a distintos usos. Se elige el lenguaje de programación a utilizar en función de lo que se quiera hacer  con él.
 
 ---
-<a name="Ley de Moore"></a>
+<a name="Ley-de-Moore"></a>
 # Ley de Moore
 
 La ley de Moore expresa que aproximadamente cada dos años se duplica el número de transistores en un microprocesador
@@ -1659,7 +1659,7 @@ Su modelo se divide en cuatro capas diferenciadas. Cuando se emplean juntas se p
 - Cuando se utiliza en servidores de ficheros o de impresión no ofrece un gran rendimiento
 
 ---
-<a name="Puertas lógicas"></a>
+<a name="Puertas-lógicas"></a>
 # Puertas lógicas
 
 [https://es.wikipedia.org/wiki/Puerta_lógica](https://es.wikipedia.org/wiki/Puerta_l%C3%B3gica)
@@ -1780,7 +1780,7 @@ R dispone de paquetes de programación muy numerosos. Algunos de ellos se utiliz
 Se trata de uno de los lenguajes de programación más utilizados en investigación científica, siendo además muy popular en los campos de aprendizaje automático (machine learning), minería de datos, investigación biomédica, bioinformática y matemáticas financieras. A esto contribuye la posibilidad de cargar diferentes bibliotecas o paquetes con funcionalidades de cálculo y graficación.
 
 ---
-<a name="Raspberry pi"></a>
+<a name="Raspberry-pi"></a>
 # Raspberry pi
 
 Es un ordenador del tamaño de una tarjeta de crédito que se conecta a la TV o un monitor, un teclado y un ratón. Se puede utilizar para aprender a programar o para construir proyectos electrónicos, y para muchas de las cosas que hacen los PCs de escritorio como hojas de cálculo, procesamiento de textos, navegar internet y jugar videojuegos. Además reproduce video de alta definición. 
@@ -1821,7 +1821,7 @@ Red de área amplia (Wide Area Network). Son redes de gran extendión, dan servi
 Son redes LAN y MAN (Metropolitan Area Network) interconectadas entre sí. Sus nodos están separados por distancias que pueden abarcar continentes enteros y no necesitan está conectados físicamente ya que pueden usar servicios de microondas y satelitales.
 
 ---
-<a name="Redes informáticas"></a>
+<a name="Redes-informáticas"></a>
 # Redes informáticas
 
 Las redes informáticas, redes de comunicaciones de datos o redes de computadoras son un número de sistemas informáticos conectados entre sí mediante una serie de dispositivos alámbricos o inalámbricos, gracias a los cuales pueden compartir información en paquetes de datos, transmitidos mediante impulsos eléctricos, ondas electromagnéticas o cualquier otro medio físico.
@@ -1986,7 +1986,7 @@ Dado que los ordenadores trabajan en sistema binario, estos estados de «encendi
 Así, en un procesador o GPU se introducen millones de transistores de tamaño diminuto unidos entre sí, que trabajando en conjunto permiten que el procesador pueda realizar millones de operaciones cada ciclo de reloj. Conceptualmente, un procesador no es mas que una enorme fábrica con millones de interruptores.
 
 ---
-<a name="Transistores bipolares"></a>
+<a name="Transistores-bipolares"></a>
 # Transistores bipolares
 
 El transistor de unión bipolar es un dispositivo electrónico de estado sólido consistente en dos uniones PN en un solo cristal semiconductor, separados por una región muy estrecha, dando lugar a tres regiones o terminales: Emisor, Base y Colector. Según su fabricación pueden ser de dos tipos: NPN y PNP. 
