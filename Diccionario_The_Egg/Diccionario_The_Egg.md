@@ -58,6 +58,8 @@
 
 [Convención-de-programación](#Convención-de-programación)
 
+[CPU](#CPU)
+
 [Cracker](#Cracker)
 
 [Crawling](#Crawling)
@@ -103,6 +105,8 @@
 <a name="G"></a>
 ## G
 [Github](#Github)
+
+[GPU](#GPU)
 
 <a name="H"></a>
 ## H
@@ -151,6 +155,8 @@
 [Lenguaje-de-programación](#Lenguaje-de-programación)
 
 [Ley-de-Moore](#Ley-de-Moore)
+
+[Linux](#Linux)
 
 [Lisp](#Lisp)
 
@@ -245,6 +251,8 @@
 
 <a name="T"></a>
 ## T
+
+[Terminal](#Terminal)
 
 [Transistor](#Transistor)
 
@@ -783,6 +791,19 @@ Normalmente comprenden gestión de archivos, sangría, comentarios, declaracione
 El seguimiento de la convención facilita la legibilidad del código fuente y el mantenimiento del software.
 
 ---
+<a name="CPU"></a>
+# CPU
+
+La CPU (Central Processing Unit) o Unidad Central de Proceso suele llamarse coloquialmente como microprocesador o procesador y se considera como el cerebro de cualquier dispositivo. Se encarga de procesar todas las instrucciones, leyendo las órdenes y requisitos del sistema operativo, así como las instrucciones de cada uno de los componentes y las aplicaciones.
+
+### Componentes
+
+- **Unidad Aritmético Lógica (ALU)**: realiza operaciones aritméticas y lógicas
+- **Unidad de control (CU):** dirige el tráfico de información entre los registros de la CPU y conecta con la ALU las instrucciones extraídas de la memoria.
+- **Registros Internos:** no accesibles ( de instrucción , de bus de datos y bus de dirección) y accesibles de uso específico (contador programa, puntero pila, acumulador, flags, etc.) o de uso general.
+
+---
+
 <a name="Cracker"></a>
 # Cracker
 
@@ -972,7 +993,8 @@ El objetivo del análisis descriptivo es
 
     Las medidas son:  
 
-    **Mediana :**posición central de los elementos ordenados. Cuando hay presencia de de datos extremos (Variables cuantitativas)
+
+    **Mediana:**posición central de los elementos ordenados. Cuando hay presencia de de datos extremos (Variables cuantitativas)
 
     **Media:** promedio aritmético. Cuando no hay presencia de datos extremos (variables cuantitativas)
 
@@ -1127,6 +1149,14 @@ El servicio FTP (File Transfer Protocol - Protocolo de Transferencia de Ficheros
 Para utilizar el servicio FTP se debe disponer de una máquina servidor y otra cliente.
 
 El objetivo fundamental del FTP es poder intercambiar ficheros entre máquinas a través de la red (  o internet) con independencia del sistema de archivos y sistema operativo utilizado de una formar eficaz.
+
+---
+
+<a name="GPU"></a>
+
+# GPU
+
+La GPU (Graphics Processing Unit) Unidad de procesamiento gráfico es un coprocesador dedicado al procesamiento de gráficos u operaciones de coma flotante, para aligerar la carga de trabajo del procesador central en aplicaciones como videojuegos o aplicaciones 3D interactivas. Así, mientras gran parte de lo relacionado con los gráficos se procesa en la GPU, la CPU puede dedicarse a otro tipo de cálculos cómo la inteligencia artificial o los cálculos mecánicos en el caso de los videojuegos. Además también se puede utilizar para tareas que requieran la realización de una gran cantidad de operaciones concurrentes en paralelo.
 
 ---
 
@@ -1377,8 +1407,15 @@ En 2010, la International Technology Roadmap for Semiconductors predijo que este
 La consecuencia directa de la ley de Moore es que los precios bajan al mismo tiempo que las prestaciones suben: la computadora que hoy vale 3000 dólares costará la mitad al año siguiente y estará obsoleta en dos años. En 26 años el número de transistores en un chip se ha incrementado 3200 veces.
 
 ---
+<a name="Linux"></a>
+# Linux
+
+Linux es un sistema operativo open source. Originalmente creado por Linus Torvalds como una alternativa gratuita del sistema operativo MINIX, que se basaba en los principios y el diseño de Unix.  Se lanza en virtud de la Licencia de uso público GNU(GPL), lo que permite que todos los usuarios pueden ejecutar, estudiar, compartir y modificar el software. EL código modificado se puede redistribuir e incluso vender. Cuando se habla de Linux se hace referencia al kernel de Linus en  conjunto con las herramientas, aplicaciones y servicios incorporados con este que conforman el sistema operativo
+
+---
+
 <a name="Lisp"></a>
-# Lisp
+# Lisp
 
 Desde su nacimineto en 1958 de la mano de John McCarthy, Lisp no ha dejado de crecer. De hecho, su creador trabajó en el MTI junto a Marvin Minsky, uno de los padres de la Inteligencia Artificial. Lisp trabaja con expresiones simbólicas y prototipado, herramientas útiles en el campo del Machine Learning. Además, se utiliza en proyectos como CYC, cuyo objetivo es permitir a las aplicaciones basadas en IA ejecutar razonamientos similares a los humanos.
 
@@ -1974,6 +2011,14 @@ Es un dispositivo que tiene varios puertos que aceptan conexiones ethernet de di
 Se suele utilizar para intercambiar datos dentro de una red de área local cómo una red doméstica o una red de una empresa, pero no se utiliza para intercambiar datos fuera de su propia red.
 
 ---
+<a name="Terminal"></a>
+
+# Terminal
+
+En informática se denomina terminal o consola a un dispositivo de hardware (una máquina que incluye teclado y pantalla) usado para introducir (input) u obtener (output) y mostrar datos después de procesados. Por extensión, también se conoce como terminal al software de linea de comandos asociado a los terminales.
+
+---
+
 <a name="Transistor"></a>
 # Transistor
 
