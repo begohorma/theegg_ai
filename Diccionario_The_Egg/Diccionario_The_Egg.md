@@ -54,6 +54,8 @@
 
 [Código-fuente](#Código-fuente)
 
+[Consola](#Consola)
+
 [Compilador](#Compilador)
 
 [Convención-de-programación](#Convención-de-programación)
@@ -155,6 +157,8 @@
 [Lenguaje-de-programación](#Lenguaje-de-programación)
 
 [Ley-de-Moore](#Ley-de-Moore)
+
+[Línea-de-comandos](#Línea-de-comandos)
 
 [Linux](#Linux)
 
@@ -772,6 +776,14 @@ El código fuente de un programa informático es un conjunto de líneas de texto
 El termino código fuente también se usa para hacer referencia al código fuente de otros elementos de software, como el código fuente de una página web, la cual está escrita en lenguaje HTML, o en javascript, u otros lenguajes de programación web, y que posteriormente es ejecutado por el navegador web para visualizar la página cuando es visitada.
 
 ---
+<a name="Consola></a>
+
+# Consola
+
+Una consola de  comandos es un programa que recibe lo que  se escribe en la terminal y se encarga de convertirlo en instrucciones que el sistema operativo pueda entender y ejecutar. Consta de una ventana donde se pueden escribir comandos para realizar determinadas acciones.
+
+---
+
 
 <a name="Compilador"></a>
 # Compilador
@@ -1407,6 +1419,13 @@ En 2010, la International Technology Roadmap for Semiconductors predijo que este
 La consecuencia directa de la ley de Moore es que los precios bajan al mismo tiempo que las prestaciones suben: la computadora que hoy vale 3000 dólares costará la mitad al año siguiente y estará obsoleta en dos años. En 26 años el número de transistores en un chip se ha incrementado 3200 veces.
 
 ---
+<a name="Línea-de-comandos"></a>
+# Línea-de-comandos
+
+La interfaz de línea de comandos (Command-line Interface CLI) es una interfaz de usuario (UI) basada en texto que se utiliza para ver, manejar y manipular archivos del ordenador. Similar  a Explorer en Windows y Finder en Mac, pero sin la interfaz gráfica. También se le suele llamar: cmd, CLI, prompt (símbolo de sistema), console (consola) o terminal.
+
+---
+
 <a name="Linux"></a>
 # Linux
 
