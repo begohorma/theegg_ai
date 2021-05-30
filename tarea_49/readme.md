@@ -1,6 +1,8 @@
 # Enunciado
-##Ejercicios de programación orientada a objetos
-###Ejercicio 1
+
+## Ejercicios de programación orientada a objetos
+
+### Ejercicio 1
 Vamos a crear una clase llamada Persona. Sus atributos son: nombre, edad y DNI. Construye los siguientes métodos para la clase:
 
 * Un constructor, donde los datos pueden estar vacíos.
@@ -8,7 +10,7 @@ Vamos a crear una clase llamada Persona. Sus atributos son: nombre, edad y DNI. 
 * `mostrar()`: Muestra los datos de la persona.
 * `esMayorDeEdad()`: Devuelve un valor lógico indicando si es mayor de edad.
 
-###Ejercicio 2
+### Ejercicio 2
 Crea una clase llamada Cuenta que tendrá los siguientes atributos: titular (que es una persona) y cantidad (puede tener decimales). El titular será obligatorio y la cantidad es opcional. Construye los siguientes métodos para la clase:
 
 * Un constructor, donde los datos pueden estar vacíos.
@@ -17,7 +19,7 @@ Crea una clase llamada Cuenta que tendrá los siguientes atributos: titular (que
 * `ingresar(cantidad)`: se ingresa una cantidad a la cuenta, si la cantidad introducida es negativa, no se hará nada.
 * `retirar(cantidad)`: se retira una cantidad a la cuenta. La cuenta puede estar en números rojos.
 
-###Ejercicio 3
+### Ejercicio 3
 Vamos a definir ahora una “Cuenta Joven”, para ello vamos a crear una nueva clase CuantaJoven que deriva de la anterior. Cuando se crea esta nueva clase, además del titular y la cantidad se debe guardar una bonificación que estará expresada en tanto por ciento.Construye los siguientes métodos para la clase:
 
 * Un constructor.
