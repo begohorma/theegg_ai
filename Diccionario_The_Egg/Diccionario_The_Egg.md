@@ -36,11 +36,15 @@
 
 [Ataque-informático](#Ataque-informático)
 
+[Atributo](#Atributo)
+
 <a name="B"></a>
 ## B
 [Bases-de-datos](#Bases-de-datos)
 
 [Bases-de-datos-relacionales](#Bases-de-datos-relacionales)
+
+[Bash](#Bash)
 
 [Bucles,_Bucles-en-programación](#Bucles,_Bucles-en-programación)
 
@@ -52,6 +56,8 @@
 ## C
 [Ciberseguridad](#Ciberseguridad)
 
+[Clase](#Clase)
+
 [Código-fuente](#Código-fuente)
 
 [Consola](#Consola)
@@ -59,6 +65,8 @@
 [Compilador](#Compilador)
 
 [Convención-de-programación](#Convención-de-programación)
+
+[Constructor](#Constructor)
 
 [CPU](#CPU)
 
@@ -88,6 +96,8 @@
 ## E
 [Editor-de-código](#Editor-de-código)
 
+[Encapsulamiento](#Encapsulamiento)
+
 [Estadística-descriptiva](#Estadística-descriptiva)
 
 [Estadística-inferencial](#Estadística-inferencial)
@@ -116,6 +126,8 @@
 
 [Hardware](#Hardware)
 
+[Herencia](#Herencia)
+
 [Html](#Html)
 
 <a name="I"></a>
@@ -127,6 +139,8 @@
 [Interfaz](#Interfaz)
 
 [Interprete](#Interprete)
+
+[Instancia](#Instancia)
 
 [IP](#IP)
 
@@ -170,6 +184,8 @@
 
 [Mascara-de-subred](#Mascara-de-subred)
 
+[Método](#Método)
+
 [MySQL](#MySQL)
 
 [MongoDB](#MongoDB)
@@ -185,6 +201,8 @@
 
 <a name="O"></a>
 ## O
+
+[Objeto](#Objeto)
 
 <a name="P"></a>
 ## P
@@ -237,9 +255,13 @@
 
 [Scrapping](#Scrapping)
 
+[Script](#Script)
+
 [Servidor-web](#Servidor-web)
 
 [Síncrono](#Síncrono)
+
+[Shell](#Shell)
 
 [Sistema-binario](#Sistema-binario)
 
@@ -636,6 +658,17 @@ Las formas de ataque DDoS más comunes son:
 Un ciberataque o ataque informático, es cualquier maniobra ofensiva de explotación deliberada que tiene como objetivo tomar el control, desestabilizar o dañar un sistema informático ( ordenador, red privada, ...). El atacante es un individuo u organización que intenta obtener el control de un sistema informático para utilizarlo con fines maliciosos, robo de información o hacer daño a su objetivo. Utiliza códigos maliciosos.
 
 ---
+<a name="Atributo"></a>
+# Atributo
+
+Los atributos de datos o propiedades definen el estado del objeto.
+
+Los atributos de clase son compartidos por todas las instancias de la clase
+
+Los atributos de instancia son únicos para cada uno de los objetos de la clase.
+
+---
+
 <a name="Bases-de-datos"></a>
 # Bases-de-datos
 
@@ -685,6 +718,15 @@ Una base de datos relacional es un tipo de base de datos que almacena y proporci
 En una base de datos relacional, cada fila en una tabla es un registro con una ID única, llamada clave. Las columnas de la tabla contienen los atributos de los datos y cada registro suele tener un valor para cada atributo, lo que simplifica la creación de las relaciones entre los puntos de datos.
 
 El modelo relacional implica que las estructuras lógicas de los datos (tablas, vistas e índices) estén separadas de las estructuras de almacenamiento físico.
+
+---
+<a name="Bash"></a>
+
+# Bash
+
+Bash o GNU Bash es un lenguaje de comandos y shell de Unix escrito por Brian Fox para el proyecto GNU. Bash es un interprete de comandos que generalmente se ejecuta en una ventana de texto, pero también pueden ejecutarse órdenes desde un archivo o script.
+
+Está basado en la shell de Unix y es el intérprete de comandos por defecto en la mayoría de las distribuciones de Linux.
 
 ---
 <a name="Bucles,_Bucles-en-programación"></a>
@@ -768,6 +810,13 @@ Consiste en ir comparando el elemento a buscar con cada elemento del vector hast
 La ciberseguridad es el conjunto de procedimientos y herramientas que se implementan para proteger la información que se genera y procesa a través de computadoras, servidores, dispositivos móviles, redes y sistemas electrónicos. Para referirse a ciberseguridad también se utiliza  el término seguridad informática o seguridad de la información electrónica
 
 ---
+<a name="Clase"></a>
+# Clase
+
+Una clase es una entidad que define una serie de elementos que determinan un estado (datos) y un comportamiento(operaciones sobre los datos que modifican su estado).  Cada vez que se define una clase se crea a su vez un tipo nuevo. La instaciación es la lectura de  las definiciones de los elementos y la creación de un objeto a partir de ellas
+
+---
+
 <a name="Código-fuente"></a>
 # Código-fuente
 
@@ -803,6 +852,14 @@ Normalmente comprenden gestión de archivos, sangría, comentarios, declaracione
 El seguimiento de la convención facilita la legibilidad del código fuente y el mantenimiento del software.
 
 ---
+<a name="Constructor"></a>
+# Constructor
+
+El método constructor de una clase es el que da el estado inicial a la clase. Asigna los valores iniciales a los atributos. Al instanciar un objeto se llama al método constructor pasandole los valores de los atributos.
+
+---
+
+
 <a name="CPU"></a>
 # CPU
 
@@ -986,6 +1043,18 @@ Un editor de código fuente es un editor de texto diseñado específicamente par
 Los editores de código fuente tienen características diseñadas exclusivamente para simplificar y acelerar la escritura de código fuente, como resaltado de sintaxis, autocompletar y pareo de llaves. Estos editores también proveen un modo conveniente de ejecutar un compilador, un intérprete, un depurador, o cualquier otro programa que sea relevante en el proceso de desarrollo de software
 
 ---
+<a name="Encapsulamiento"></a>
+
+# Encapsulamiento
+
+En programación orientada a objetos, el encapsulamiento hace referencia a la capacidad que tiene un objeto de ocultar su estado, de manera que sus datos sólo se puedan modificar por medio de los métodos que ofrece.
+
+Cada objeto está aislado del exterior. El aislamiento protege a los datos asociados de un objeto contra su modificación por quien no tenga derecho a acceder a ellos, eliminando efectos secundarios e interacciones.
+
+El usuario de la clase puede obviar la implementación de los métodos y propiedades de la clase y centrarse sólo en cómo usarlos. Se evita que el usuario pueda cambiar el estado de los objetos de la clase de formas imprevistas e incontroladas.
+
+---
+
 <a name="Estadística-descriptiva"></a>
 # Estadística-descriptiva
 
@@ -1202,6 +1271,14 @@ Persona con grandes conocimientos de informática que se dedica a detectar fallo
 Es la parte física de un ordenador o sistema informático. Está formado por los componentes eléctricos, electrónicos, electromecánicos y mecánicos, tales como circuitos de cables y luz, placas, memorias, discos duros, dispositivos periféricos y cualquier otro material en estado físico que sea necesario para que el equipo funcione.
 
 ---
+<a name="Herencia"></a>
+# Herencia
+
+En programación orientada a objetos, la herencia es la capacidad de reutilizar una clase extendiendo su funcionalidad. Una clase que hereda de otra puede añadir nuevos atributos, ocultarlos, añadir nuevos métodos o redefinirlos.
+
+---
+
+
 <a name="Html"></a>
 # Html
 
@@ -1252,6 +1329,15 @@ Algunos ejemplos de interfaces informáticas son:
 También conocido como traductor ya que traduce programas escritos en un lenguaje de programación  al lenguaje máquina de la computadora y se ejecuta a medida que se va traduciendo 
 
 ---
+
+<a name="Instancia"></a>
+
+# Instancia
+
+Una instancia es la particularización, realización específica u ocurrencia de una determinada clase. En los lenguajes de programación orientada a objetos, un objeto es una instancia de una clase. Se pueden crear muchas instancias de una misma clase, pero cada una es independiente de las otras. Cuando se crea una instancia, ésta adquiere los atributos, métodos y eventos de la clase a la que pertenece.
+
+---
+
 <a name="IP"></a>
 # IP
 
@@ -1471,6 +1557,17 @@ Mediante la máscara de red, un sistema (ordenador, puerta de enlace, router,...
 Antes de enviar un paquete la computadora realiza la operación lógica AND, bit a bit entre la dirección de destino y la máscara y la dirección de origen y la máscara. Si el resultado es idéntico significa que la computadora remota está en la misma subred.
 
 ---
+
+<a name="Método"></a>
+
+# Método
+
+Los métodos son las funciones que se definen dentro de la clase. Pueden ser referenciados por los objetos de la clase y se pasan como primer parámetro al propio objeto por referencia.
+
+Los métodos pueden cambiar las propiedades del objeto
+
+---
+
 <a name="MySQL"></a>
 # MySQL
 
@@ -1572,6 +1669,23 @@ Algunas de las bases de datos NoSQL más reconocidas en la actualidad son: Mongo
 - **Incompatibilidad en consultas SQL**: agrega una dificultad mayor que que en caso de ser necesario se debe incluir una consulta manual, que puede hacer los procesos más lentos y complejos
 
 ---
+<a name="Objeto"></a>
+
+# Objeto
+
+Es una concreción o instancia de una clase.
+
+Un objeto tiene atributos de datos y métodos.
+
+Los atributos de datos definen el estado del objeto. Se conocen como atributos o miembros.
+
+Los métodos son las funciones definidas dentro de la clase
+
+Los objetos se corresponden con objetos del mundo real o con objetos internos del sistema (programa).
+
+---
+
+
 <a name="Pentesting"></a>
 # Pentesting
 
@@ -1924,6 +2038,16 @@ El scrapping se utiliza junto al web crawling. El scrapping técnicamente es só
 El web crawler dirige al web scraper a través de la red para que pueda recabar la información solicitada en un sistema de almacenamiento concreto.
 
 ---
+<a name="Script"></a>
+# Script
+
+Un  Script, secuencia de comandos o guión es un término informal que se usa para designar  a  un programa relativamente simple. Los scripts no se suelen compilar con anticipación a código máquina, sino que son ejecutados por un intérprete que lee el archivo de código fuente al momento, o incluso se ejecutan por una consola interactiva en la que el usuario introduce el programa al interprete paso a paso. 
+
+Los scripts se pueden usar para prototipar programas, automatizar tareas repetitivas, hacer procesamiento por lotes e interactuar con el usuario y el sistema operativo.
+
+---
+
+
 <a name="Servidor-web"></a>
 
 # Servidor-web
@@ -1933,6 +2057,20 @@ Almacena todos los archivos  propios de una página web ( texto, imagen, video, 
 HTTP está diseñado para transferir lo que llamamos hipertextos, páginas web o páginas HTML (Hyper Text Markup Language)
 
 ---
+
+<a name="Shell"></a>
+# Shell
+
+El Shell o intérprete de comandos es el programa informático que provee una interfaz de usuario para acceder a los servicios del sistema operativo.
+
+Dependiendo del tipo de interfaz que empleen, los shells pueden ser:
+
+- De líneas de comandos (CLI, Command-Line Interface, interfaz de línea de comandos)
+- Gráficos (GUI, Graphical User Interfaz, interfaz gráfica de usuario)
+- De lenguaje natural (NUI, Natural User interfaz, interfaz natural de usuario)
+
+---
+
 <a name="Síncrono"></a>
 # Síncrono
 
