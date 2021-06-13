@@ -2,7 +2,7 @@
 
 
 # Indice
-[A](#A) [B](#B) [C](#C) [D](#D) [E](#E) [F](#F) [G](#G) [H](#H) [I](#I) [J](#J) [K](#K) [L](#L) [M](#M) [N](#N) [O](#O) [P](#P) [Q](#Q) [R](#R) [S](#S) [T](#T) [U](#U) [V](#V) [X](#X)
+[A](#A) [B](#B) [C](#C) [D](#D) [E](#E) [F](#F) [G](#G) [H](#H) [I](#I) [J](#J) [K](#K) [L](#L) [M](#M) [N](#N) [O](#O) [P](#P) [Q](#Q) [R](#R) [S](#S) [T](#T) [U](#U) [V](#V) [X](#X) [Y](#Y) [Z](#Z)
 <a name="A"></a>
 ## A
 
@@ -17,6 +17,8 @@
 [Algoritmo-de-cifrado-simétrico](#Algoritmo-de-cifrado-simétrico)
 
 [Algoritmo-de-cifrado-asimétrico](#Algoritmo-de-cifrado-asimétrico)
+
+[Algoritmos-de-compresión](#Algoritmos-de-compresión)
 
 [Algoritmos-de-ordenación](#Algoritmos-de-ordenación)
 
@@ -81,6 +83,8 @@
 <a name="D"></a>
 ## D
 [Data-preprocessing(preprocesado-de-datos)](#Data-preprocessing(preprocesado-de-datos))
+
+[Descompresión](#Descompresión)
 
 [Dato-estructurado](#Dato-estructurado)
 
@@ -240,6 +244,8 @@
 
 [Ransomware](#Ransomware)
 
+[RAR](#RAR)
+
 [Red-LAN](#Red-LAN)
 
 [Red-WAN](#Red-WAN)
@@ -301,6 +307,14 @@
 [XML](#XML)
 
 [XSS](#XSS)
+
+<a name="Y"></a>
+## Y
+
+<a name="Z"></a>
+## Z
+
+[ZIP](#ZIP)
 ---
 <a name="Ada-lovelace"></a>
 # Ada-lovelace
@@ -393,6 +407,7 @@ Los algoritmos criptográficos son públicos, por lo que su fortaleza debe depen
 La principal ventaja de los algoritmos simétricos es la velocidad de los algoritmos, y son muy usados para el cifrado de grandes cantidades de datos. 
 
 ---
+
 <a name="Algoritmo-de-cifrado-asimétrico"></a>
 # Algoritmo-de-cifrado-asimétrico
 
@@ -418,6 +433,33 @@ Para que un algoritmo asimétrico sea considerado seguro debe cumplir que:
 - Si los datos han sido cifrados con la clave pública, sólo debe existir una clave privada capaz de descifrarlo y viceversa.
 
 ---
+
+<a name="Algoritmos-de-compresión"></a>
+# Algoritmos-de-compresión
+
+Los algoritmos de compresión se utilizan para economizar el espacio de almacenamiento de la información. La compresión consiste en reducir el tamaño físico de la información. Los compresores utilizan algoritmos de compresión para optimizar los datos a comprimir en función de las características de dichos datos. Los descompresores reconstruyen los datos originales utilizando el algoritmo opuesto al usado para comprimirlos.
+La compresión de datos se basa fundamentalmente en buscar repeticiones en series de datos para después almacenar solo el dato junto al número de veces que se repite.
+
+La  información que transmiten los datos puede ser de tres tipos:
+
+- Redundante: información repetida o previsible
+- Irrelevante: información que no se puede apreciar y cuya eliminación no afecta al contenido del mensaje.
+- Básica: la relevante. No es redundante ni irrelevante. Debe ser transmitida para que se pueda reconstruir la señal.
+
+Teniendo en cuenta los tipos de  información, hay tres tipos de compresión de la información:
+
+- Sin pérdidas reales: transmitiendo toda la información básica e irrelevante, pero eliminando la redundante.
+- Subjetivamente sin pérdidas: además de eliminar la información redundante se elimina también la irrelevante
+- Subjetivamente con pérdidas: se elimina cierta cantidad de información básica, por lo que el mensaje se reconstruirá con errores perceptibles pero tolerables.
+
+Formatos de compresión según el tipo de datos:
+
+- Imágenes: jpg, png, gif, Tiff, Raw
+- Audio: MP3, MP4, Wav, Ogg
+- Datos: ZIP, RAR, 7ZIP
+
+---
+
 <a name="Algoritmos-de-ordenación"></a>
 # Algoritmos-de-ordenación
 
@@ -964,6 +1006,13 @@ El preprocesado de datos incluye:
     - Discretización
 
 ---
+<a name="Descompresión"></a>
+# Descompresión
+
+La descompresión es el proceso opuesto a la compresión. Los descompresores reconstruyen los datos originales utilizando el algoritmo opuesto al usado para comprimirlos.
+
+---
+
 <a name="Dato-estructurado"></a>
 # Dato-estructurado
 
@@ -1973,6 +2022,17 @@ Existen placas como Arduberry  que permiten conectar shields Arduino a una Raspb
 Es un malware que secuestra los datos del ordenador bloqueándolos sólo a ellos o a todo el equipo y pidiendo un rescate económico a cambio de recuperarlos. Puede instalarse a través de otro malware. No se debe pagar el rescate para no fomentar su uso y porque no se tiene garantía de conseguir liberar los datos
 
 ---
+<a name="RAR"></a>
+# RAR
+
+En informática, RAR ( Roshal ARchive) es un formato de archivo privado, con un algoritmo de compresión sin pérdida utilizado para la compresión de datos y archivado. Utiliza un algoritmo de compresión basado en el LZSS que, a su vez, se basaba en el LZ77.
+
+RAR es más lento que ZIP, pero posee una mayor tasa de compresión y una mejor redundancia.
+
+Permite la compresión sólida que permite comprimir varios ficheros juntos, de forma que un  mismo diccionario se aplica a toda la información, con lo que el nivel de compresión es mayor.
+
+---
+
 <a name="Red-LAN"></a>
 # Red-LAN
 
@@ -2277,3 +2337,11 @@ Los atacantes explotan la confianza que tiene el usuario en un sitio en particul
     Consiste en insertar código HTML peligroso en sitios. Por ejemplo dejar código almacenado  en un servidor formando parte de una contribución a un foro. Cualquier usuario que entre a leer la contribución leerá el texto inocente, pero probablemente no el código inyectado que será interpretado por su navegador, ejecutando las instrucciones definidas por el hacker. 
 
 ---
+<a name="ZIP"></a>
+# ZIP
+
+En informática, ZIP es un formato de compresión sin pérdida, muy utilizado para  compresión de documentos, imágenes o programas.
+
+Comprime cada archivo independientemente del resto de archivos comprimidos, lo que permite recuperar cada uno de los ficheros sin tener que leer el resto, lo que aumenta el rendimiento. El problema es que el resultado de agrupar un número  grande de pequeño archivos es siempre mayor que agrupar todos los archivos como si fuera uno solo. 
+
+ZIP soporta un sistema de cifrado simétrico basado en una clave única. Este cifrado es débil ante ataques de texto plano, de diccionario y fuerza bruta. También soporta distribuir las partes de un archivo comprimido en distintos medios, generalmente disquetes.
