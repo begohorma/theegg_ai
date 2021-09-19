@@ -40,6 +40,10 @@
 
 [Atributo](#Atributo)
 
+[Árboles](#Árboles)
+
+[Array](#Array)
+
 <a name="B"></a>
 ## B
 [Bases-de-datos](#Bases-de-datos)
@@ -62,9 +66,11 @@
 
 [Código-fuente](#Código-fuente)
 
-[Consola](#Consola)
+[Colas](#Colas)
 
 [Compilador](#Compilador)
+
+[Consola](#Consola)
 
 [Convención-de-programación](#Convención-de-programación)
 
@@ -106,6 +112,8 @@
 
 [Estadística-inferencial](#Estadística-inferencial)
 
+[Estructura-de-datos](#Estructura-de-datos)
+
 [ETL](#ETL)
 
 [Expresiones-regulares](#Expresiones-regulares)
@@ -123,6 +131,8 @@
 [Github](#Github)
 
 [GPU](#GPU)
+
+[Grafo](#Grafo)
 
 <a name="H"></a>
 ## H
@@ -182,6 +192,8 @@
 
 [Lisp](#Lisp)
 
+[Lista-enlazada](#Lista-enlazada)
+
 <a name="M"></a>
 ## M
 [Man-in-the-middle](#Man-in-the-middle)
@@ -215,6 +227,8 @@
 [Periférico](#Periférico)
 
 [Phising](#Phising)
+
+[Pilas](#Pilas)
 
 [PostgreSQL](#PostgreSQL)
 
@@ -711,6 +725,54 @@ Los atributos de instancia son únicos para cada uno de los objetos de la clase.
 
 ---
 
+<a name="Árboles"></a>
+# Árboles
+
+Un árbol es un tipo abstracto de datos que imita la estructura jerárquica de un árbol, con un valor en la raíz y subárboles con un nodo padre, representado como un conjunto de nodos enlazados.
+
+Una estructura de datos de árbol se puede definir de forma recursiva como una colección de nodos, a partir de un nodo ráiz, donde cada nodo es una estructura de datos con un valor, junto con una lista de referencias a los nodos (los hijos), con la condición de que ninguna referencia esté duplicada ni que ningún nodo apunte a la raíz.
+
+## Terminología utilizada en árboles:
+
+- **Raíz**: el nodo superior de un árbol
+- **Hijo**: Un nodo conectado directamente con otro cuando se aleja de la raíz
+- **Padre**: la noción inversa de hijo
+- **Hermanos**: un conjunto de nodos con el mismo padre
+- **Descendiente**: un nodo accesible por descenso repetido de padre a hijo
+- **Ancestro**: un nodo accesible por ascenso repetido de hijo a padre
+- **Hoja**: un nodo sin hijos
+- **Nodo** **interno**: un nodo con al menos un hijo
+- **Grado**: número de subárboles de un nodo
+- **Brazo**: la conexión entre un nodo y otro
+- **Camino**: una secuencia de nodos y brazos conectados con un nodo descendiente
+- **Nivel**: el nivel de un nodo se define por 1 + el número de brazos entre el nodo y la raíz
+- **Altura** **de** **un** **nodo**: número de brazos en le camino más largo entre ese nodo y una hoja
+- **Altura de un árbol**: es la altura de su nodo raíz
+- **Profundidad**: la profundidad de un nodo es el número de brazos desde la raíz del árbol hasta un nodo
+- **Bosque**: es un conjunto de árboles n ≥ 0 disjuntos
+- **Rama**: una ruta del nodo raíz a cualquier otro nodo
+
+---
+
+<a name="Array"></a>
+# Array
+
+El Array o vector es una estructura de datos donde éstos se almacenan de forma contigua y cada elemento está identificado por un índice. Se reservan espacios de memoria contigua. Pueden ser unidimensionales, bidimensionales y multidimesionales.
+
+El acceso por índice a cualquiera de los elementos de un array es constante, siempre se tarda lo mismo independientemente de la cantidad de elementos que tenga el array.
+
+Dependiendo del lenguaje de programación el tamaño de los arrays puede ser fijo o puede modificarse.
+
+El acceso, la actualización y borrado de datos mediante índice tardan un tiempo constante O(1)
+
+La inserción o el borrado de un elemento implica el desplazamiento de los existentes por lo que  tiene un coste lineal O(n).
+
+La búsqueda de un elemento tarda un tiempo lineal al número de elementos del array O(n)
+
+El tiempo para la ordenación dependerá del contenido del array y el algoritmo de ordenación utilizado.
+
+---
+
 <a name="Bases-de-datos"></a>
 # Bases-de-datos
 
@@ -867,7 +929,18 @@ El código fuente de un programa informático es un conjunto de líneas de texto
 El termino código fuente también se usa para hacer referencia al código fuente de otros elementos de software, como el código fuente de una página web, la cual está escrita en lenguaje HTML, o en javascript, u otros lenguajes de programación web, y que posteriormente es ejecutado por el navegador web para visualizar la página cuando es visitada.
 
 ---
-<a name="Consola></a>
+<a name="Colas"></a>
+
+# Colas
+
+Una cola es una estructura de datos, caracterizada por ser una secuencia de elementos en la que la operación de inserción *push* se realiza por un extremo y la operación de extracción *pop* por  el otro. También se le llama estructura FIFO( Fisrt In First Out), debido a que el primer elemento en entrar será también el primero en salir.
+
+Las colas se utilizan en sistemas informáticos, transportes y operaciones de investigación, (entre otros), donde los objetos, personas o eventos son tomados como datos que se almacenan y se guardan mediante colas para su posterior procesamiento.
+
+Este tipo de estructura de datos abstracta se implementa en lenguajes orientados a objetos mediante clases, en forma de listas enlazadas
+
+---
+<a name="Consola"></a>
 
 # Consola
 
@@ -1165,6 +1238,46 @@ El objetivo del análisis descriptivo es
         - **Platicúrtica**(-): Menos elementos cerca de la media. Gráfica ancha y aplanada.
 
 ---
+<a name="Estructura-de-datos"></a>
+# Estructura-de-datos
+
+Las estructuras de datos son contenedores que permiten formas particulares de organizar los datos para que puedan ser utilizados de forma eficiente.Son claves para diseñar algoritmos eficientes.
+
+Para cada tipo de aplicación son adecuadas diferentes estructuras de datos. Algunas estructuras son altamente especializadas para tareas específicas.
+
+Cada estructura de datos define una forma de almacenar y acceder a los datos para recuperarlos.
+
+## Tipos
+
+En función de la técnica utilizada para almacenar y recuperar los datos:
+
+- Estructuras de datos estáticas
+- Estructuras de datos dinámicas
+
+En función de la secuencia que se presenta entre  cada elemento cuando se recorren los elementos de la estructura de datos:
+
+- Estructura de datos lineal
+- Estructura de datos no lineal
+
+## Estructuras de datos más comunes
+
+- [Arrays](#Array)
+- [Pilas](#Pilas) y [Colas](#Colas)
+- Conjuntos
+- [Listas enlazadas](#Lista-enlazada)
+- Diccionarrios (Hash Tables)
+- [Grafos](#Grafo) y [árboles](#Árboles)
+
+## Operaciones con estructuras de datos
+
+- Recorrido
+- Búsqueda
+- Inserción
+- Eliminación
+- Ordenación
+- Mezcla
+
+---
 
 <a name="ETL"></a>
 # ETL
@@ -1289,6 +1402,24 @@ El objetivo fundamental del FTP es poder intercambiar ficheros entre máquinas a
 La GPU (Graphics Processing Unit) Unidad de procesamiento gráfico es un coprocesador dedicado al procesamiento de gráficos u operaciones de coma flotante, para aligerar la carga de trabajo del procesador central en aplicaciones como videojuegos o aplicaciones 3D interactivas. Así, mientras gran parte de lo relacionado con los gráficos se procesa en la GPU, la CPU puede dedicarse a otro tipo de cálculos cómo la inteligencia artificial o los cálculos mecánicos en el caso de los videojuegos. Además también se puede utilizar para tareas que requieran la realización de una gran cantidad de operaciones concurrentes en paralelo.
 
 ---
+
+<a name="Grafo"></a>
+
+# Grafo
+
+Un grafo es una estructura de datos conectada, compuesta por nodos o vértices. Cada nodo contiene un valor y una o más referencias a otros nodos (aristas). Los grafos pueden utilizarse para representar redes, dado que los nodos pueden referenciarse entre ellos. 
+
+Las conexiones entre los nodos pueden tener dirección, es decir un punto de partida y uno de llegada. Este tipo de grafos se llaman **digrafos** o **grafos dirigidos**.
+
+Además de dirigidas las aristas pueden tener un peso o valor que aporta información acerca de las relaciones. Son los **grafos ponderados**
+
+Métricas básicas de los grafos:
+
+- **Medida del grafo**: número de aristas
+- **Grado de un vértice**: número de aristas que inciden en él. Coincide con el número de **vértices adyacentes**
+
+---
+
 
 <a name="Github"></a>
 # Github
@@ -1574,6 +1705,21 @@ Linux es un sistema operativo open source. Originalmente creado por Linus Torval
 Desde su nacimineto en 1958 de la mano de John McCarthy, Lisp no ha dejado de crecer. De hecho, su creador trabajó en el MTI junto a Marvin Minsky, uno de los padres de la Inteligencia Artificial. Lisp trabaja con expresiones simbólicas y prototipado, herramientas útiles en el campo del Machine Learning. Además, se utiliza en proyectos como CYC, cuyo objetivo es permitir a las aplicaciones basadas en IA ejecutar razonamientos similares a los humanos.
 
 ---
+
+<a name="Lista-enlazada"></a>
+
+# Lista-enlazada
+
+De forma similar a un array, las lista enlazadas son una estructura de datos lineal aunque los elementos no se almacenan en posiciones contiguas. Los elementos se enlazan utilizando punteros. Cada elemento contiene el dato a almacenar más un puntero al elemento siguiente, excepto el último cuyo enlace es null.
+
+Las listas doblemente enlazadas tiene punteros tanto al elemento posterior como al anterior
+
+Las inserciones y eliminaciones de elementos son en tiempo constantes O(1), pero accesos y las búsquedas son lineales O(n)
+
+Un buen algoritmo de búsqueda para las listas enlazadas es el merge sort
+
+---
+
 <a name="Man-in-the-middle"></a>
 # Man-in-the-middle
 
@@ -1759,6 +1905,20 @@ En informática periférico es la denominación genérica de cualquier aparato o
 # Phising
 
 Es un término informático que distingue a un conjunto de técnicas que persiguen el engaño a una víctima ganándose su confianza haciéndose pasar por una persona, empresa o servicio de confianza (suplantación de identidad de tercero de confianza), para manipularla y hacer que realice acciones que no debería realizar (revelar información confidencial o hacer click en un enlace). Para realizar el engaño, habitualmente se hace uso de ingeniería social explotando instintos sociales como ayudar o ser eficiente. Los objetivos pueden ser: robar información, instalar malware, sabotear sistemas o robar dinero a través de fraudes. Se llama *phisher* al que practica phising. 
+
+---
+<a name="Pilas"></a>
+
+# Pilas
+
+Una pila (stack) es una lista ordinal o estructura de datos en la que el modo de acceso a sus elementos es de tipo LIFO (Last In First Out) que permite almacenar y recuperar datos. Se usa mucho debido a su simplicidad y la ordenación implícita en la propia estructura.
+
+Para el manejo de datos se cuenta con dos operaciones básicas:
+
+- apilar (push): coloca un objeto en la pila
+- retirar, desapilar (pop): retira el último objeto apilado
+
+En cada momento sólo se tiene acceso a la parte superior de la pila, es decir, al último objeto apilado.
 
 ---
 
