@@ -27,7 +27,7 @@ Cada vez que en ambos casos la división sea entera se guarda el resultado como 
 # Ejecución
 Programa realizado con python 3.8
 
-En un ordenador con la versión 3.8 del interprete de python insgtalado situarse con el terminal en el directorio
+En un ordenador con la versión 3.8 del interprete de python instalado situarse con el terminal en el directorio
 donde se haya copiado el archivo fraccionIrreducible.py
 
 Ejecutar `>pyhon3 fraccionIrreducible.py` en un mac o `>pyhon fraccionIrreducible.py` en windows
